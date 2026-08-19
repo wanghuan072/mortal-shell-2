@@ -1,0 +1,1191 @@
+[
+  {
+    "id": "acolytes-thorns",
+    "name": "Acolyte's Thorns",
+    "category": "Ancient Nectar",
+    "description": "Returns part of a melee attack to the attacker.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Retaliation",
+          "value": "1 damage",
+          "trigger": "When struck by a melee attack",
+          "target": "Attacker"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Acolyte's Thorns - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Acolyte's Thorns: effects, triggers, and combat. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Acolyte's Thorns",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "ascetics-alchemy-stone",
+    "name": "Ascetic's Alchemy Stone",
+    "category": "Ancient Nectar",
+    "description": "Turns newly gained abilities into a small Coin reward.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Coin Gain",
+          "value": "1 Coin",
+          "trigger": "When gaining an ability",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Ascetic's Alchemy Stone - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Ascetic's Alchemy Stone: effects, triggers, and combat. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Ascetic's Alchemy Stone",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "black-blood",
+    "name": "Black Blood",
+    "category": "Ancient Nectar",
+    "description": "Strengthens melee attacks while the Shell is near death.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Bonus Damage",
+          "value": "1% extra melee damage",
+          "trigger": "While Shell Health is below 2",
+          "target": "Enemies"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Black Blood Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Black Blood: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Black Blood",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "solomons-effigy",
+    "name": "Solomon's Effigy",
+    "category": "Ancient Nectar",
+    "description": "Makes Resolve gains from all gains more efficient.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Resolve Gain",
+          "value": "+1 Resolve",
+          "trigger": "Whenever Resolve is gained",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Solomon's Effigy - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Solomon's Effigy: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Solomon's Effigy",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "imperial-writ",
+    "name": "Imperial Writ",
+    "category": "Ancient Nectar",
+    "description": "Rewards successful pickups with Coin.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Coin Gain",
+          "value": "1 Coin",
+          "trigger": "When picking up an item",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Imperial Writ - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Imperial Writ: effects, triggers, and combat role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Imperial Writ",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "scripture-of-penance",
+    "name": "Scripture of Penance",
+    "category": "Ancient Nectar",
+    "description": "Offers Resolve when the Foundling is struck without any available.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Resolve Gain",
+          "value": "1 Resolve segment",
+          "trigger": "When struck with no Resolve",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Scripture of Penance - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Scripture of Penance: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Scripture of Penance",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tar-forged-idol",
+    "name": "Tar-Forged Idol",
+    "category": "Ancient Nectar",
+    "description": "A compact idol that yields Coin.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Coin Gain",
+          "value": "1 Coin",
+          "trigger": "On acquisition",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tar-Forged Idol - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Tar-Forged Idol: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tar-Forged Idol",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "mammon-coin",
+    "name": "Mammon Coin",
+    "category": "Ancient Nectar",
+    "description": "A combat Artifact that grants Coin; it is distinct from the sellable Coin of Mammon.",
+    "status": "Verified",
+    "image": "/assets/artifacts/mammon-coin.png",
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Coin Gain",
+          "value": "1 Coin",
+          "trigger": "On acquisition",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Mammon Coin Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Mammon Coin: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Mammon Coin",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tattered-effigy-of-the-scholar",
+    "name": "Tattered Effigy of the Scholar",
+    "category": "Ancient Nectar",
+    "description": "Restores a small amount of Resolve after the Foundling is struck.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Ancient Nectar",
+      "effects": [
+        {
+          "label": "Resolve Gain",
+          "value": "Small amount",
+          "trigger": "When struck",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tattered Effigy of the Scholar - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Tattered Effigy of the Scholar: effects, triggers. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tattered Effigy of the Scholar",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "eredrims-initiate-talisman",
+    "name": "Eredrim's Initiate Talisman",
+    "category": "Bygone Nectar",
+    "description": "Rewards attacks against enemies at full health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Bonus Damage",
+          "value": "1 extra damage",
+          "trigger": "When attacking an enemy at full health",
+          "target": "Enemy"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Eredrim's Initiate Talisman - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Eredrim's Initiate Talisman: effects, triggers, and combat. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Eredrim's Initiate Talisman",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "martyrs-cursing-charm",
+    "name": "Martyr's Cursing Charm",
+    "category": "Bygone Nectar",
+    "description": "Reflects a Curse stack when the Foundling is struck.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Curse",
+          "value": "1 Curse stack",
+          "trigger": "When struck",
+          "target": "Attacker"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Martyr's Cursing Charm - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Martyr's Cursing Charm: effects, triggers, and combat. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Martyr's Cursing Charm",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "twiceborns-requital",
+    "name": "Twiceborn's Requital",
+    "category": "Bygone Nectar",
+    "description": "A Twiceborn relic whose combat magnitude is not exposed in the current verified record.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Combat Effect",
+          "value": "Not confirmed",
+          "trigger": "Not confirmed"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Twiceborn's Requital - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Twiceborn's Requital: effects, triggers, and combat. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Twiceborn's Requital",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "crest-of-brotherhood",
+    "name": "Crest of Brotherhood",
+    "category": "Bygone Nectar",
+    "description": "Restores spent Shell Fill when reviving a Shell.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Shell Fill",
+          "value": "Restore all Resolve segments",
+          "trigger": "When reviving a Shell",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Crest of Brotherhood - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Crest of Brotherhood: effects, triggers, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Crest of Brotherhood",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gentlemans-tea-cup",
+    "name": "Gentleman's Tea Cup",
+    "category": "Bygone Nectar",
+    "description": "Conversation with another survivor restores a trace of health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Healing",
+          "value": "1 health",
+          "trigger": "When speaking to an NPC",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gentleman's Tea Cup - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Gentleman's Tea Cup: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gentleman's Tea Cup",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "molten-shaft",
+    "name": "Molten Shaft",
+    "category": "Bygone Nectar",
+    "description": "Adds Burning to abilities that inflict Burn.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Burn",
+          "value": "+1 Burn stack",
+          "trigger": "When an ability inflicts Burn",
+          "target": "Enemy"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Molten Shaft Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Molten Shaft: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Molten Shaft",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "perfumed-censer",
+    "name": "Perfumed Censer",
+    "category": "Bygone Nectar",
+    "description": "Adds Poison to abilities that inflict Poison.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Bygone Nectar",
+      "effects": [
+        {
+          "label": "Poison",
+          "value": "+1 Poison stack",
+          "trigger": "When an ability inflicts Poison",
+          "target": "Enemy"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Perfumed Censer - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Perfumed Censer: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Perfumed Censer",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "foul-censer",
+    "name": "Foul Censer",
+    "category": "Fragrant Nectar",
+    "description": "Spreads Poison from dying enemies to a nearby target.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Fragrant Nectar",
+      "effects": [
+        {
+          "label": "Poison Transfer",
+          "value": "All Poison stacks",
+          "trigger": "When a poisoned enemy dies",
+          "target": "Nearby enemy"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Foul Censer Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Foul Censer: effects, triggers, and combat role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Foul Censer",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "clockwork-sight",
+    "name": "Clockwork Sight",
+    "category": "Fragrant Nectar",
+    "description": "Rewards a Sidearm strike followed quickly by another Sidearm strike.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Fragrant Nectar",
+      "effects": [
+        {
+          "label": "Bonus Damage",
+          "value": "1 extra damage",
+          "trigger": "After a Sidearm attack hit in the last 2 seconds",
+          "target": "Enemy",
+          "duration": "2 seconds"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Clockwork Sight - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Clockwork Sight: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Clockwork Sight",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "hungry-tarstone",
+    "name": "Hungry Tarstone",
+    "category": "Fragrant Nectar",
+    "description": "Rewards repeated attacks against the same enemy.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Fragrant Nectar",
+      "effects": [
+        {
+          "label": "Bonus Damage",
+          "value": "1 extra damage",
+          "trigger": "Fourth attack on the same enemy",
+          "target": "Enemy"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Hungry Tarstone - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Hungry Tarstone: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Hungry Tarstone",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "seal-of-the-stonebound",
+    "name": "Seal of the Stonebound",
+    "category": "Fragrant Nectar",
+    "description": "Briefly prevents damage from the next hit, then regenerates.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Fragrant Nectar",
+      "effects": [
+        {
+          "label": "Damage Prevention",
+          "value": "Next hit",
+          "trigger": "When available",
+          "target": "Player",
+          "cooldown": "Regenerates every 1 second"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Seal of the Stonebound - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Seal of the Stonebound: effects, triggers, and combat. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Seal of the Stonebound",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "genessas-rosary",
+    "name": "Genessa's Rosary",
+    "category": "Preserved Nectar",
+    "description": "Periodically negates incoming damage.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Preserved Nectar",
+      "effects": [
+        {
+          "label": "Damage Prevention",
+          "value": "All damage from every 1 hit",
+          "trigger": "On incoming damage",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Genessa's Rosary - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Genessa's Rosary: effects, triggers, and combat. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Genessa's Rosary",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "scholars-amulet",
+    "name": "Scholar's Amulet",
+    "category": "Preserved Nectar",
+    "description": "Converts a Resolve segment into healing.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Preserved Nectar",
+      "effects": [
+        {
+          "label": "Healing",
+          "value": "1 health",
+          "trigger": "When consuming a Resolve segment",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Scholar's Amulet - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Scholar's Amulet: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Scholar's Amulet",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tarsus-gauntlet",
+    "name": "Tarsus Gauntlet",
+    "category": "Preserved Nectar",
+    "description": "Turns a Resolve segment into a freezing shockwave.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Preserved Nectar",
+      "effects": [
+        {
+          "label": "Freeze Shockwave",
+          "value": "Freezes all enemies in range",
+          "trigger": "When consuming a Resolve segment",
+          "target": "Nearby enemies"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tarsus Gauntlet - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Tarsus Gauntlet: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tarsus Gauntlet",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "category": "Pristine Nectar",
+    "description": "Increases the Shell's maximum health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Pristine Nectar",
+      "effects": [
+        {
+          "label": "Maximum Shell Health",
+          "value": "+1",
+          "trigger": "While held",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Mango Artifact Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Mango: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Mango",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "saved-by-the-shell",
+    "name": "Saved by the Shell",
+    "category": "Pristine Nectar",
+    "description": "Allows the Shell to revive the Foundling instead of dying.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Pristine Nectar",
+      "effects": [
+        {
+          "label": "Automatic Revival",
+          "value": "1% maximum health",
+          "trigger": "When lethal damage would be taken",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Saved by the Shell - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Saved by the Shell: effects, triggers, and combat. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Saved by the Shell",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "solemn-offering",
+    "name": "Solemn Offering",
+    "category": "Pristine Nectar",
+    "description": "Successful parries restore health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Pristine Nectar",
+      "effects": [
+        {
+          "label": "Healing",
+          "value": "1% maximum health",
+          "trigger": "On a successful parry",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Solemn Offering - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Solemn Offering: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Solemn Offering",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tarsalt-coating",
+    "name": "Tarsalt Coating",
+    "category": "Pristine Nectar",
+    "description": "Rewards melee hits against enemies at full health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Pristine Nectar",
+      "effects": [
+        {
+          "label": "Healing",
+          "value": "1 health",
+          "trigger": "When striking an enemy at full health",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tarsalt Coating - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Tarsalt Coating: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tarsalt Coating",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "twin-sesters-stone",
+    "name": "Twin Sesters Stone",
+    "category": "Pristine Nectar",
+    "description": "A relic of the Twin Sesters whose exact combat effect remains not confirmed.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Pristine Nectar",
+      "effects": [
+        {
+          "label": "Combat Effect",
+          "value": "Not confirmed",
+          "trigger": "Not confirmed"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Twin Sesters Stone - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Twin Sesters Stone: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Twin Sesters Stone",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "grishas-gift",
+    "name": "Grisha's Gift",
+    "category": "Unclassified",
+    "description": "May call a Grisha Spirit to aid the Foundling in combat.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Unclassified",
+      "effects": [
+        {
+          "label": "Summon",
+          "value": "Grisha Spirit",
+          "trigger": "When attacking",
+          "target": "Player",
+          "procChance": "1%"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Grisha's Gift - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Grisha's Gift: effects, triggers, and combat role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Grisha's Gift",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "blessing-of-the-bat",
+    "name": "Blessing of the Bat",
+    "category": "Blessing",
+    "description": "Restores a small amount of health on melee hits.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Healing",
+          "value": "1 health",
+          "trigger": "On a melee hit",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Blessing of the Bat - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Blessing of the Bat: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Blessing of the Bat",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "blessing-of-the-frog",
+    "name": "Blessing of the Frog",
+    "category": "Blessing",
+    "description": "Makes poison effects more damaging.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Poison Damage",
+          "value": "+1",
+          "trigger": "While active",
+          "target": "Enemies"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Blessing of the Frog - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Blessing of the Frog: effects, triggers, and combat. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Blessing of the Frog",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "blessing-of-the-horse",
+    "name": "Blessing of the Horse",
+    "category": "Blessing",
+    "description": "Improves critical chance during sprint attacks.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Critical Chance",
+          "value": "+1",
+          "trigger": "On sprint attacks",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Blessing of the Horse - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Blessing of the Horse: effects, triggers, and combat. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Blessing of the Horse",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gold-boost",
+    "name": "Gold Boost",
+    "category": "Blessing",
+    "description": "Increases Coin gained from defeated enemies.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Coin Gain",
+          "value": "+1 Coin",
+          "trigger": "When defeating an enemy",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gold Boost Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact Gold Boost: effects, triggers, and combat role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gold Boost",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gorfs-blessing",
+    "name": "Gorf's Blessing",
+    "category": "Blessing",
+    "description": "Protects against poison and improves experience from defeated enemies.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Poison / Experience",
+          "value": "Poison immunity; +25 experience",
+          "trigger": "When defeating an enemy",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gorf's Blessing - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Gorf's Blessing: effects, triggers, and combat role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gorf's Blessing",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "lightning-immunity",
+    "name": "Lightning Immunity",
+    "category": "Blessing",
+    "description": "Protects the Foundling from lightning.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Lightning Damage",
+          "value": "Immune",
+          "trigger": "While active",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Lightning Immunity - Mortal Shell II Artifact",
+      "description": "Mortal Shell II Artifact Lightning Immunity: effects, triggers, and combat role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Lightning Immunity",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "xp-boost",
+    "name": "XP Boost",
+    "category": "Blessing",
+    "description": "Increases experience gained from defeated enemies.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "family": "Blessing",
+      "effects": [
+        {
+          "label": "Experience",
+          "value": "not confirmed bonus",
+          "trigger": "When defeating an enemy",
+          "target": "Player"
+        }
+      ],
+      "acquisition": "Available through the Combat Artifact selection system; individual selection conditions are not confirmed.",
+      "upgrades": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "XP Boost Artifact Guide - Mortal Shell II",
+      "description": "Mortal Shell II Artifact XP Boost: effects, triggers, and combat role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "XP Boost",
+        "Mortal Shell II Artifact",
+        "Mortal Shell II artifact guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

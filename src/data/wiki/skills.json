@@ -1,0 +1,821 @@
+[
+  {
+    "id": "axe-dagger-deadly-flurry",
+    "name": "Deadly Flurry",
+    "category": "Weapon Skill · Axe & Dagger",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Axe & Dagger",
+      "ownerType": "Weapon",
+      "effect": "Rise into the air and unleash a flurry of ruthless strikes.",
+      "damage": "Not confirmed",
+      "breakDamage": "20 Stagger Damage",
+      "hitCount": "Not confirmed",
+      "cost": "70 Resolve",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Activated by Magdalena's Memento on Axe & Dagger."
+    },
+    "notes": [],
+    "seo": {
+      "title": "Deadly Flurry Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Deadly Flurry: effects, costs, cooldowns, and unlocks. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Deadly Flurry",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "black-needle-needle-storm",
+    "name": "Needle Storm",
+    "category": "Weapon Skill · Black Needle",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Black Needle",
+      "ownerType": "Weapon",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Needle Storm Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Needle Storm: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Needle Storm",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "clockwork-scythe-clockwork-chainsaw",
+    "name": "Clockwork Chainsaw",
+    "category": "Weapon Skill · Clockwork Scythe",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Clockwork Scythe",
+      "ownerType": "Weapon",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Clockwork Chainsaw - Mortal Shell II Skill",
+      "description": "Mortal Shell II Skill Clockwork Chainsaw: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Clockwork Chainsaw",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "hadern-sword-plummet-strike",
+    "name": "Plummet Strike",
+    "category": "Weapon Skill · The Iconoclast",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": "/assets/skills/plummet-strike.png",
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "The Iconoclast",
+      "ownerType": "Weapon",
+      "effect": "Leap high and plunge your weapon into the ground ahead.",
+      "damage": "×2.00 Damage Multiplier; 150 Shockwave Damage",
+      "breakDamage": "70 Stagger Damage; 0 / 0 / 100 Break Damage at Tarstone levels I / II / III",
+      "hitCount": "Not confirmed",
+      "cost": "70 / 50 / 50 Resolve at Tarstone levels I / II / III",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Activated by Shrike Stone on The Iconoclast."
+    },
+    "notes": [],
+    "seo": {
+      "title": "Plummet Strike Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Plummet Strike: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Plummet Strike",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "heavy-hammer-heavy-stomps",
+    "name": "Heavy Stomps",
+    "category": "Weapon Skill · Obsidian Hammer",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Obsidian Hammer",
+      "ownerType": "Weapon",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Heavy Stomps Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Heavy Stomps: effects, costs, cooldowns, and unlocks. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Heavy Stomps",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "martyrs-blade-spiral-surge",
+    "name": "Spiral Surge",
+    "category": "Weapon Skill · Great Martyr's Blade",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Great Martyr's Blade",
+      "ownerType": "Weapon",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Spiral Surge Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Spiral Surge: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Spiral Surge",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "axatana-morph-attack",
+    "name": "Morph Attack",
+    "category": "Weapon Skill · Axatana",
+    "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Weapon Skill",
+      "owner": "Axatana",
+      "ownerType": "Weapon",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Morph Attack Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Morph Attack: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Morph Attack",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "eredrim-shoulder-bash",
+    "name": "Shoulder Bash",
+    "category": "Shell Ability · Eredrim",
+    "description": "Eredrim lunges with his shoulder, slamming into enemies and dealing Break Damage.",
+    "status": "Verified",
+    "image": "/assets/skills/shoulder-bash.png",
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Eredrim",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Shoulder Bash Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Shoulder Bash: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Shoulder Bash",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "eredrim-executioner",
+    "name": "Executioner",
+    "category": "Passive · Eredrim",
+    "description": "Eredrim executes enemies on low health and gains Slaughterer stacks by performing a Riposte. Stacks are lost upon resting or being severed.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Eredrim",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Executioner Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Executioner: effects, costs, cooldowns, and unlocks. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Executioner",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "genessa-faithful-doubles",
+    "name": "Faithful Doubles",
+    "category": "Shell Ability · Genessa",
+    "description": "Genessa summons Faithful Doubles which perform a weapon attack and then vanish.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Genessa",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Faithful Doubles - Mortal Shell II Skill",
+      "description": "Mortal Shell II Skill Faithful Doubles: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Faithful Doubles",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "genessa-duality",
+    "name": "Duality",
+    "category": "Passive · Genessa",
+    "description": "When Genessa's health is depleted, she becomes Stray instead of being severed from the Harbinger.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Genessa",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Duality Skill Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Skill Duality: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Duality",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "harros-stone-stun",
+    "name": "Stone Stun",
+    "category": "Shell Ability · Harros",
+    "description": "Harros petrifies nearby enemies, leaving them unable to act. While hardened, they take no health damage but suffer Break Damage instead.",
+    "status": "Verified",
+    "image": "/assets/skills/stone-stun.png",
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Harros",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Stone Stun Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Stone Stun: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Stone Stun",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "lazlo-retribution",
+    "name": "Retribution",
+    "category": "Shell Ability · Lazlo",
+    "description": "Lazlo heats his armor and unleashes a shockwave. Repeated use causes Overheat, producing a stronger burning shockwave but temporarily disabling his armor.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Lazlo",
+      "ownerType": "Shell",
+      "effect": "Repeated use causes Overheat, producing a stronger burning shockwave and temporarily disabling Lazlo's armor.",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [
+        "Overheat after repeated use",
+        "Burning shockwave while Overheated"
+      ],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Retribution Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Retribution: effects, costs, cooldowns, and unlocks. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Retribution",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "lazlo-fortified-plate",
+    "name": "Fortified Plate",
+    "category": "Passive · Lazlo",
+    "description": "Lazlo has a base 20% damage reduction while his armor is active.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Lazlo",
+      "ownerType": "Shell",
+      "effect": "Base 20% damage reduction while Lazlo's armor is active.",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Fortified Plate Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Fortified Plate: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Fortified Plate",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "sariel-exodus-of-thorns",
+    "name": "Exodus of Thorns",
+    "category": "Shell Ability · Sariel",
+    "description": "Sariel expels parasitic thorns that hunt nearby enemies and inflict Curse stacks. Each activation inflicts Pain on Sariel.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Sariel",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Exodus of Thorns - Mortal Shell II Skill",
+      "description": "Mortal Shell II Skill Exodus of Thorns: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Exodus of Thorns",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "sariel-purge",
+    "name": "Purge",
+    "category": "Passive · Sariel",
+    "description": "At maximum Pain, Sariel becomes immune to all conditions and all existing conditions are cured.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Sariel",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Purge Skill Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Skill Purge: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Purge",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "smert-miracle",
+    "name": "Miracle",
+    "category": "Shell Ability · Smert",
+    "description": "Smert halts time and enters a Fight Stance. Unarmed attacks apply Chaos stacks that detonate when time resumes; Overtime can extend the effect at the cost of health.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Smert",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Miracle Skill Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Skill Miracle: effects, costs, cooldowns, and unlocks. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Miracle",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "smert-deadly-revelation",
+    "name": "Deadly Revelation",
+    "category": "Passive · Smert",
+    "description": "At 10% health or lower, Smert gains Faith.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Smert",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Deadly Revelation - Mortal Shell II Skill",
+      "description": "Mortal Shell II Skill Deadly Revelation: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Deadly Revelation",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tiel-lingering-shadow",
+    "name": "Lingering Shadow",
+    "category": "Shell Ability · Tiel",
+    "description": "Tiel gains Shadow and prepares to perform a Shadow Strike with his dagger.",
+    "status": "Verified",
+    "image": "/assets/skills/lingering-shadow.png",
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Tiel",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Lingering Shadow - Mortal Shell II Skill",
+      "description": "Mortal Shell II Skill Lingering Shadow: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Lingering Shadow",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tiel-shadow-dash",
+    "name": "Shadow Dash",
+    "category": "Passive · Tiel",
+    "description": "Dashing just before being struck grants Tiel Shadow and inflicts Stagger Damage.",
+    "status": "Verified",
+    "image": "/assets/skills/shadow-dash.png",
+    "details": {
+      "type": "Passive",
+      "owner": "Tiel",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Shadow Dash Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Shadow Dash: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Shadow Dash",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gragu-staggering-blow",
+    "name": "Staggering Blow",
+    "category": "Shell Ability · Gragu",
+    "description": "Gragu charges a devastating punch. A longer charge increases its damage and heavy stagger.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Gragu",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Staggering Blow Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Staggering Blow: effects, costs, cooldowns, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Staggering Blow",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gragu-revered-heart",
+    "name": "Revered Heart",
+    "category": "Passive · Gragu",
+    "description": "Gragu restores a portion of health and replenishes this power by slaying foes.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Gragu",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Revered Heart Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Revered Heart: effects, costs, cooldowns, and unlocks. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Revered Heart",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "proxima-biosampler",
+    "name": "Biosampler",
+    "category": "Shell Ability · Proxima",
+    "description": "Proxima fires a hook from her left arm, pulling enemies or herself into range before a follow-up Lightning attack.",
+    "status": "Current Beta / Unconfirmed",
+    "image": "/assets/skills/biosampler.png",
+    "details": {
+      "type": "Shell Ability",
+      "owner": "Proxima",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Biosampler Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Biosampler: effects, costs, cooldowns, and unlocks. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Biosampler",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "proxima-grafted-armor",
+    "name": "Grafted Armor",
+    "category": "Passive · Proxima",
+    "description": "Proxima has a base 15% chance to mitigate melee or ranged damage. Mitigated damage is reduced by a base 50% and prevents stagger.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "type": "Passive",
+      "owner": "Proxima",
+      "ownerType": "Shell",
+      "effect": "Not confirmed",
+      "damage": "Not confirmed",
+      "breakDamage": "Not confirmed",
+      "hitCount": "Not confirmed",
+      "cost": "Not confirmed",
+      "cooldown": "Not confirmed",
+      "statusEffects": [],
+      "scaling": "Not confirmed",
+      "unlock": "Not confirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Grafted Armor Skill Guide - Mortal Shell II",
+      "description": "Mortal Shell II Skill Grafted Armor: effects, costs, cooldowns, and unlocks. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Grafted Armor",
+        "Mortal Shell II Skill",
+        "Mortal Shell II skill guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

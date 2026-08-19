@@ -1,0 +1,565 @@
+[
+  {
+    "slug": "bloodcurse",
+    "name": "Bloodcurse",
+    "category": "Damage over time",
+    "description": "Deals massive damage when sufficient stacks are inflicted.",
+    "stacks": 99,
+    "aliases": [
+      "bleed"
+    ],
+    "related": [
+      {
+        "label": "Arbiter's Prize",
+        "href": "/wiki/tarstones/melee-melee-inflict-bleed/"
+      },
+      {
+        "label": "Viletongue Hedron",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-bleed/"
+      },
+      {
+        "label": "Gragu",
+        "href": "/wiki/shells/gragu/"
+      }
+    ],
+    "icon": "/assets/status-effects/bloodcurse.webp"
+  },
+  {
+    "slug": "burn",
+    "name": "Burn",
+    "category": "Damage over time",
+    "description": "Deals accumulated damage over time.",
+    "stacks": 99,
+    "aliases": [
+      "burn"
+    ],
+    "related": [
+      {
+        "label": "Inflamed Clawstone",
+        "href": "/wiki/tarstones/melee-melee-inflict-burn/"
+      },
+      {
+        "label": "Emberseed Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-burn/"
+      },
+      {
+        "label": "Burnt Effigy",
+        "href": "/wiki/items/burnt-effigy/"
+      }
+    ],
+    "icon": "/assets/status-effects/burn.webp"
+  },
+  {
+    "slug": "chaos",
+    "name": "Chaos",
+    "category": "Shell effects",
+    "description": "Inflicts a random condition when it expires.",
+    "stacks": 100,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Smert",
+        "href": "/wiki/shells/smert/"
+      },
+      {
+        "label": "Smert skills",
+        "href": "/wiki/skills/"
+      }
+    ],
+    "icon": "/assets/status-effects/chaos.webp"
+  },
+  {
+    "slug": "confusion",
+    "name": "Confusion",
+    "category": "Control",
+    "description": "Causes the victim to attack nearby allies for its duration. If none are present, the victim instead suffers severe Break Damage.",
+    "stacks": 100,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Seals",
+        "href": "/wiki/seals/"
+      },
+      {
+        "label": "Enemies",
+        "href": "/enemies/"
+      }
+    ],
+    "icon": "/assets/status-effects/confusion.webp"
+  },
+  {
+    "slug": "cosmic-disease",
+    "name": "Cosmic Disease",
+    "category": "Damage over time",
+    "description": "The affected target takes damage over time and deals reduced damage.",
+    "stacks": 99,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Artifacts",
+        "href": "/wiki/artifacts/"
+      },
+      {
+        "label": "Weakness Finder",
+        "href": "/tools/weakness-finder/"
+      }
+    ],
+    "icon": "/assets/status-effects/cosmic-disease.webp"
+  },
+  {
+    "slug": "critical-hit",
+    "name": "Critical Hit",
+    "category": "Combat",
+    "description": "A hit that deals bonus damage.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Weapons",
+        "href": "/wiki/weapons/"
+      },
+      {
+        "label": "Rupturing Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-break-on-critical-hit/"
+      }
+    ],
+    "icon": "/assets/status-effects/critical-hit.webp"
+  },
+  {
+    "slug": "curse",
+    "name": "Curse",
+    "category": "Control",
+    "description": "Applying enough stacks Curses the target, nullifying their next melee strike against you and turning it back upon them.",
+    "stacks": 100,
+    "aliases": [
+      "curse"
+    ],
+    "related": [
+      {
+        "label": "Curseblood Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-curse/"
+      },
+      {
+        "label": "Accursed Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-curse/"
+      },
+      {
+        "label": "Sariel",
+        "href": "/wiki/shells/sariel/"
+      }
+    ],
+    "icon": "/assets/status-effects/curse.webp"
+  },
+  {
+    "slug": "execution",
+    "name": "Execution",
+    "category": "Break",
+    "description": "Affected victims receive Break Damage from melee attacks.",
+    "stacks": 25,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Eredrim",
+        "href": "/wiki/shells/eredrim/"
+      },
+      {
+        "label": "Weapons",
+        "href": "/wiki/weapons/"
+      },
+      {
+        "label": "Seals",
+        "href": "/wiki/seals/"
+      }
+    ],
+    "icon": "/assets/status-effects/execution.webp"
+  },
+  {
+    "slug": "faith",
+    "name": "Faith",
+    "category": "Buff",
+    "description": "While in this state melee attacks regenerate additional Resolve.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Genessa",
+        "href": "/wiki/shells/genessa/"
+      },
+      {
+        "label": "Smert",
+        "href": "/wiki/shells/smert/"
+      }
+    ],
+    "icon": "/assets/status-effects/faith.webp"
+  },
+  {
+    "slug": "fragile",
+    "name": "Fragile",
+    "category": "Offense",
+    "description": "Affected targets take bonus damage from Weapon attacks.",
+    "stacks": 10,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Enfeebling Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-fragile/"
+      },
+      {
+        "label": "Weapons",
+        "href": "/wiki/weapons/"
+      }
+    ],
+    "icon": "/assets/status-effects/fragile.webp"
+  },
+  {
+    "slug": "frost",
+    "name": "Frost",
+    "category": "Control",
+    "description": "Inflicting enough stacks Freezes the target for a duration.",
+    "stacks": 100,
+    "aliases": [
+      "frost"
+    ],
+    "related": [
+      {
+        "label": "Warden's Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-frost/"
+      },
+      {
+        "label": "Frostshard Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-frost/"
+      },
+      {
+        "label": "Weakness Finder",
+        "href": "/tools/weakness-finder/"
+      }
+    ],
+    "icon": "/assets/status-effects/frost.webp"
+  },
+  {
+    "slug": "havoc",
+    "name": "Havoc",
+    "category": "Break",
+    "description": "Affected victims receive Break Damage from ranged attacks.",
+    "stacks": 25,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Sidearms",
+        "href": "/wiki/sidearms/"
+      },
+      {
+        "label": "Seals",
+        "href": "/wiki/seals/"
+      }
+    ],
+    "icon": "/assets/status-effects/havoc.webp"
+  },
+  {
+    "slug": "infect",
+    "name": "Infect",
+    "category": "Damage over time",
+    "description": "When struck, spreads Poison to the attacking enemy.",
+    "stacks": 50,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Poison",
+        "href": "/wiki/status-effects/poison/"
+      },
+      {
+        "label": "Tiel",
+        "href": "/wiki/shells/tiel/"
+      }
+    ],
+    "icon": null
+  },
+  {
+    "slug": "leech",
+    "name": "Leech",
+    "category": "Buff",
+    "description": "Gain stacks by slaying enemies. Each stack increases Max Health. All stacks are lost on death.",
+    "stacks": 200,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Parasitic Stone",
+        "href": "/wiki/tarstones/melee-melee-grant-leech-on-kill/"
+      },
+      {
+        "label": "Shells",
+        "href": "/wiki/shells/"
+      }
+    ],
+    "icon": "/assets/status-effects/leech.webp"
+  },
+  {
+    "slug": "lightning",
+    "name": "Lightning",
+    "category": "Damage over time",
+    "description": "Deals damage over time. On sufficient repeated applications a shockwave is released.",
+    "stacks": 100,
+    "aliases": [
+      "shock"
+    ],
+    "related": [
+      {
+        "label": "Voltaic Crown",
+        "href": "/wiki/tarstones/melee-melee-inflict-lightning/"
+      },
+      {
+        "label": "Voltaic Amber",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-lightning/"
+      },
+      {
+        "label": "Proxima",
+        "href": "/wiki/shells/proxima/"
+      }
+    ],
+    "icon": "/assets/status-effects/lightning.webp"
+  },
+  {
+    "slug": "mitigation",
+    "name": "Mitigation",
+    "category": "Buff",
+    "description": "Chance to resist the application of a negative condition.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Gragu",
+        "href": "/wiki/shells/gragu/"
+      },
+      {
+        "label": "Smert",
+        "href": "/wiki/shells/smert/"
+      }
+    ],
+    "icon": null
+  },
+  {
+    "slug": "pain",
+    "name": "Pain",
+    "category": "Shell effects",
+    "description": "Marks health as Gray Health, lost in a single hit but cured by melee attacks.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Sariel",
+        "href": "/wiki/shells/sariel/"
+      },
+      {
+        "label": "Sariel skills",
+        "href": "/wiki/skills/"
+      }
+    ],
+    "icon": "/assets/status-effects/pain.webp"
+  },
+  {
+    "slug": "perforation",
+    "name": "Perforation",
+    "category": "Offense",
+    "description": "Affected targets take bonus damage from Sidearm attacks.",
+    "stacks": 10,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Wounding Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-perforation/"
+      },
+      {
+        "label": "Sidearms",
+        "href": "/wiki/sidearms/"
+      }
+    ],
+    "icon": "/assets/status-effects/perforation.webp"
+  },
+  {
+    "slug": "phantom",
+    "name": "Phantom",
+    "category": "Damage over time",
+    "description": "Deals accumulated splash damage and Stagger Damage when it expires.",
+    "stacks": 99,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Nightgrasp Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-phantom/"
+      },
+      {
+        "label": "Monarch's Vestige",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-phantom/"
+      }
+    ],
+    "icon": "/assets/status-effects/phantom.webp"
+  },
+  {
+    "slug": "poison",
+    "name": "Poison",
+    "category": "Damage over time",
+    "description": "Long-lasting effect that deals damage over time.",
+    "stacks": 100,
+    "aliases": [
+      "poison"
+    ],
+    "related": [
+      {
+        "label": "Serpent Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-poison/"
+      },
+      {
+        "label": "Hag Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-poison/"
+      },
+      {
+        "label": "Poisoned Dagger",
+        "href": "/wiki/items/poisoned-dagger/"
+      },
+      {
+        "label": "Tiel",
+        "href": "/wiki/shells/tiel/"
+      }
+    ],
+    "icon": "/assets/status-effects/poison.webp"
+  },
+  {
+    "slug": "shadow",
+    "name": "Shadow",
+    "category": "Buff",
+    "description": "Renders you undetectable for its duration.",
+    "stacks": 20,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Tiel",
+        "href": "/wiki/shells/tiel/"
+      },
+      {
+        "label": "Skills",
+        "href": "/wiki/skills/"
+      }
+    ],
+    "icon": "/assets/status-effects/shadow.webp"
+  },
+  {
+    "slug": "slaughterer",
+    "name": "Slaughterer",
+    "category": "Buff",
+    "description": "Each stack raises the low health threshold at which enemies are executed.",
+    "stacks": 100,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Eredrim",
+        "href": "/wiki/shells/eredrim/"
+      },
+      {
+        "label": "Execution",
+        "href": "/wiki/status-effects/execution/"
+      }
+    ],
+    "icon": "/assets/status-effects/slaughterer.webp"
+  },
+  {
+    "slug": "stasis",
+    "name": "Stasis",
+    "category": "Control",
+    "description": "Distorts time, slowing the target. Multiple stacks worsen the effect.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Torpor Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-stasis/"
+      },
+      {
+        "label": "Enemies",
+        "href": "/enemies/"
+      }
+    ],
+    "icon": "/assets/status-effects/stasis.webp"
+  },
+  {
+    "slug": "trauma",
+    "name": "Trauma",
+    "category": "Break",
+    "description": "Deals Break damage over time.",
+    "stacks": 100,
+    "aliases": [
+      "break"
+    ],
+    "related": [
+      {
+        "label": "Wretchcaller's Stone",
+        "href": "/wiki/tarstones/melee-melee-inflict-trauma/"
+      },
+      {
+        "label": "Weeping Stone",
+        "href": "/wiki/tarstones/sidearm-sidearm-inflict-trauma/"
+      },
+      {
+        "label": "Seals",
+        "href": "/wiki/seals/"
+      }
+    ],
+    "icon": "/assets/status-effects/trauma.webp"
+  },
+  {
+    "slug": "vomit",
+    "name": "Vomit",
+    "category": "Control",
+    "description": "Stuns an already poisoned enemy.",
+    "stacks": null,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Poison",
+        "href": "/wiki/status-effects/poison/"
+      },
+      {
+        "label": "Tiel",
+        "href": "/wiki/shells/tiel/"
+      }
+    ],
+    "icon": null
+  },
+  {
+    "slug": "warp",
+    "name": "Warp",
+    "category": "Buff",
+    "description": "Slightly increases Weapon attack speed.",
+    "stacks": 30,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Weapons",
+        "href": "/wiki/weapons/"
+      },
+      {
+        "label": "Tarstones",
+        "href": "/wiki/tarstones/"
+      }
+    ],
+    "icon": "/assets/status-effects/warp.webp"
+  },
+  {
+    "slug": "weak",
+    "name": "Weak",
+    "category": "Offense",
+    "description": "Affected targets deal less damage.",
+    "stacks": 14,
+    "aliases": [],
+    "related": [
+      {
+        "label": "Tyrant's Stone",
+        "href": "/wiki/tarstones/melee-melee-heavy-attack-finisher-weak/"
+      },
+      {
+        "label": "Enemies",
+        "href": "/enemies/"
+      }
+    ],
+    "icon": "/assets/status-effects/weak.webp"
+  }
+]

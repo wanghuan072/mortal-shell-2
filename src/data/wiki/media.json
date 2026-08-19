@@ -1,0 +1,43 @@
+{
+  "shellVideos": {
+    "eredrim": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Eredrim_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Eredrim_Active.jpg" },
+      { "label": "Alternate ability", "src": "https://mortalshelldb.com/video/Shell_Eredrim_Active_2.webm", "poster": "https://mortalshelldb.com/video/Shell_Eredrim_Active_2.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Eredrim_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Eredrim_Passive.jpg" }
+    ],
+    "genessa": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Genessa_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Genessa_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Genessa_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Genessa_Passive.jpg" }
+    ],
+    "harros": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Harros_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Harros_Active.jpg" }
+    ],
+    "lazlo": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Lazlo_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Lazlo_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Lazlo_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Lazlo_Passive.jpg" }
+    ],
+    "sariel": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Sariel_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Sariel_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Sariel_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Sariel_Passive.jpg" }
+    ],
+    "smert": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Smert_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Smert_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Smert_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Smert_Passive.jpg" }
+    ],
+    "tiel": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Tiel_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Tiel_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Tiel_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Tiel_Passive.jpg" }
+    ],
+    "gragu": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Gragu_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Gragu_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Gragu_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Gragu_Passive.jpg" }
+    ],
+    "proxima": [
+      { "label": "Shell ability", "src": "https://mortalshelldb.com/video/Shell_Proxima_Active.webm", "poster": "https://mortalshelldb.com/video/Shell_Proxima_Active.jpg" },
+      { "label": "Passive ability", "src": "https://mortalshelldb.com/video/Shell_Proxima_Passive.webm", "poster": "https://mortalshelldb.com/video/Shell_Proxima_Passive.jpg" }
+    ]
+  },
+  "sources": {
+    "shellVideos": "https://mortalshelldb.com/shells"
+  }
+}

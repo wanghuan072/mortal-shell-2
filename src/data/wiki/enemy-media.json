@@ -1,0 +1,18 @@
+{
+  "miniboss-bloodcursed-lithopod": {
+    "image": "/images/enemies/stone-crab.png",
+    "alt": "Stone Crab render for Bloodcursed Lithopod"
+  },
+  "miniboss-sester-secundus": {
+    "image": "/images/enemies/cultist-spear-lady.png",
+    "alt": "Cultist Spear Lady render for Sester Secundus"
+  },
+  "miniboss-tainted-vestige": {
+    "image": "/images/enemies/tarred-vestige.png",
+    "alt": "Tarred Vestige render for Tainted Vestige"
+  },
+  "miniboss-the-wandering-shepherd": {
+    "image": "/images/enemies/shepherd.png",
+    "alt": "Shepherd render for The Wandering Shepherd"
+  }
+}

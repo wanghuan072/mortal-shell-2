@@ -1,0 +1,509 @@
+[
+  {
+    "id": "eredrim",
+    "name": "Eredrim",
+    "category": "The Venerable · Shell",
+    "description": "Peace has a price.",
+    "status": "Verified",
+    "image": "/assets/shells/eredrim.png",
+    "details": {
+      "title": "The Venerable",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Shoulder Bash",
+          "description": "Eredrim lunges with his shoulder, slamming into enemies and dealing Break Damage."
+        },
+        {
+          "type": "Passive",
+          "name": "Executioner",
+          "description": "Eredrim executes enemies on low health and gains Slaughterer stacks by performing a Riposte. Stacks are lost upon resting or being severed."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Eredrim Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Eredrim: abilities, passives, and variants. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Eredrim",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "genessa",
+    "name": "Genessa",
+    "category": "The Wayward · Shell",
+    "description": "Nothing is so broken it can't be made whole again.",
+    "status": "Verified",
+    "image": "/assets/shells/genessa.png",
+    "details": {
+      "title": "The Wayward",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Faithful Doubles",
+          "description": "Genessa summons Faithful Doubles which perform a weapon attack and then vanish."
+        },
+        {
+          "type": "Passive",
+          "name": "Duality",
+          "description": "When Genessa's health is depleted, she becomes Stray instead of being severed from the Harbinger."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Genessa Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Genessa: abilities, passives, and variants. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Genessa",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "harros",
+    "name": "Harros",
+    "category": "The Vassal · Shell",
+    "description": "A man is more than mere flesh and bone.",
+    "status": "Verified",
+    "image": "/assets/shells/harros.png",
+    "details": {
+      "title": "The Vassal",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Stone Stun",
+          "description": "Harros petrifies nearby enemies, leaving them unable to act. While hardened, they take no health damage but suffer Break Damage instead."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Harros Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Harros: abilities, passives, and variants. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Harros",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "lazlo",
+    "name": "Lazlo",
+    "category": "The Justiciar · Shell",
+    "description": "Justice is not given, it is exacted.",
+    "status": "Verified",
+    "image": "/assets/shells/lazlo.png",
+    "details": {
+      "title": "The Justiciar",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Retribution",
+          "description": "Lazlo heats his armor and unleashes a shockwave. Repeated use causes Overheat, producing a stronger burning shockwave but temporarily disabling his armor."
+        },
+        {
+          "type": "Passive",
+          "name": "Fortified Plate",
+          "description": "Lazlo has a base 20% damage reduction while his armor is active."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": [
+        {
+          "id": "young-lazlo",
+          "name": "Young Lazlo",
+          "parentShell": "Lazlo",
+          "type": "Story Form",
+          "gameplay": "Uses a separate young-character configuration; inherited ability changes are not confirmed.",
+          "equipStatus": "Not verified as independently equippable",
+          "acquisition": "Not confirmed"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Lazlo Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Lazlo: abilities, passives, and variants. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Lazlo",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "sariel",
+    "name": "Sariel",
+    "category": "The Endless · Shell",
+    "description": "The path to perfection is paved with blood.",
+    "status": "Verified",
+    "image": "/assets/shells/sariel.png",
+    "details": {
+      "title": "The Endless",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Exodus of Thorns",
+          "description": "Sariel expels parasitic thorns that hunt nearby enemies and inflict Curse stacks. Each activation inflicts Pain on Sariel."
+        },
+        {
+          "type": "Passive",
+          "name": "Purge",
+          "description": "At maximum Pain, Sariel becomes immune to all conditions and all existing conditions are cured."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Sariel Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Sariel: abilities, passives, and variants. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Sariel",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "smert",
+    "name": "Smert",
+    "category": "The Apostate · Shell",
+    "description": "Truth is the final revelation before death.",
+    "status": "Verified",
+    "image": "/assets/shells/smert.png",
+    "details": {
+      "title": "The Apostate",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Miracle",
+          "description": "Smert halts time and enters a Fight Stance. Unarmed attacks apply Chaos stacks that detonate when time resumes; Overtime can extend the effect at the cost of health."
+        },
+        {
+          "type": "Passive",
+          "name": "Deadly Revelation",
+          "description": "At 10% health or lower, Smert gains Faith."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Smert Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Smert: abilities, passives, and variants. Use it to plan your next build or route. Details may change before release. Plan.",
+      "keywords": [
+        "Mortal Shell II",
+        "Smert",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tiel",
+    "name": "Tiel",
+    "category": "The Acolyte · Shell",
+    "description": "Once you have nothing, you're free to take everything.",
+    "status": "Verified",
+    "image": "/assets/shells/tiel.png",
+    "details": {
+      "title": "The Acolyte",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Lingering Shadow",
+          "description": "Tiel gains Shadow and prepares to perform a Shadow Strike with his dagger."
+        },
+        {
+          "type": "Passive",
+          "name": "Shadow Dash",
+          "description": "Dashing just before being struck grants Tiel Shadow and inflicts Stagger Damage."
+        }
+      ],
+      "acquisition": "A claimable Shell encounter is present in the current Demo; its exact location is not confirmed.",
+      "variants": [
+        {
+          "id": "tiel-memory",
+          "name": "Tiel Memory",
+          "parentShell": "Tiel",
+          "type": "Memory",
+          "gameplay": "Reuses Tiel's Shell abilities and game-state configuration; uses a ghost dagger.",
+          "equipStatus": "Story/memory configuration",
+          "acquisition": "Not confirmed"
+        },
+        {
+          "id": "tiel-with-face-memory",
+          "name": "Tiel With Face Memory",
+          "parentShell": "Tiel",
+          "type": "Memory",
+          "gameplay": "Reuses Tiel's Memory configuration with an alternate character form.",
+          "equipStatus": "Story/memory configuration",
+          "acquisition": "Not confirmed"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tiel Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Tiel: abilities, passives, and variants. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tiel",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gragu",
+    "name": "Gragu",
+    "category": "The Insatiable · Shell",
+    "description": "The heart speaks no lies.",
+    "status": "Current Beta / Unconfirmed",
+    "image": "/assets/shells/gragu.png",
+    "details": {
+      "title": "The Insatiable",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Staggering Blow",
+          "description": "Gragu charges a devastating punch. A longer charge increases its damage and heavy stagger."
+        },
+        {
+          "type": "Passive",
+          "name": "Revered Heart",
+          "description": "Gragu restores a portion of health and replenishes this power by slaying foes."
+        }
+      ],
+      "acquisition": "Not confirmed",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gragu Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Gragu: abilities, passives, and variants. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gragu",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "proxima",
+    "name": "Proxima",
+    "category": "The Broodseeker · Shell",
+    "description": "Purpose gives the soul its shape.",
+    "status": "Current Beta / Unconfirmed",
+    "image": "/assets/shells/proxima.png",
+    "details": {
+      "title": "The Broodseeker",
+      "abilities": [
+        {
+          "type": "Shell Ability",
+          "name": "Biosampler",
+          "description": "Proxima fires a hook from her left arm, pulling enemies or herself into range before a follow-up Lightning attack."
+        },
+        {
+          "type": "Passive",
+          "name": "Grafted Armor",
+          "description": "Proxima has a base 15% chance to mitigate melee or ranged damage. Mitigated damage is reduced by a base 50% and prevents stagger."
+        }
+      ],
+      "acquisition": "Not confirmed",
+      "variants": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Proxima Shell Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Shell Proxima: abilities, passives, and variants. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Proxima",
+        "Mortal Shell II Shell",
+        "Mortal Shell II shell guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "sariel-memory",
+    "name": "Sariel Memory",
+    "category": "The Endless · Shell Memory",
+    "description": "A Shell Memory record linked to Sariel, The Endless.",
+    "status": "Reference / Unconfirmed",
+    "image": null,
+    "details": {
+      "title": "The Endless",
+      "parentShell": "Sariel",
+      "formType": "Shell Memory",
+      "abilities": [],
+      "skillTree": ["Affliction", "Agonize", "Entitlement", "Frailty", "Growth", "Reaper", "Restoration", "Reversal", "Scourge", "Synthesis", "Thornfall", "Torment"],
+      "variants": [
+        {
+          "id": "sariel",
+          "name": "Sariel",
+          "type": "Playable Shell",
+          "gameplay": "Open the Sariel Shell page for the documented abilities and linked skill tree.",
+          "equipStatus": "Playable Shell record",
+          "acquisition": "See the parent Shell record"
+        }
+      ],
+      "memories": [
+        "The Dead",
+        "The Dead 2500",
+        "The Experiment",
+        "The Resignation",
+        "The Resurrection",
+        "The Search"
+      ],
+      "acquisition": "This memory form is listed by the reference catalogue; an independent acquisition route is not confirmed."
+    },
+    "notes": ["The reference catalogue lists this as a Shell Memory rather than a separate playable Shell."],
+    "seo": {
+      "title": "Sariel Memory - Mortal Shell II Shell Details",
+      "description": "Mortal Shell II Sariel Memory: linked Shell form, memories, and the parent Sariel record. Availability remains unconfirmed.",
+      "keywords": ["Mortal Shell II", "Sariel Memory", "Sariel Shell Memory", "Mortal Shell II Shell"]
+    },
+    "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "solomon",
+    "name": "Solomon",
+    "category": "The Scholar · Shell",
+    "description": "A Shell record identified as The Scholar; abilities and acquisition are not yet documented in the available beta data.",
+    "status": "Reference / Unconfirmed",
+    "image": null,
+    "details": {
+      "title": "The Scholar",
+      "abilities": [],
+      "variants": [],
+      "acquisition": "No confirmed acquisition route is available in the current project data."
+    },
+    "notes": ["The reference page identifies Solomon and The Scholar, but does not provide verified ability names or descriptions."],
+    "seo": {
+      "title": "Solomon Shell - Mortal Shell II Details",
+      "description": "Mortal Shell II Solomon, The Scholar: current reference record and documented availability status.",
+      "keywords": ["Mortal Shell II", "Solomon", "The Scholar", "Mortal Shell II Shell"]
+    },
+    "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "tiel-memory",
+    "name": "Tiel Memory",
+    "category": "The Acolyte · Shell Memory",
+    "description": "A Shell Memory record linked to Tiel, The Acolyte.",
+    "status": "Reference / Unconfirmed",
+    "image": null,
+    "details": {
+      "title": "The Acolyte",
+      "parentShell": "Tiel",
+      "formType": "Shell Memory",
+      "abilities": [],
+      "skillTree": ["Ambush", "Critical Role", "Deathmark", "Escalation", "Lasting Legacy", "Lethality", "Nightstride", "Plague Bearer", "Poison Burst", "Seal Affinity", "Shadow Clone", "Shadow Stalk"],
+      "variants": [
+        {
+          "id": "tiel",
+          "name": "Tiel",
+          "type": "Playable Shell",
+          "gameplay": "Open the Tiel Shell page for the documented abilities and linked skill tree.",
+          "equipStatus": "Playable Shell record",
+          "acquisition": "See the parent Shell record"
+        }
+      ],
+      "memories": [
+        "An Old Friend",
+        "Ember of Rebirth",
+        "The Bottle",
+        "The Bottle 2500",
+        "The Cure",
+        "The Cure 4500",
+        "The Rash"
+      ],
+      "acquisition": "This memory form is listed by the reference catalogue; an independent acquisition route is not confirmed."
+    },
+    "notes": ["The reference catalogue lists this as a Shell Memory rather than a separate playable Shell."],
+    "seo": {
+      "title": "Tiel Memory - Mortal Shell II Shell Details",
+      "description": "Mortal Shell II Tiel Memory: linked Shell form, memories, and the parent Tiel record. Availability remains unconfirmed.",
+      "keywords": ["Mortal Shell II", "Tiel Memory", "Tiel Shell Memory", "Mortal Shell II Shell"]
+    },
+    "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "young-adult-lazlo",
+    "name": "Young Adult Lazlo",
+    "category": "The Justiciar · Story Form",
+    "description": "A story form associated with Lazlo. No independent abilities or equipment data are confirmed.",
+    "status": "Reference / Unconfirmed",
+    "image": null,
+    "details": {
+      "title": "The Justiciar",
+      "parentShell": "Lazlo",
+      "formType": "Story Form",
+      "abilities": [],
+      "variants": [],
+      "acquisition": "Story form; independent equippability is not confirmed."
+    },
+    "notes": ["The reference catalogue lists this form without a separate ability or location record."],
+    "seo": {
+      "title": "Young Adult Lazlo - Mortal Shell II Shell Details",
+      "description": "Mortal Shell II Young Adult Lazlo: story-form reference record linked to Lazlo.",
+      "keywords": ["Mortal Shell II", "Young Adult Lazlo", "Lazlo", "Mortal Shell II Shell"]
+    },
+    "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "young-lazlo",
+    "name": "Young Lazlo",
+    "category": "The Justiciar · Story Form",
+    "description": "A young story form associated with Lazlo. No independent abilities or equipment data are confirmed.",
+    "status": "Reference / Unconfirmed",
+    "image": null,
+    "details": {
+      "title": "The Justiciar",
+      "parentShell": "Lazlo",
+      "formType": "Story Form",
+      "abilities": [],
+      "variants": [],
+      "acquisition": "Story form; independent equippability is not confirmed."
+    },
+    "notes": ["The reference catalogue lists this form without a separate ability or location record."],
+    "seo": {
+      "title": "Young Lazlo - Mortal Shell II Shell Details",
+      "description": "Mortal Shell II Young Lazlo: story-form reference record linked to Lazlo.",
+      "keywords": ["Mortal Shell II", "Young Lazlo", "Lazlo", "Mortal Shell II Shell"]
+    },
+    "updatedAt": "2026-08-19"
+  }
+]

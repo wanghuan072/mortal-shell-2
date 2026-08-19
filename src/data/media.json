@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "combat-axe",
+    "title": "In-game combat",
+    "image": "/images/official/gallery/combat-axe.jpg",
+    "alt": "Armored warrior fighting skeletal enemies with an axe",
+    "source": "Playstack official game page",
+    "sourceUrl": "https://www.playstack.com/games/mortalshell2/"
+  },
+  {
+    "slug": "bleak-wasteland",
+    "title": "The ravaged world",
+    "image": "/images/official/gallery/bleak-wasteland.jpg",
+    "alt": "Armored warrior standing in a bleak landscape beneath hanging corpses",
+    "source": "Playstack official game page",
+    "sourceUrl": "https://www.playstack.com/games/mortalshell2/"
+  },
+  {
+    "slug": "official-combat",
+    "title": "Combat encounter",
+    "image": "/images/official/gallery/official-combat.jpg",
+    "alt": "Armored warrior confronting a large pale creature in a dark swamp",
+    "source": "PlayStation official product page",
+    "sourceUrl": "https://store.playstation.com/en-ae/concept/10010058"
+  }
+]

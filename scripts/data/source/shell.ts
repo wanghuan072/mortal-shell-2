@@ -1,0 +1,30 @@
+export type ShellStatus = "Verified" | "Extracted / Unconfirmed";
+
+export type ShellRecord = {
+  id: string;
+  name: string;
+  title: string;
+  tagline: string;
+  status: ShellStatus;
+  abilities: Array<{ type: "Shell Ability" | "Passive"; name: string; description: string }>;
+  acquisition: string;
+  variants: Array<{ name: string; parentShell: string; type: string; gameplay: string; equipStatus: string; acquisition: string }>;
+};
+
+const ability = (type: "Shell Ability" | "Passive", name: string, description: string) => ({ type, name, description });
+const unverified = "Unverified";
+
+export const shells: ShellRecord[] = [
+  { id: "eredrim", name: "Eredrim", title: "The Venerable", tagline: "Peace has a price.", status: "Verified", abilities: [ability("Shell Ability", "Shoulder Bash", "Eredrim lunges with his shoulder, slamming into enemies and dealing Break Damage."), ability("Passive", "Executioner", "Eredrim executes enemies on low health and gains Slaughterer stacks by performing a Riposte. Stacks are lost upon resting or being severed.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [] },
+  { id: "genessa", name: "Genessa", title: "The Wayward", tagline: "", status: "Verified", abilities: [ability("Shell Ability", "Faithful Doubles", "Genessa summons Faithful Doubles which perform a weapon attack and then vanish."), ability("Passive", "Duality", "When Genessa's health is depleted, she becomes Stray instead of being severed from the Harbinger.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [] },
+  { id: "harros", name: "Harros", title: "The Vassal", tagline: "A man is more than mere flesh and bone.", status: "Verified", abilities: [ability("Shell Ability", "Stone Stun", "Harros petrifies nearby enemies, leaving them unable to act. While hardened, they take no health damage but suffer Break Damage instead.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [] },
+  { id: "lazlo", name: "Lazlo", title: "The Justiciar", tagline: "Justice is not given, it is exacted.", status: "Verified", abilities: [ability("Shell Ability", "Retribution", "Lazlo heats his armor and unleashes a shockwave. Repeated use causes Overheat, producing a stronger burning shockwave but temporarily disabling his armor."), ability("Passive", "Fortified Plate", "Lazlo has a base 20% damage reduction while his armor is active.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [{ name: "Young Lazlo", parentShell: "Lazlo", type: "Story Form", gameplay: "Uses a separate young-character configuration; inherited ability changes are unverified.", equipStatus: "Not verified as independently equippable", acquisition: unverified }] },
+  { id: "sariel", name: "Sariel", title: "The Endless", tagline: "The path to perfection is paved with blood.", status: "Verified", abilities: [ability("Shell Ability", "Exodus of Thorns", "Sariel expels parasitic thorns that hunt nearby enemies and inflict Curse stacks. Each activation inflicts Pain on Sariel."), ability("Passive", "Purge", "At maximum Pain, Sariel becomes immune to all conditions and all existing conditions are cured.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [] },
+  { id: "smert", name: "Smert", title: "The Apostate", tagline: "Truth is the final revelation before death.", status: "Verified", abilities: [ability("Shell Ability", "Miracle", "Smert halts time and enters a Fight Stance. Unarmed attacks apply Chaos stacks that detonate when time resumes; Overtime can extend the effect at the cost of health."), ability("Passive", "Deadly Revelation", "At 10% health or lower, Smert gains Faith.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [] },
+  { id: "tiel", name: "Tiel", title: "The Acolyte", tagline: "", status: "Verified", abilities: [ability("Shell Ability", "Lingering Shadow", "Tiel gains Shadow and prepares to perform a Shadow Strike with his dagger."), ability("Passive", "Shadow Dash", "Dashing just before being struck grants Tiel Shadow and inflicts Stagger Damage.")], acquisition: "A claimable Shell encounter is present in the current Demo; its exact location is unverified.", variants: [{ name: "Tiel Memory", parentShell: "Tiel", type: "Memory", gameplay: "Reuses Tiel's Shell abilities and game-state configuration; uses a ghost dagger.", equipStatus: "Story/memory configuration", acquisition: unverified }, { name: "Tiel With Face Memory", parentShell: "Tiel", type: "Memory", gameplay: "Reuses Tiel's Memory configuration with an alternate character form.", equipStatus: "Story/memory configuration", acquisition: unverified }] },
+  { id: "gragu", name: "Gragu", title: "The Insatiable", tagline: "The heart speaks no lies.", status: "Extracted / Unconfirmed", abilities: [ability("Shell Ability", "Staggering Blow", "Gragu charges a devastating punch. A longer charge increases its damage and heavy stagger."), ability("Passive", "Revered Heart", "Gragu restores a portion of health and replenishes this power by slaying foes.")], acquisition: unverified, variants: [] },
+  { id: "proxima", name: "Proxima", title: "The Broodseeker", tagline: "Purpose gives the soul its shape.", status: "Extracted / Unconfirmed", abilities: [ability("Shell Ability", "Biosampler", "Proxima fires a hook from her left arm, pulling enemies or herself into range before a follow-up Lightning attack."), ability("Passive", "Grafted Armor", "Proxima has a base 15% chance to mitigate melee or ranged damage. Mitigated damage is reduced by a base 50% and prevents stagger.")], acquisition: unverified, variants: [] },
+];
+
+export const verifiedShells = shells.filter(({ status }) => status === "Verified");
+export const shellFilters = ["All Shells", "Verified", "Extracted / Unconfirmed"] as const;

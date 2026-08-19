@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight, Calculator, Shield } from "lucide-react";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
+import { getPageMetadata } from "@/seo/tdk";
+import { siteConfig } from "@/config/site";
+import { archiveCounts } from "@/lib/data/wiki";
+import styles from "@/style/page/tools/tools.module.css";
+
+export const metadata: Metadata = getPageMetadata("tools", "/tools/");
+
+export default function ToolsPage() {
+  const canonical = `${siteConfig.url}/tools/`;
+  return <div className={`container ${styles.page}`}>
+    <JsonLd data={{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Mortal Shell II Tools", url: canonical, description: "Plan a Mortal Shell II loadout and calculate weapon scaling." }} />
+    <Breadcrumbs items={[{ label: "Tools" }]} />
+    <section className={styles.hero}><Image alt="Mortal Shell II combat and equipment artwork" fill priority sizes="100vw" src="/images/official/combat.png" /><span className={styles.shade} /><div className={styles.heroInner}><p>Tools / Practical references</p><h1>Mortal Shell II Tools</h1><div>Interactive tools that turn the 1.0 launch records into decisions: assemble a loadout or test weapon scaling.</div></div></section>
+    <section className={styles.toolsIntro}><p>Plan your build</p><h2>Interactive tools for your next run</h2><span>Turn the current records into decisions: compare equipment and estimate what each Forge level changes.</span></section>
+    <div className={styles.toolStats} aria-label="Tool data coverage"><div><b>{archiveCounts.namedShells}</b><span>Playable Shells</span></div><div><b>{archiveCounts.weapons}</b><span>Melee weapons</span></div><div><b>{archiveCounts.sidearms}</b><span>Sidearms</span></div><div><b>{archiveCounts.tarstones}</b><span>Tarstones</span></div></div>
+    <div className={styles.toolGrid}>
+      <Link className={styles.toolCard} href="/tools/planner/"><Image alt="Mortal Shell II Shell and weapon loadout artwork" fill sizes="(max-width: 768px) 100vw, 50vw" src="/images/official/shell.png" /><span><Shield size={18} /><b>Build Planner</b><small>Assemble a Shell, weapon, sidearm, seal, and three Tarstones, then copy a shareable build link.</small><em>Open the planner <ArrowRight size={16} /></em></span></Link>
+      <Link className={styles.toolCard} href="/tools/calculator/"><Image alt="Mortal Shell II weapon combat artwork" fill sizes="(max-width: 768px) 100vw, 50vw" src="/images/official/world.png" /><span><Calculator size={18} /><b>Damage &amp; Stagger Calculator</b><small>Set a Forge level and base values to see the listed damage, stagger, and critical multipliers.</small><em>Open the calculator <ArrowRight size={16} /></em></span></Link>
+    </div>
+    <p className={styles.note}>The tools use 1.0 launch records. Calculated outputs are planning aids.</p>
+  </div>;
+}

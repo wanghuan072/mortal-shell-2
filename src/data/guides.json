@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "beginner-combat-guide",
+    "title": "Mortal Shell II Beginner Guide: Combat, Hardening, and Your First Build",
+    "category": "Beginner guide",
+    "kicker": "Start strong in the current beta",
+    "excerpt": "Learn a repeatable combat rhythm, choose a forgiving Shell, and spend your first upgrade materials without locking yourself into an untested build.",
+    "image": "/images/official/combat.png",
+    "imageAlt": "A Mortal Shell II fighter preparing for combat in a ruined landscape",
+    "readTime": "9 min read",
+    "updatedAt": "2026-08-18",
+    "status": "Current beta guide",
+    "seo": {
+      "title": "Mortal Shell II Beginner Guide - Combat, Hardening, and First Build",
+      "description": "A practical Mortal Shell II beginner guide covering Hardening, Shell choice, weapon upgrades, safe exploration, and a repeatable first-run combat plan.",
+      "keywords": [
+        "Mortal Shell II beginner guide",
+        "Mortal Shell 2 combat guide",
+        "Mortal Shell II Hardening guide",
+        "Mortal Shell II first build"
+      ]
+    },
+    "quickFacts": [
+      { "label": "Best for", "value": "Your first run" },
+      { "label": "Core lesson", "value": "Attack, Harden, reposition" },
+      { "label": "Data status", "value": "Current beta" },
+      { "label": "Recommended pace", "value": "One area at a time" }
+    ],
+    "sections": [
+      {
+        "heading": "1. Start with a small, reliable loadout",
+        "image": "/images/official/shell.png",
+        "imageAlt": "Mortal Shell II Shell artwork showing the armor and silhouette of a playable Shell",
+        "caption": "A good first build gives you one dependable answer for damage and one dependable answer for danger.",
+        "paragraphs": [
+          "The first run is easier to read when you reduce the number of decisions you make between encounters. Pick one primary weapon that feels comfortable, pair it with a Shell whose ability you understand, and keep your upgrade materials focused on that combination until the combat loop feels natural.",
+          "Tiel is a useful learning reference because his kit rewards movement and clean timing. Eredrim is a better fit if you prefer finishing weakened enemies, while Harros gives you a clear control option through Stone Stun. These are playstyle starting points, not a final tier list; the current beta records can change before launch.",
+          "Before leaving a safe area, check the weapon page for its Forge path and the Shell page for its ability wording. Treat anything marked current beta or unconfirmed as a planning hint rather than a promise."
+        ],
+        "bullets": [
+          "Choose one primary weapon before investing in several upgrade paths.",
+          "Use the Shell ability as part of your plan, not as an emergency button you forget to press.",
+          "Keep an unspent material reserve until you know the next weapon or Shell suits you."
+        ]
+      },
+      {
+        "heading": "2. Use Hardening to control the exchange",
+        "image": "/images/encounters/rainy-path-combat.webp",
+        "imageAlt": "A Mortal Shell II encounter on a wet path with an armored fighter facing enemies",
+        "caption": "Hardening is most valuable when it changes the timing of an enemy attack, not when it is used after the hit has already landed.",
+        "paragraphs": [
+          "Think of each encounter as a short exchange: create an opening, make one or two committed attacks, then Harden before the enemy's answer reaches you. The goal is to make the opponent spend its attack into your protection while you decide whether to continue, retreat, or circle for a safer angle.",
+          "Do not hold the button through every animation. A predictable Harden gives you fewer options than a timed one, and it can hide the moment when you should simply move away. Against groups, use it to finish a committed swing or create space, then reset the camera before choosing your next target.",
+          "When you are learning an enemy, spend one attempt watching its wind-up instead of chasing damage. Note the attack that reaches farthest, the pause after a miss, and the moment it can be interrupted. That information is more valuable than a single extra hit."
+        ],
+        "bullets": [
+          "Attack only after you know how you will leave the exchange.",
+          "Harden during the opponent's commitment, then reposition immediately.",
+          "Against groups, separate one target before spending your strongest ability."
+        ]
+      },
+      {
+        "heading": "3. Build a repeatable first-run rhythm",
+        "image": "/images/official/battle.png",
+        "imageAlt": "Mortal Shell II battle artwork showing a close-range fight",
+        "caption": "A repeatable rhythm keeps exploration decisions simple while you learn the world.",
+        "paragraphs": [
+          "Use the same five-step loop until it becomes automatic: scout the next space, pull one enemy if possible, take a short damage window, reset your position, and only then collect the reward. This rhythm prevents a second enemy from joining while your camera is turned toward a pickup.",
+          "If a fight goes badly, do not immediately spend a rare resource to force the win. Back away, learn the attack pattern, and return with a better angle. The current beta contains optional encounters and side paths, so leaving a dangerous room and returning later is a valid route choice.",
+          "After each checkpoint, review what actually caused the mistake. If you were hit while attacking, change your exit timing. If you lost track of a second enemy, change your pull distance. If the enemy out-ranged you, use terrain and a different approach instead of repeating the same trade."
+        ],
+        "bullets": [
+          "Scout first; loot second.",
+          "Reset the camera and spacing after every confirmed hit.",
+          "Use the map and encounter notes to decide when an optional detour is worth taking."
+        ]
+      },
+      {
+        "heading": "4. Spend upgrades with a plan",
+        "image": "/images/official/world.png",
+        "imageAlt": "A Mortal Shell II weapon and exploration scene in a dark open world",
+        "caption": "Upgrade materials are easier to understand when you compare the full Forge path before committing.",
+        "paragraphs": [
+          "Upgrade the weapon that solves your most common problem. A heavy weapon can make stagger windows easier to recognize, while a faster weapon may give you more chances to disengage safely. Neither is universally best; the correct choice is the one whose timing you can repeat under pressure.",
+          "The Veteran's Battle Axe page records a Forge path up to level 20, while some base damage and move values remain unconfirmed in the current data. That is exactly why the site separates verified upgrade costs from values that still need a release-build check.",
+          "For a first build, avoid spreading materials across every weapon family. Keep notes on what you upgraded, what changed, and which enemy became easier. This makes it possible to compare builds later without confusing a weapon's strength with your familiarity."
+        ],
+        "bullets": [
+          "Prioritize the weapon you can land consistently, not the one with the most impressive description.",
+          "Read the complete upgrade table before spending rare materials.",
+          "Recheck beta values after a patch or the launch build."
+        ]
+      }
+    ],
+    "related": [
+      { "label": "Browse Shells", "href": "/wiki/shells/" },
+      { "label": "Compare weapons", "href": "/wiki/weapons/" },
+      { "label": "Check encounter data", "href": "/enemies/" }
+    ],
+    "faq": [
+      { "question": "What should a new player upgrade first?", "answer": "Start with one primary weapon whose timing feels reliable, then keep a reserve of materials until you understand the next area and your Shell ability." },
+      { "question": "Should I Harden after every attack?", "answer": "No. Harden when it changes the enemy's timing or protects a committed action; otherwise reposition and keep your options open." },
+      { "question": "Are these builds final?", "answer": "No. This guide is based on current beta records, and balance values, routes, and encounter behavior can change before release." }
+    ]
+  },
+  {
+    "slug": "map-and-exploration-guide",
+    "title": "Mortal Shell II Map & Exploration Guide: Routes, Stations, Shells, and Dungeons",
+    "category": "Exploration guide",
+    "kicker": "Plan a safer route through the beta world",
+    "excerpt": "Use the interactive map as a route-planning tool: identify the next safe checkpoint, separate confirmed markers from clues, and return to optional spaces without losing your bearings.",
+    "image": "/images/map/open-beta-world-map-preview.webp",
+    "imageAlt": "Mortal Shell II Open Beta world map with marked locations and exploration routes",
+    "readTime": "8 min read",
+    "updatedAt": "2026-08-18",
+    "status": "Current beta map guide",
+    "seo": {
+      "title": "Mortal Shell II Map Guide - Locations, Routes, Shells, and Dungeons",
+      "description": "Plan Mortal Shell II exploration with a practical map guide covering map stations, Shell and sidearm markers, optional routes, dungeons, and beta data status.",
+      "keywords": [
+        "Mortal Shell II map guide",
+        "Mortal Shell 2 interactive map guide",
+        "Mortal Shell II map locations",
+        "Mortal Shell II Shell locations",
+        "Mortal Shell II dungeon guide"
+      ]
+    },
+    "quickFacts": [
+      { "label": "Map records", "value": "54 marked locations" },
+      { "label": "Best use", "value": "Route planning" },
+      { "label": "Current scope", "value": "Open Beta data" },
+      { "label": "Check first", "value": "Stations and landmarks" }
+    ],
+    "sections": [
+      {
+        "heading": "1. Read the map as a route, not a checklist",
+        "image": "/images/map/open-beta-world-map-preview.webp",
+        "imageAlt": "A detailed preview of the Mortal Shell II Open Beta world map",
+        "caption": "The map is most useful when it answers your next movement question: where can I regroup, and what is worth the detour?",
+        "paragraphs": [
+          "Start by choosing one destination rather than trying to clear every marker in one pass. Mark the next map station or recognizable landmark, then use nearby markers to decide whether the route is safe enough to explore now. This keeps the world readable even when several paths overlap on the map.",
+          "The current reference data contains 54 marked locations across landing areas, map stations, Shell markers, sidearms, weapons, merchants, NPCs, dungeons, bosses, evil statues, and traversal points. Marker names can be technical because they come from the current game data; use the title and category together when planning a route.",
+          "A marker is a navigation aid, not automatically a confirmed reward. The guide and map identify the source status so you can separate a location that was checked in the beta from a location that still needs an in-game confirmation."
+        ],
+        "bullets": [
+          "Pick one destination and one fallback point before leaving a safe area.",
+          "Use category filters to remove visual noise while you are following a route.",
+          "Treat technical marker names as clues until the location has been checked in-game."
+        ]
+      },
+      {
+        "heading": "2. Use stations and landing areas as route anchors",
+        "image": "/images/official/world.png",
+        "imageAlt": "Mortal Shell II world exploration scene with a distant structure and dark terrain",
+        "caption": "Landing areas and map stations give long exploration routes a useful start and end point.",
+        "paragraphs": [
+          "When you enter an unfamiliar section, first identify the nearest landing area or map station. These anchors help you describe a route in plain language: leave the station, follow the landmark, check the side path, then return before pushing deeper. It is much easier to recover from a mistake when you know which anchor you are heading back toward.",
+          "Use a short loop for resource collection. Take the closest optional branch, record what you found, and return to the anchor before opening a second branch. This is safer than walking into several unexplored connections with no clear way back.",
+          "If the map shows a traversal point, read it together with the surrounding terrain. A marker may indicate a jump, squeeze-through, or another movement interaction; it does not mean the route is a combat reward."
+        ],
+        "bullets": [
+          "Anchor every route to a station, landing area, or unmistakable landmark.",
+          "Complete one optional branch before starting another.",
+          "Keep traversal markers separate from item and encounter markers."
+        ]
+      },
+      {
+        "heading": "3. Search for Shells, weapons, and sidearms by category",
+        "image": "/images/official/shell.png",
+        "imageAlt": "Mortal Shell II Shell artwork representing a collectible Shell location",
+        "caption": "Category filters make equipment hunts faster than scanning the full world map.",
+        "paragraphs": [
+          "For an equipment hunt, hide every category except the one you need. Shell markers and sidearm markers can sit far apart, so a filtered view makes it easier to see whether two discoveries belong to the same route or should be saved for a later trip.",
+          "The location dataset currently separates primary weapons, sidearms, Shells, and related map objectives. Link the map marker to the corresponding Wiki record after you confirm the pickup in-game; the Wiki page carries the ability, upgrade, and status details that do not belong on a crowded map tooltip.",
+          "If a marker has no named item yet, leave it as a location clue rather than inventing a reward. This is especially important for extracted beta records, where a technical object can represent a larger encounter or a story interaction instead of a collectible."
+        ],
+        "bullets": [
+          "Filter to one equipment category before zooming into a dense region.",
+          "Use the Wiki detail page for stats and upgrades; use the map for where to go.",
+          "Do not convert an unnamed extracted marker into a named item without an in-game check."
+        ]
+      },
+      {
+        "heading": "4. Prepare before optional dungeons and major encounters",
+        "image": "/images/encounters/tar-golem-reach.jpg",
+        "imageAlt": "A Mortal Shell II encounter approach with a large enemy in the distance",
+        "caption": "A route is complete when you can reach the encounter, retreat, and return without losing your bearings.",
+        "paragraphs": [
+          "Before entering an optional dungeon or a Boss-marked area, check the nearest retreat route and confirm which equipment you want to test. Bring a weapon whose timing you already know; a new area is a poor place to learn both a new weapon and a new enemy at the same time.",
+          "Use the encounter archive for known attack, region, and reward notes, but keep the map open for the approach. The archive explains what the fight is; the map explains how to reach it and what you may pass on the way.",
+          "After a failed attempt, mark the route problem separately from the combat problem. If the fight was fine but the approach was confusing, keep the marker and improve the route note. If the approach was clear but the encounter punished a specific mistake, return to the beginner combat guide before spending more resources."
+        ],
+        "bullets": [
+          "Check the retreat route before entering an optional dungeon.",
+          "Pair map information with the relevant encounter dossier.",
+          "Record route mistakes and combat mistakes as separate notes."
+        ]
+      },
+      {
+        "heading": "5. Know what the beta map does not promise",
+        "image": "/images/official/boss.png",
+        "imageAlt": "Mortal Shell II boss encounter artwork used to show an unconfirmed route can change",
+        "caption": "Beta markers are useful evidence, but they are not a guarantee that the launch route or reward will stay identical.",
+        "paragraphs": [
+          "The map is reviewed against the current beta build. Names, routes, marker categories, item rewards, and encounter placement can change before launch, so a clean map should never hide its review date or data status.",
+          "When you find a mismatch, compare the marker category, the screenshot, and the nearby landmarks before reporting it. A small coordinate difference may come from map scale; a missing room, reward, or route needs a new evidence note.",
+          "For the most reliable workflow, use the interactive map to choose a route, use the Wiki to understand the object, and use the Updates page to see when the record was reviewed."
+        ],
+        "bullets": [
+          "Check the review date before relying on a route.",
+          "Report mismatches with a screenshot and the marker category.",
+          "Keep beta findings clearly separated from launch-confirmed information."
+        ]
+      }
+    ],
+    "related": [
+      { "label": "Open interactive map", "href": "/map/" },
+      { "label": "Browse Shell records", "href": "/wiki/shells/" },
+      { "label": "Browse encounters", "href": "/enemies/" }
+    ],
+    "faq": [
+      { "question": "How many locations are currently marked?", "answer": "The current beta reference data contains 54 marked map locations across equipment, stations, NPCs, encounters, dungeons, and traversal points." },
+      { "question": "Does every map marker identify a confirmed item?", "answer": "No. Some extracted markers are location clues or technical objectives, so the map keeps their status visible until the reward or interaction is checked in-game." },
+      { "question": "Should I clear every marker before moving on?", "answer": "No. Use one route anchor and one optional branch at a time, then return to a known station before pushing deeper into an unfamiliar region." }
+    ]
+  }
+]

@@ -1,0 +1,1341 @@
+[
+  {
+    "id": "parasitic-stone",
+    "name": "Parasitic Stone",
+    "category": "Melee · Modifier",
+    "description": "Slaying foes grants you Leech.",
+    "status": "Verified",
+    "image": "/assets/tarstones/parasitic-stone.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Modifier",
+      "trigger": "Defeat an enemy with the equipped melee weapon.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Leech per Kill",
+              "value": "1 stack"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Leech per Kill",
+              "value": "2 stacks"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Leech per Kill",
+              "value": "3 stacks"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Parasitic Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Parasitic Stone: effects, compatible gear, and use. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Parasitic Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "unwieldly-stone",
+    "name": "Unwieldly Stone",
+    "category": "Melee · Combat Ability",
+    "description": "Consume Resolve to perform a Charged Heavy Attack.",
+    "status": "Verified",
+    "image": "/assets/tarstones/unwieldly-stone.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Combat Ability",
+      "trigger": "Activate the equipped melee Tarstone ability.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "battle-axe"
+        },
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "black-needle"
+        },
+        {
+          "kind": "weapon",
+          "id": "clockwork-scythe"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        },
+        {
+          "kind": "weapon",
+          "id": "heavy-hammer"
+        },
+        {
+          "kind": "weapon",
+          "id": "martyrs-blade"
+        },
+        {
+          "kind": "weapon",
+          "id": "axatana"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "25"
+            },
+            {
+              "label": "Shockwave",
+              "value": "5 stacks"
+            },
+            {
+              "label": "Healing",
+              "value": "0"
+            },
+            {
+              "label": "Leech",
+              "value": "2 stacks"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "25"
+            },
+            {
+              "label": "Shockwave",
+              "value": "8 stacks"
+            },
+            {
+              "label": "Healing",
+              "value": "20"
+            },
+            {
+              "label": "Leech",
+              "value": "3 stacks"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "25"
+            },
+            {
+              "label": "Shockwave",
+              "value": "12 stacks"
+            },
+            {
+              "label": "Healing",
+              "value": "25"
+            },
+            {
+              "label": "Leech",
+              "value": "5 stacks"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Unwieldly Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Unwieldly Stone: effects, compatible gear, and use. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Unwieldly Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "arbiters-prize",
+    "name": "Arbiter's Prize",
+    "category": "Melee · Infusion",
+    "description": "Consume Resolve to infuse your weapon with Bloodcurse.",
+    "status": "Verified",
+    "image": "/assets/tarstones/arbiters-prize.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Infusion",
+      "trigger": "Activate the melee infusion.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        },
+        {
+          "kind": "weapon",
+          "id": "clockwork-scythe"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "30"
+            },
+            {
+              "label": "Infused Attacks",
+              "value": "4"
+            },
+            {
+              "label": "Bloodcurse",
+              "value": "1 stack"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "30"
+            },
+            {
+              "label": "Infused Attacks",
+              "value": "8"
+            },
+            {
+              "label": "Bloodcurse",
+              "value": "1 stack"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "0"
+            },
+            {
+              "label": "Infusion",
+              "value": "Permanent"
+            },
+            {
+              "label": "Bloodcurse",
+              "value": "2 stacks"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Arbiter's Prize - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Arbiter's Prize: effects, compatible gear, and use. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Arbiter's Prize",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "acolytes-stone",
+    "name": "Acolyte's Stone",
+    "category": "Melee · Combat Ability",
+    "description": "Consume Resolve to perform a Charged Light Attack.",
+    "status": "Verified",
+    "image": "/assets/tarstones/acolytes-stone.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Combat Ability",
+      "trigger": "Activate the equipped melee Tarstone ability.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "battle-axe"
+        },
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "black-needle"
+        },
+        {
+          "kind": "weapon",
+          "id": "clockwork-scythe"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        },
+        {
+          "kind": "weapon",
+          "id": "heavy-hammer"
+        },
+        {
+          "kind": "weapon",
+          "id": "martyrs-blade"
+        },
+        {
+          "kind": "weapon",
+          "id": "axatana"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "15"
+            },
+            {
+              "label": "Shockwave",
+              "value": "5 stacks"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "+15%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×1.00"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "15"
+            },
+            {
+              "label": "Shockwave",
+              "value": "8 stacks"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "+15%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×1.50"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "10"
+            },
+            {
+              "label": "Shockwave",
+              "value": "12 stacks"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "+15%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×1.50"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Acolyte's Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Acolyte's Stone: effects, compatible gear, and use. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Acolyte's Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "magdalenas-memento",
+    "name": "Magdalena's Memento",
+    "category": "Melee · Combat Ability",
+    "description": "Rise into the air and unleash a flurry of ruthless strikes.",
+    "status": "Verified",
+    "image": "/assets/tarstones/magdalenas-memento.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Combat Ability",
+      "trigger": "Consume Resolve to activate Deadly Flurry.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "70"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "20"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "0%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×0.00"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "70"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "20"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "+15%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×0.50"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "70"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "20"
+            },
+            {
+              "label": "Critical Chance",
+              "value": "+15%"
+            },
+            {
+              "label": "Critical Damage",
+              "value": "×1.00"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Magdalena's Memento - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Magdalena's Memento: effects, compatible gear, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Magdalena's Memento",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "shrike-stone",
+    "name": "Shrike Stone",
+    "category": "Melee · Combat Ability",
+    "description": "Leap high and plunge your weapon into the ground ahead.",
+    "status": "Verified",
+    "image": "/assets/tarstones/shrike-stone.png",
+    "details": {
+      "slot": "Melee",
+      "effectType": "Combat Ability",
+      "trigger": "Consume Resolve to activate Plummet Strike.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "70"
+            },
+            {
+              "label": "Damage Multiplier",
+              "value": "×2.00"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "70"
+            },
+            {
+              "label": "Shockwave Damage",
+              "value": "150"
+            },
+            {
+              "label": "Break Damage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "50"
+            },
+            {
+              "label": "Damage Multiplier",
+              "value": "×2.00"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "70"
+            },
+            {
+              "label": "Shockwave Damage",
+              "value": "150"
+            },
+            {
+              "label": "Break Damage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "50"
+            },
+            {
+              "label": "Damage Multiplier",
+              "value": "×2.00"
+            },
+            {
+              "label": "Stagger Damage",
+              "value": "70"
+            },
+            {
+              "label": "Shockwave Damage",
+              "value": "150"
+            },
+            {
+              "label": "Break Damage",
+              "value": "100"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Shrike Stone Tarstone Guide - Mortal Shell II",
+      "description": "Mortal Shell II Tarstone Shrike Stone: effects, compatible gear, and use. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Shrike Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tarblighted-trophy",
+    "name": "Tarblighted Trophy",
+    "category": "Sidearm · Combat Ability",
+    "description": "Launch a heavy round that detonates above the target and scatters explosive projectiles below.",
+    "status": "Verified",
+    "image": "/assets/tarstones/tarblighted-trophy.png",
+    "details": {
+      "slot": "Sidearm",
+      "effectType": "Combat Ability",
+      "trigger": "Consume Resolve to fire the secondary Sidearm attack.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "40"
+            },
+            {
+              "label": "Projectiles",
+              "value": "1 stack"
+            },
+            {
+              "label": "Explosion Damage",
+              "value": "8"
+            },
+            {
+              "label": "Activations",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "40"
+            },
+            {
+              "label": "Projectiles",
+              "value": "2 stacks"
+            },
+            {
+              "label": "Explosion Damage",
+              "value": "12"
+            },
+            {
+              "label": "Activations",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "40"
+            },
+            {
+              "label": "Projectiles",
+              "value": "2 stacks"
+            },
+            {
+              "label": "Explosion Damage",
+              "value": "14"
+            },
+            {
+              "label": "Activations",
+              "value": "3"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tarblighted Trophy - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Tarblighted Trophy: effects, compatible gear, and use. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tarblighted Trophy",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "corroded-stone",
+    "name": "Corroded Stone",
+    "category": "Sidearm · Modifier",
+    "description": "Projectiles begin dealing damage over time after hitting their target.",
+    "status": "Verified",
+    "image": "/assets/tarstones/corroded-stone.png",
+    "details": {
+      "slot": "Sidearm",
+      "effectType": "Modifier",
+      "trigger": "Hit a target with a compatible Sidearm projectile.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        },
+        {
+          "kind": "sidearm",
+          "id": "salvaged-trebuchaxe"
+        },
+        {
+          "kind": "sidearm",
+          "id": "ballistazooka"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Damage per Tick",
+              "value": "0.20"
+            },
+            {
+              "label": "Tick Period",
+              "value": "1 second"
+            },
+            {
+              "label": "Duration",
+              "value": "3 seconds"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Damage per Tick",
+              "value": "0.30"
+            },
+            {
+              "label": "Tick Period",
+              "value": "1 second"
+            },
+            {
+              "label": "Duration",
+              "value": "5 seconds"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Damage per Tick",
+              "value": "0.40"
+            },
+            {
+              "label": "Tick Period",
+              "value": "1 second"
+            },
+            {
+              "label": "Duration",
+              "value": "5 seconds"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Corroded Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Corroded Stone: effects, compatible gear, and use. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Corroded Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "volatile-fragment",
+    "name": "Volatile Fragment",
+    "category": "Sidearm · Modifier",
+    "description": "Enemies killed by a ranged attack explode and deal splash damage.",
+    "status": "Verified",
+    "image": "/assets/tarstones/volatile-fragment.png",
+    "details": {
+      "slot": "Sidearm",
+      "effectType": "Modifier",
+      "trigger": "Kill an enemy with a compatible ranged attack.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        },
+        {
+          "kind": "sidearm",
+          "id": "caged-hystrix"
+        },
+        {
+          "kind": "sidearm",
+          "id": "salvaged-trebuchaxe"
+        },
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "ballistazooka"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Explosion Damage",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Explosion Damage",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Explosion Damage",
+              "value": "35"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Volatile Fragment - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Volatile Fragment: effects, compatible gear, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Volatile Fragment",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "emberseed-stone",
+    "name": "Emberseed Stone",
+    "category": "Sidearm · Infusion",
+    "description": "Consume Resolve to infuse your Sidearm with Burn.",
+    "status": "Verified",
+    "image": "/assets/tarstones/emberseed-stone.png",
+    "details": {
+      "slot": "Sidearm",
+      "effectType": "Infusion",
+      "trigger": "Activate the Sidearm infusion.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        },
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "ballistazooka"
+        }
+      ],
+      "specialRestriction": "Naylshotte inflicts Burn on critical hits only.",
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "20"
+            },
+            {
+              "label": "Infused Shots",
+              "value": "4"
+            },
+            {
+              "label": "Burn",
+              "value": "4 stacks"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "20"
+            },
+            {
+              "label": "Infused Shots",
+              "value": "8"
+            },
+            {
+              "label": "Burn",
+              "value": "4 stacks"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Resolve Cost",
+              "value": "0"
+            },
+            {
+              "label": "Infusion",
+              "value": "Permanent"
+            },
+            {
+              "label": "Burn",
+              "value": "2 stacks"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Emberseed Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Emberseed Stone: effects, compatible gear, and use. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Emberseed Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "deadmans-stone",
+    "name": "Deadman's Stone",
+    "category": "Support · Support",
+    "description": "Improves melee Critical Chance.",
+    "status": "Verified",
+    "image": "/assets/tarstones/deadmans-stone.png",
+    "details": {
+      "slot": "Support",
+      "effectType": "Support",
+      "trigger": "Applies while equipped in a Support slot.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "battle-axe"
+        },
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "black-needle"
+        },
+        {
+          "kind": "weapon",
+          "id": "clockwork-scythe"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        },
+        {
+          "kind": "weapon",
+          "id": "heavy-hammer"
+        },
+        {
+          "kind": "weapon",
+          "id": "martyrs-blade"
+        },
+        {
+          "kind": "weapon",
+          "id": "axatana"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Melee Critical Chance",
+              "value": "+10%"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Melee Critical Chance",
+              "value": "+15%"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Melee Critical Chance",
+              "value": "+18%"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Deadman's Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Deadman's Stone: effects, compatible gear, and use. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Deadman's Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "shattering-stone",
+    "name": "Shattering Stone",
+    "category": "Support · Support",
+    "description": "Improves melee Stagger Damage.",
+    "status": "Verified",
+    "image": "/assets/tarstones/shattering-stone.png",
+    "details": {
+      "slot": "Support",
+      "effectType": "Support",
+      "trigger": "Applies while equipped in a Support slot.",
+      "compatibleEquipment": [
+        {
+          "kind": "weapon",
+          "id": "battle-axe"
+        },
+        {
+          "kind": "weapon",
+          "id": "axe-dagger"
+        },
+        {
+          "kind": "weapon",
+          "id": "black-needle"
+        },
+        {
+          "kind": "weapon",
+          "id": "clockwork-scythe"
+        },
+        {
+          "kind": "weapon",
+          "id": "hadern-sword"
+        },
+        {
+          "kind": "weapon",
+          "id": "heavy-hammer"
+        },
+        {
+          "kind": "weapon",
+          "id": "martyrs-blade"
+        },
+        {
+          "kind": "weapon",
+          "id": "axatana"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Melee Stagger Damage",
+              "value": "×1.50"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Melee Stagger Damage",
+              "value": "×2.00"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Melee Stagger Damage",
+              "value": "×2.20"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Shattering Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Shattering Stone: effects, compatible gear, and use. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Shattering Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "marksmans-stone",
+    "name": "Marksman's Stone",
+    "category": "Support · Support",
+    "description": "Improves ranged Critical Chance.",
+    "status": "Verified",
+    "image": "/assets/tarstones/marksmans-stone.png",
+    "details": {
+      "slot": "Support",
+      "effectType": "Support",
+      "trigger": "Applies while equipped in a Support slot.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "ballistazooka"
+        },
+        {
+          "kind": "sidearm",
+          "id": "caged-hystrix"
+        },
+        {
+          "kind": "sidearm",
+          "id": "cursed-child"
+        },
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        },
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "salvaged-trebuchaxe"
+        },
+        {
+          "kind": "sidearm",
+          "id": "triarch-repeater"
+        },
+        {
+          "kind": "sidearm",
+          "id": "troubadours-lute"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Ranged Critical Chance",
+              "value": "+10%"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Ranged Critical Chance",
+              "value": "+12%"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Ranged Critical Chance",
+              "value": "+15%"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Marksman's Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Marksman's Stone: effects, compatible gear, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Marksman's Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "siegebreakers-stone",
+    "name": "Siegebreaker's Stone",
+    "category": "Support · Support",
+    "description": "Improves ranged Stagger Damage.",
+    "status": "Verified",
+    "image": "/assets/tarstones/siegebreakers-stone.png",
+    "details": {
+      "slot": "Support",
+      "effectType": "Support",
+      "trigger": "Applies while equipped in a Support slot.",
+      "compatibleEquipment": [
+        {
+          "kind": "sidearm",
+          "id": "ballistazooka"
+        },
+        {
+          "kind": "sidearm",
+          "id": "caged-hystrix"
+        },
+        {
+          "kind": "sidearm",
+          "id": "cursed-child"
+        },
+        {
+          "kind": "sidearm",
+          "id": "forgotten-crossbow"
+        },
+        {
+          "kind": "sidearm",
+          "id": "naylshotte"
+        },
+        {
+          "kind": "sidearm",
+          "id": "salvaged-trebuchaxe"
+        },
+        {
+          "kind": "sidearm",
+          "id": "triarch-repeater"
+        },
+        {
+          "kind": "sidearm",
+          "id": "troubadours-lute"
+        }
+      ],
+      "levels": [
+        {
+          "level": "I",
+          "effects": [
+            {
+              "label": "Ranged Stagger Damage",
+              "value": "×1.50"
+            }
+          ]
+        },
+        {
+          "level": "II",
+          "effects": [
+            {
+              "label": "Ranged Stagger Damage",
+              "value": "×2.00"
+            }
+          ]
+        },
+        {
+          "level": "III",
+          "effects": [
+            {
+              "label": "Ranged Stagger Damage",
+              "value": "×2.50"
+            }
+          ]
+        }
+      ],
+      "acquisition": "Not confirmed in Demo data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Siegebreaker's Stone - Mortal Shell II Tarstone",
+      "description": "Mortal Shell II Tarstone Siegebreaker's Stone: effects, compatible gear, and use. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Siegebreaker's Stone",
+        "Mortal Shell II Tarstone",
+        "Mortal Shell II tarstone guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "gold",
+    "name": "Gold",
+    "category": "Currencies",
+    "description": "The standard currency carried throughout the current Demo.",
+    "status": "Verified",
+    "image": "/assets/items/gold.png",
+    "details": {
+      "category": "Currencies",
+      "rarity": "Common",
+      "usage": "Spent on purchases and required alongside materials at the Tar Forge.",
+      "acquisition": "Loot, rewards, and merchant transactions; exact total amounts not confirmed.",
+      "effects": [
+        {
+          "label": "Currency",
+          "value": "General"
+        },
+        {
+          "label": "Forge Cost",
+          "value": "Required"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchants"
+        },
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gold Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Gold: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gold",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "gloom",
+    "name": "Gloom",
+    "category": "Currencies",
+    "description": "A distinct currency recognized by the Demo's inventory and reward systems.",
+    "status": "Verified",
+    "image": "/assets/items/gloom.png",
+    "details": {
+      "category": "Currencies",
+      "rarity": "Common",
+      "usage": "A spendable resource; individual prices and sinks remain not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Currency",
+          "value": "Special"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Inventory"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Gloom Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Gloom: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release. Plan.",
+      "keywords": [
+        "Mortal Shell II",
+        "Gloom",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "glimpses",
+    "name": "Glimpses",
+    "category": "Currencies",
+    "description": "A collectible currency retained as a separate inventory resource.",
+    "status": "Verified",
+    "image": "/assets/items/glimpses.png",
+    "details": {
+      "category": "Currencies",
+      "rarity": "Common",
+      "usage": "Used by progression and exchange systems; precise Demo costs remain not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Currency",
+          "value": "Progression"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Progression"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Glimpses Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Glimpses: use, item type, and inventory role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Glimpses",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "ventrium",
+    "name": "Ventrium",
+    "category": "Upgrade Materials",
+    "description": "The first material tier in the shared equipment-upgrade curve.",
+    "status": "Verified",
+    "image": "/assets/items/ventrium.png",
+    "details": {
+      "category": "Upgrade Materials",
+      "rarity": "Upgrade Material",
+      "usage": "Used at the Tar Forge to upgrade equipment from +1 to +5.",
+      "acquisition": "Sold by the Tar Forge materials merchant for 250 Gold. No fixed world pickup coordinates have been verified.",
+      "effects": [
+        {
+          "label": "Upgrade Range",
+          "value": "+1 to +5"
+        },
+        {
+          "label": "Maximum Cost",
+          "value": "10 per level"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        },
+        {
+          "type": "System",
+          "name": "Merchants"
+        },
+        {
+          "type": "Equipment",
+          "name": "Weapons and Sidearms"
+        }
+      ],
+      "merchant": {
+        "buy": "250 Gold",
+        "sell": "Not confirmed",
+        "stock": "Tar Forge materials merchant"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Ventrium Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Ventrium: use, item type, and inventory role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Ventrium",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "laterite",
+    "name": "Laterite",
+    "category": "Upgrade Materials",
+    "description": "The second material tier in the shared equipment-upgrade curve.",
+    "status": "Verified",
+    "image": "/assets/items/laterite.png",
+    "details": {
+      "category": "Upgrade Materials",
+      "rarity": "Upgrade Material",
+      "usage": "Used at the Tar Forge to upgrade equipment from +6 to +10.",
+      "acquisition": "Sold by the Tar Forge materials merchant for 650 Gold. No fixed world pickup coordinates have been verified.",
+      "effects": [
+        {
+          "label": "Upgrade Range",
+          "value": "+6 to +10"
+        },
+        {
+          "label": "Maximum Cost",
+          "value": "12 per level"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        },
+        {
+          "type": "System",
+          "name": "Merchants"
+        }
+      ],
+      "merchant": {
+        "buy": "650 Gold",
+        "sell": "Not confirmed",
+        "stock": "Tar Forge materials merchant"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Laterite Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Laterite: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Laterite",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "dorsalite",
+    "name": "Dorsalite",
+    "category": "Upgrade Materials",
+    "description": "The third material tier in the shared equipment-upgrade curve.",
+    "status": "Verified",
+    "image": "/assets/items/dorsalite.png",
+    "details": {
+      "category": "Upgrade Materials",
+      "rarity": "Upgrade Material",
+      "usage": "Used at the Tar Forge to upgrade equipment from +11 to +15.",
+      "acquisition": "Sold by the Tar Forge materials merchant for 1,200 Gold. No fixed world pickup coordinates have been verified.",
+      "effects": [
+        {
+          "label": "Upgrade Range",
+          "value": "+11 to +15"
+        },
+        {
+          "label": "Maximum Cost",
+          "value": "10 per level"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        },
+        {
+          "type": "System",
+          "name": "Merchants"
+        }
+      ],
+      "merchant": {
+        "buy": "1,200 Gold",
+        "sell": "Not confirmed",
+        "stock": "Tar Forge materials merchant"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Dorsalite Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Dorsalite: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Dorsalite",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "thoracium",
+    "name": "Thoracium",
+    "category": "Upgrade Materials",
+    "description": "The fourth material tier in the shared equipment-upgrade curve.",
+    "status": "Verified",
+    "image": "/assets/items/thoracium.png",
+    "details": {
+      "category": "Upgrade Materials",
+      "rarity": "Upgrade Material",
+      "usage": "Used at the Tar Forge to upgrade equipment from +16 to +20.",
+      "acquisition": "Sold by the Tar Forge materials merchant for 2,500 Gold. No fixed world pickup coordinates have been verified.",
+      "effects": [
+        {
+          "label": "Upgrade Range",
+          "value": "+16 to +20"
+        },
+        {
+          "label": "Maximum Cost",
+          "value": "6 per level"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        },
+        {
+          "type": "System",
+          "name": "Merchants"
+        }
+      ],
+      "merchant": {
+        "buy": "2,500 Gold",
+        "sell": "Not confirmed",
+        "stock": "Tar Forge materials merchant"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Thoracium Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Thoracium: use, item type, and inventory role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Thoracium",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "thoracium-prime",
+    "name": "Thoracium Prime",
+    "category": "Upgrade Materials",
+    "description": "A higher forge-material tier present in the common upgrade requirements.",
+    "status": "Verified",
+    "image": "/assets/items/thoracium-prime.png",
+    "details": {
+      "category": "Upgrade Materials",
+      "rarity": "Upgrade Material",
+      "usage": "Assigned to +21 through +25 requirements; the catalogued Demo equipment currently stops at +20.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Requirement Range",
+          "value": "+21 to +25"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Tar Forge"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Thoracium Prime Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Thoracium Prime: use, item type, and inventory role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Thoracium Prime",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "weltcap",
+    "name": "Weltcap",
+    "category": "Consumables",
+    "description": "A mushroom collectible represented in both ordinary and progression-oriented item sets.",
+    "status": "Verified",
+    "image": "/assets/items/weltcap.png",
+    "details": {
+      "category": "Consumables",
+      "rarity": "Consumable",
+      "usage": "Consumable effect values remain not confirmed.",
+      "acquisition": "Found in the world; exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Permanent Progression"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Weltcap Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Weltcap: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Weltcap",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tarspore",
+    "name": "Tarspore",
+    "category": "Consumables",
+    "description": "A harvestable mushroom item carried in the consumables collection.",
+    "status": "Verified",
+    "image": "/assets/items/tarspore.png",
+    "details": {
+      "category": "Consumables",
+      "rarity": "Consumable",
+      "usage": "Consumable effect values remain not confirmed.",
+      "acquisition": "Found in the world; exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": []
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tarspore Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Tarspore: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tarspore",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "village-key",
+    "name": "Village Key",
+    "category": "Key Items",
+    "description": "A progression key associated with a village lock or passage.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Key Items",
+      "rarity": "Key Item",
+      "usage": "Opens its associated village progression lock; the exact door remains not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Consumed",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Location",
+          "name": "Village"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Village Key Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Village Key: use, item type, and inventory role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Village Key",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "dungeon-cage-key",
+    "name": "Dungeon Cage Key",
+    "category": "Key Items",
+    "description": "A key associated with a locked dungeon cage.",
+    "status": "Verified",
+    "image": "/assets/items/dungeon-cage-key.png",
+    "details": {
+      "category": "Key Items",
+      "rarity": "Key Item",
+      "usage": "Unlocks its associated cage.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Consumed",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Location",
+          "name": "Dungeon"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Dungeon Cage Key Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Dungeon Cage Key: use, item type, and inventory role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Dungeon Cage Key",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "devouts-chalice",
+    "name": "Devout’s Chalice",
+    "category": "Valuables",
+    "description": "There’s still a trace of dried Nektar in its hollow.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Valuables",
+      "rarity": "Rare",
+      "usage": "Trade this collectible for Coin. It cannot be equipped and does not modify character attributes.",
+      "acquisition": "Can be sold through the Hub merchant's Sell service. Its fixed world locations are not confirmed.",
+      "effects": [
+        {
+          "label": "Sell Value",
+          "value": "100 Coin"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cannot be equipped"
+        },
+        {
+          "label": "Attributes",
+          "value": "No attribute bonuses"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchant Sell Service"
+        }
+      ],
+      "merchant": {
+        "buy": "Unavailable",
+        "sell": "100 Coin",
+        "stock": "Hub merchant — Sell"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Devout’s Chalice Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Devout’s Chalice: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Devout’s Chalice",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "coin-of-mammon",
+    "name": "Coin of Mammon",
+    "category": "Valuables",
+    "description": "Once a symbol of unimaginable riches, but it still remains valuable to collectors.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Valuables",
+      "rarity": "Rare",
+      "usage": "Trade this collectible for Coin. It cannot be equipped and does not modify character attributes.",
+      "acquisition": "Can be sold through the Hub merchant's Sell service. Its fixed world locations are not confirmed.",
+      "effects": [
+        {
+          "label": "Sell Value",
+          "value": "500 Coin"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cannot be equipped"
+        },
+        {
+          "label": "Attributes",
+          "value": "No attribute bonuses"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchant Sell Service"
+        }
+      ],
+      "merchant": {
+        "buy": "Unavailable",
+        "sell": "500 Coin",
+        "stock": "Hub merchant — Sell"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Coin of Mammon Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Coin of Mammon: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Coin of Mammon",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "winterglass-gem",
+    "name": "Winterglass Gem",
+    "category": "Valuables",
+    "description": "Highly sought by those hoping to find a frozen remnant of a Martyr preserved inside.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Valuables",
+      "rarity": "Epic",
+      "usage": "Trade this collectible for Coin. It cannot be equipped and does not modify character attributes.",
+      "acquisition": "Can be sold through the Hub merchant's Sell service. Its fixed world locations are not confirmed.",
+      "effects": [
+        {
+          "label": "Sell Value",
+          "value": "750 Coin"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cannot be equipped"
+        },
+        {
+          "label": "Attributes",
+          "value": "No attribute bonuses"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchant Sell Service"
+        }
+      ],
+      "merchant": {
+        "buy": "Unavailable",
+        "sell": "750 Coin",
+        "stock": "Hub merchant — Sell"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Winterglass Gem Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Winterglass Gem: use, item type, and inventory role. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Winterglass Gem",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tooth-of-nochte",
+    "name": "Tooth of Nochte",
+    "category": "Valuables",
+    "description": "A canine of remarkable size—often found in alleyways and odd corners of the former kingdom.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Valuables",
+      "rarity": "Rare",
+      "usage": "Trade this collectible for Coin. It cannot be equipped and does not modify character attributes.",
+      "acquisition": "Can be sold through the Hub merchant's Sell service. Its fixed world locations are not confirmed.",
+      "effects": [
+        {
+          "label": "Sell Value",
+          "value": "2,000 Coin"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cannot be equipped"
+        },
+        {
+          "label": "Attributes",
+          "value": "No attribute bonuses"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchant Sell Service"
+        }
+      ],
+      "merchant": {
+        "buy": "Unavailable",
+        "sell": "2,000 Coin",
+        "stock": "Hub merchant — Sell"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tooth of Nochte Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Tooth of Nochte: use, item type, and inventory role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tooth of Nochte",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "marsh-pearl",
+    "name": "Marsh Pearl",
+    "category": "Valuables",
+    "description": "Though little more than a wet, stinking clump, it’s treasured by those who revere the Great Frógga.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Valuables",
+      "rarity": "Rare",
+      "usage": "Trade this collectible for Coin. It cannot be equipped and does not modify character attributes.",
+      "acquisition": "Can be sold through the Hub merchant's Sell service. Its fixed world locations are not confirmed.",
+      "effects": [
+        {
+          "label": "Sell Value",
+          "value": "2,000 Coin"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cannot be equipped"
+        },
+        {
+          "label": "Attributes",
+          "value": "No attribute bonuses"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Merchant Sell Service"
+        }
+      ],
+      "merchant": {
+        "buy": "Unavailable",
+        "sell": "2,000 Coin",
+        "stock": "Hub merchant — Sell"
+      }
+    },
+    "notes": [],
+    "seo": {
+      "title": "Marsh Pearl Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Marsh Pearl: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Marsh Pearl",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "tiels-dagger",
+    "name": "Tiel's Dagger",
+    "category": "Keepsakes",
+    "description": "A keepsake associated with Tiel.",
+    "status": "Verified",
+    "image": "/assets/items/tiels-dagger.png",
+    "details": {
+      "category": "Keepsakes",
+      "rarity": "Keepsake",
+      "usage": "Keepsake function not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Shell",
+          "name": "Tiel"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Tiel's Dagger Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Tiel's Dagger: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Tiel's Dagger",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "genessa-incense-burner",
+    "name": "Genessa's Incense Burner",
+    "category": "Keepsakes",
+    "description": "A keepsake associated with Genessa.",
+    "status": "Verified",
+    "image": "/assets/items/genessa-incense-burner.png",
+    "details": {
+      "category": "Keepsakes",
+      "rarity": "Keepsake",
+      "usage": "Keepsake function not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Shell",
+          "name": "Genessa"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Genessa's Incense Burner - Mortal Shell II Item",
+      "description": "Mortal Shell II Item Genessa's Incense Burner: use, item type, and inventory. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Genessa's Incense Burner",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "channeling-charge",
+    "name": "Channeling Charge",
+    "category": "Charges",
+    "description": "A charge item associated with channeling.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Charges",
+      "rarity": "Charge",
+      "usage": "Charge behavior and compatible equipment remain not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Collection",
+          "name": "Charges"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Channeling Charge - Mortal Shell II Item",
+      "description": "Mortal Shell II Item Channeling Charge: use, item type, and inventory role. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Channeling Charge",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "cleansing-charge",
+    "name": "Cleansing Charge",
+    "category": "Charges",
+    "description": "A charge item associated with cleansing.",
+    "status": "Verified",
+    "image": null,
+    "details": {
+      "category": "Charges",
+      "rarity": "Charge",
+      "usage": "Charge behavior and compatible equipment remain not confirmed.",
+      "acquisition": "Exact locations not confirmed.",
+      "effects": [
+        {
+          "label": "Effect",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "Collection",
+          "name": "Charges"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Cleansing Charge Item Guide - Mortal Shell II",
+      "description": "Mortal Shell II Item Cleansing Charge: use, item type, and inventory role. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Cleansing Charge",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "alien-idol",
+    "name": "Alien Idol",
+    "category": "Key Items",
+    "description": "A beacon-related key item whose obtainable status is not confirmed in the current Demo.",
+    "status": "Current Beta / Unconfirmed",
+    "image": null,
+    "details": {
+      "category": "Key Items",
+      "rarity": "Key Item",
+      "usage": "Beacon progression use is not confirmed.",
+      "acquisition": "not confirmed.",
+      "effects": [
+        {
+          "label": "Use",
+          "value": "Not confirmed"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "System",
+          "name": "Beacons"
+        }
+      ]
+    },
+    "notes": [],
+    "seo": {
+      "title": "Alien Idol Item Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Item Alien Idol: use, item type, and inventory role. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Alien Idol",
+        "Mortal Shell II Item",
+        "Mortal Shell II item guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

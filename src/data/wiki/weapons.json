@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "battle-axe",
+    "name": "Veteran's Battle Axe",
+    "category": "Axe · Weapon",
+    "description": "This solid steel axe is rumored to have been quenched in the blood of the Revered.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/battle-axe-combat.jpg",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Not confirmed"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": true,
+      "moveDamageNote": "No verifiable move-damage definitions are present in this Demo build.",
+      "family": "Axe",
+      "imageAlt": "Veteran's Battle Axe shown in official Mortal Shell II gameplay",
+      "skills": [
+        {
+          "name": "Not confirmed",
+          "description": "No finished ability name was found in the current game string table."
+        }
+      ],
+      "upgradePool": [
+        "Heavy Hold Attack",
+        "Light Hold Attack",
+        "Weapon Ability: Plummet Strike"
+      ],
+      "acquisition": "Unlocked through a medium tomb encounter.",
+      "slug": "veterans-battle-axe",
+      "type": "Axe",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Veteran's Battle Axe - Mortal Shell II Weapon",
+      "description": "Mortal Shell II Weapon Veteran's Battle Axe: skills, Forge costs, and. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Veteran's Battle Axe",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "axe-dagger",
+    "name": "Axe & Dagger",
+    "category": "Paired Weapon · Weapon",
+    "description": "An unusual pairing of a simple thief's tool and a vicious axe from the northern lands.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/axe-dagger.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Axe 30 / Dagger 20"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [
+        {
+          "move": "Light I",
+          "multiplier": "×1.00",
+          "damage0": "30 / 20",
+          "damage20": "60 / 40",
+          "poise0": "—",
+          "poise20": "—",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Light II",
+          "multiplier": "×1.00",
+          "damage0": "30 / 20",
+          "damage20": "60 / 40",
+          "poise0": "—",
+          "poise20": "—",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Light III",
+          "multiplier": "×1.00",
+          "damage0": "30 / 20",
+          "damage20": "60 / 40",
+          "poise0": "—",
+          "poise20": "—",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Heavy I",
+          "multiplier": "×1.50",
+          "damage0": "45 / 30",
+          "damage20": "90 / 60",
+          "poise0": "25",
+          "poise20": "50",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Heavy II",
+          "multiplier": "×1.50",
+          "damage0": "45 / 30",
+          "damage20": "90 / 60",
+          "poise0": "25",
+          "poise20": "50",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Heavy III",
+          "multiplier": "×1.50",
+          "damage0": "45 / 30",
+          "damage20": "90 / 60",
+          "poise0": "25",
+          "poise20": "50",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Running Light",
+          "multiplier": "×1.80",
+          "damage0": "54 / 36",
+          "damage20": "108 / 72",
+          "poise0": "60",
+          "poise20": "120",
+          "note": "Axe / Dagger per hit"
+        },
+        {
+          "move": "Running Heavy",
+          "multiplier": "×1.80",
+          "damage0": "54 / 36",
+          "damage20": "108 / 72",
+          "poise0": "60",
+          "poise20": "120",
+          "note": "Axe / Dagger per hit"
+        }
+      ],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": true,
+      "moveDamageNote": "Damage is shown per collision point: Axe / Dagger. Multi-hit combo totals depend on which hit windows connect.",
+      "family": "Paired Weapon",
+      "skills": [
+        {
+          "name": "Deadly Flurry",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Grant Leech on Kill",
+        "Heavy Hold Attack",
+        "Inflict Bleed",
+        "Light Hold Attack",
+        "Weapon Ability: Deadly Flurry",
+        "Weapon Ability: Plummet Strike"
+      ],
+      "acquisition": "Unlocked through a medium tomb encounter.",
+      "slug": "axe-and-dagger",
+      "type": "Paired Weapon",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Axe & Dagger Weapon Guide - Mortal Shell II",
+      "description": "Mortal Shell II Weapon Axe & Dagger: skills, Forge costs, and upgrades. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Axe & Dagger",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "black-needle",
+    "name": "Black Needle",
+    "category": "Spear · Weapon",
+    "description": "Stolen from the Twiceborn, this spear enables the bearer to reach further and more quickly than seems physically plausible.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/black-needle.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "25"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [
+        {
+          "move": "Light I",
+          "multiplier": "×1.00",
+          "damage0": "25",
+          "damage20": "50",
+          "poise0": "15",
+          "poise20": "30"
+        },
+        {
+          "move": "Light II",
+          "multiplier": "×1.00",
+          "damage0": "25",
+          "damage20": "50",
+          "poise0": "15",
+          "poise20": "30"
+        },
+        {
+          "move": "Light III",
+          "multiplier": "×1.00",
+          "damage0": "25",
+          "damage20": "50",
+          "poise0": "15",
+          "poise20": "30"
+        },
+        {
+          "move": "Heavy I",
+          "multiplier": "×1.50",
+          "damage0": "37.5",
+          "damage20": "75",
+          "poise0": "—",
+          "poise20": "—"
+        },
+        {
+          "move": "Heavy II",
+          "multiplier": "×1.50",
+          "damage0": "37.5",
+          "damage20": "75",
+          "poise0": "—",
+          "poise20": "—"
+        },
+        {
+          "move": "Heavy III",
+          "multiplier": "×1.50",
+          "damage0": "37.5",
+          "damage20": "75",
+          "poise0": "—",
+          "poise20": "—"
+        },
+        {
+          "move": "Heavy Finisher",
+          "multiplier": "×1.50",
+          "damage0": "37.5",
+          "damage20": "75",
+          "poise0": "70",
+          "poise20": "140"
+        },
+        {
+          "move": "Running Light",
+          "multiplier": "×1.80",
+          "damage0": "45",
+          "damage20": "90",
+          "poise0": "50",
+          "poise20": "100"
+        },
+        {
+          "move": "Running Heavy",
+          "multiplier": "×1.80",
+          "damage0": "45",
+          "damage20": "90",
+          "poise0": "50",
+          "poise20": "100"
+        }
+      ],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": false,
+      "moveDamageNote": "Charged, kick, and special-ability totals are runtime-driven and are omitted until their charge or hit-count formula is verified.",
+      "family": "Spear",
+      "skills": [
+        {
+          "name": "Needle Storm",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Weapon Ability: Plummet Strike"
+      ],
+      "acquisition": "A dedicated weapon-claim interaction exists, but its exact location is not yet verified.",
+      "slug": "black-needle",
+      "type": "Spear",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Black Needle Weapon Guide - Mortal Shell II",
+      "description": "Mortal Shell II Weapon Black Needle: skills, Forge costs, and upgrades. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Black Needle",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "clockwork-scythe",
+    "name": "Clockwork Scythe",
+    "category": "Scythe · Weapon",
+    "description": "The ambitious instrument of a madman or a genius, perhaps he was in fact both.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/clockwork-scythe.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Not confirmed"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": false,
+      "moveDamageNote": "No verifiable move-damage definitions are present in this Demo build.",
+      "family": "Scythe",
+      "skills": [
+        {
+          "name": "Clockwork Chainsaw",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Heavy Hold Attack",
+        "Inflict Bleed",
+        "Light Hold Attack"
+      ],
+      "acquisition": "Acquisition method is not yet verified.",
+      "slug": "clockwork-scythe",
+      "type": "Scythe",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Clockwork Scythe - Mortal Shell II Weapon",
+      "description": "Mortal Shell II Weapon Clockwork Scythe: skills, Forge costs, and upgrades. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Clockwork Scythe",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "hadern-sword",
+    "name": "The Iconoclast",
+    "category": "Greatsword · Weapon",
+    "description": "Exceptionally light for a two-hander, it was once held by a seedbearer of great renown.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/the-iconoclast.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "35"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [
+        {
+          "move": "Light I",
+          "multiplier": "×1.00",
+          "damage0": "35",
+          "damage20": "70",
+          "poise0": "30",
+          "poise20": "60"
+        },
+        {
+          "move": "Light II",
+          "multiplier": "×1.00",
+          "damage0": "35",
+          "damage20": "70",
+          "poise0": "30",
+          "poise20": "60"
+        },
+        {
+          "move": "Light III",
+          "multiplier": "×1.00",
+          "damage0": "35",
+          "damage20": "70",
+          "poise0": "30",
+          "poise20": "60"
+        },
+        {
+          "move": "Light Finisher",
+          "multiplier": "×1.00",
+          "damage0": "35",
+          "damage20": "70",
+          "poise0": "30",
+          "poise20": "60"
+        },
+        {
+          "move": "Heavy I",
+          "multiplier": "×1.50",
+          "damage0": "52.5",
+          "damage20": "105",
+          "poise0": "40",
+          "poise20": "80"
+        },
+        {
+          "move": "Heavy II",
+          "multiplier": "×1.50",
+          "damage0": "52.5",
+          "damage20": "105",
+          "poise0": "40",
+          "poise20": "80"
+        },
+        {
+          "move": "Heavy III",
+          "multiplier": "×1.50",
+          "damage0": "52.5",
+          "damage20": "105",
+          "poise0": "40",
+          "poise20": "80"
+        },
+        {
+          "move": "Heavy Finisher",
+          "multiplier": "×1.50",
+          "damage0": "52.5",
+          "damage20": "105",
+          "poise0": "40",
+          "poise20": "80"
+        },
+        {
+          "move": "Running Light",
+          "multiplier": "×1.60",
+          "damage0": "56",
+          "damage20": "112",
+          "poise0": "45",
+          "poise20": "90"
+        },
+        {
+          "move": "Running Heavy",
+          "multiplier": "×1.80",
+          "damage0": "63",
+          "damage20": "126",
+          "poise0": "50",
+          "poise20": "100"
+        }
+      ],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": false,
+      "moveDamageNote": "Charged attacks are runtime-scaled; fixed uncharged and running-hit values are shown here.",
+      "family": "Greatsword",
+      "skills": [
+        {
+          "name": "Plummet Strike",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Grant Leech on Kill",
+        "Heavy Hold Attack",
+        "Inflict Bleed",
+        "Light Hold Attack",
+        "Weapon Ability: Deadly Flurry",
+        "Weapon Ability: Plummet Strike"
+      ],
+      "acquisition": "A dedicated weapon-claim interaction exists, but its exact location is not yet verified.",
+      "slug": "the-iconoclast",
+      "type": "Greatsword",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "The Iconoclast Weapon Guide - Mortal Shell II",
+      "description": "Mortal Shell II Weapon The Iconoclast: skills, Forge costs, and upgrades. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "The Iconoclast",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "heavy-hammer",
+    "name": "Obsidian Hammer",
+    "category": "Hammer · Weapon",
+    "description": "A brutalist chunk of obsidianite, profaned by bloodshed beyond the Seat of Infinity.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/obsidian-hammer.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Not confirmed"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": false,
+      "moveDamageNote": "No verifiable move-damage definitions are present in this Demo build.",
+      "family": "Hammer",
+      "skills": [
+        {
+          "name": "Heavy Stomps",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Heavy Hold Attack",
+        "Light Hold Attack"
+      ],
+      "acquisition": "A weapon-unlock encounter exists, but its exact location is not yet verified.",
+      "slug": "obsidian-hammer",
+      "type": "Hammer",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Obsidian Hammer - Mortal Shell II Weapon",
+      "description": "Mortal Shell II Weapon Obsidian Hammer: skills, Forge costs, and upgrades. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Obsidian Hammer",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "martyrs-blade",
+    "name": "Great Martyr's Blade",
+    "category": "Greatsword · Weapon",
+    "description": "The devout weapon of the First Martyr Tarsus, reforged after his final sacrifice.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/great-martyrs-blade.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Not confirmed"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": true,
+      "moveDamageNote": "No verifiable move-damage definitions are present in this Demo build.",
+      "family": "Greatsword",
+      "skills": [
+        {
+          "name": "Spiral Surge",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Heavy Hold Attack",
+        "Light Hold Attack"
+      ],
+      "acquisition": "Unlocked through a tomb encounter.",
+      "slug": "great-martyrs-blade",
+      "type": "Greatsword",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Great Martyr's Blade - Mortal Shell II Weapon",
+      "description": "Mortal Shell II Weapon Great Martyr's Blade: skills, Forge costs, and upgrades. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Great Martyr's Blade",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "axatana",
+    "name": "Axatana",
+    "category": "Transforming Weapon · Weapon",
+    "description": "Forged by an unrepentant smith, this exquisite weapon once bore the name Dream Thresher.",
+    "status": "Verified in Open Beta data",
+    "image": "/assets/weapons/axatana.png",
+    "details": {
+      "attributes": [
+        {
+          "label": "Base Damage",
+          "value": "Not confirmed"
+        },
+        {
+          "label": "Damage Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Poise Multiplier",
+          "value": "×1.00 → ×2.00"
+        },
+        {
+          "label": "Per Forge Level",
+          "value": "+5%"
+        },
+        {
+          "label": "Maximum Forge Level",
+          "value": "20"
+        }
+      ],
+      "moveDamage": [],
+      "upgrades": [
+        {
+          "level": "+1",
+          "material": "Ventrium",
+          "quantity": "1",
+          "coin": "100"
+        },
+        {
+          "level": "+2",
+          "material": "Ventrium",
+          "quantity": "3",
+          "coin": "300"
+        },
+        {
+          "level": "+3",
+          "material": "Ventrium",
+          "quantity": "6",
+          "coin": "500"
+        },
+        {
+          "level": "+4",
+          "material": "Ventrium",
+          "quantity": "9",
+          "coin": "1,000"
+        },
+        {
+          "level": "+5",
+          "material": "Ventrium",
+          "quantity": "12",
+          "coin": "2,000"
+        },
+        {
+          "level": "+6",
+          "material": "Laterite",
+          "quantity": "1",
+          "coin": "3,500"
+        },
+        {
+          "level": "+7",
+          "material": "Laterite",
+          "quantity": "3",
+          "coin": "5,500"
+        },
+        {
+          "level": "+8",
+          "material": "Laterite",
+          "quantity": "6",
+          "coin": "8,000"
+        },
+        {
+          "level": "+9",
+          "material": "Laterite",
+          "quantity": "9",
+          "coin": "11,000"
+        },
+        {
+          "level": "+10",
+          "material": "Laterite",
+          "quantity": "12",
+          "coin": "14,500"
+        },
+        {
+          "level": "+11",
+          "material": "Dorsalite",
+          "quantity": "1",
+          "coin": "18,500"
+        },
+        {
+          "level": "+12",
+          "material": "Dorsalite",
+          "quantity": "3",
+          "coin": "23,000"
+        },
+        {
+          "level": "+13",
+          "material": "Dorsalite",
+          "quantity": "6",
+          "coin": "28,000"
+        },
+        {
+          "level": "+14",
+          "material": "Dorsalite",
+          "quantity": "9",
+          "coin": "33,500"
+        },
+        {
+          "level": "+15",
+          "material": "Dorsalite",
+          "quantity": "12",
+          "coin": "39,500"
+        },
+        {
+          "level": "+16",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "46,000"
+        },
+        {
+          "level": "+17",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "53,000"
+        },
+        {
+          "level": "+18",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "60,500"
+        },
+        {
+          "level": "+19",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "68,500"
+        },
+        {
+          "level": "+20",
+          "material": "Thoracium",
+          "quantity": "1",
+          "coin": "77,000"
+        }
+      ],
+      "acquisitionVerified": false,
+      "moveDamageNote": "No verifiable move-damage definitions are present in this Demo build.",
+      "family": "Transforming Weapon",
+      "skills": [
+        {
+          "name": "Morph Attack",
+          "description": "The skill name appears in the current beta, but its detailed behavior still needs confirmation."
+        }
+      ],
+      "upgradePool": [
+        "Heavy Hold Attack",
+        "Light Hold Attack"
+      ],
+      "acquisition": "Acquisition method is not yet verified.",
+      "slug": "axatana",
+      "type": "Transforming Weapon",
+      "imagePosition": "center",
+      "verification": "Verified in Open Beta data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Axatana Weapon Guide and Details - Mortal Shell II",
+      "description": "Mortal Shell II Weapon Axatana: skills, Forge costs, and upgrades. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Axatana",
+        "Mortal Shell II Weapon",
+        "Mortal Shell II weapon guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

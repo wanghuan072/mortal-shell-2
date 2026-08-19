@@ -1,0 +1,30 @@
+{
+  "steamAppId": "4711740",
+  "buildId": "24459107",
+  "shippingBuild": "++Sparta-Depot+Demo+CL90621-CL-0",
+  "engine": "Unreal Engine 5.6",
+  "mountedArchives": "16 of 17",
+  "virtualFiles": 69536,
+  "searchablePackages": 51406,
+  "exportedSizeGiB": 88.928,
+  "reviewedAt": "2026-08-17",
+  "openBeta": {
+    "releaseDate": "2026-06-05",
+    "scope": "Prologue through the first explorable region",
+    "featuredShell": "Tiel",
+    "steamAchievements": 9,
+    "launchReward": "The Flayed Harbinger",
+    "progressCarryover": "Select progress carries forward",
+    "prologueSkipAfter": "Progressing beyond Marrow Keep"
+  },
+  "extraction": {
+    "logicalContentFiles": 45754,
+    "totalFiles": 69536,
+    "uassetFiles": 41788,
+    "umapFiles": 4801,
+    "ubulkFiles": 18133,
+    "containers": "9 UCAS, 9 UTOC, 8 PAK",
+    "encrypted": false,
+    "mappingSha256": "80B80E7C27AF2CBFC6D7E8777B28CF3B767309FBC2B38D47E70218AC26BCDCA3"
+  }
+}

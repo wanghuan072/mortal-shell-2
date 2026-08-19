@@ -1,0 +1,5 @@
+.page { max-width: 760px; margin: 100px auto; padding: 30px; border: 1px solid var(--line-strong); text-align: center; }
+.eyebrow { color: var(--gold); letter-spacing: .12em; text-transform: uppercase; }
+.title { font-family: var(--font-display); font-weight: 500; }
+.message { color: var(--muted); }
+.link { display: inline-block; margin-top: 14px; padding: 12px 20px; border: 1px solid var(--gold-dim); color: var(--gold); }

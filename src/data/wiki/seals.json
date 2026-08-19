@@ -1,0 +1,165 @@
+[
+  {
+    "id": "untarnished-seal",
+    "name": "Untarnished Seal",
+    "category": "Guard · Seal",
+    "description": "Both symbol and weapon, the seal has been restored to its former glory.",
+    "status": "Verified",
+    "image": "/assets/seals/untarnished-seal.png",
+    "details": {
+      "ability": "Guard",
+      "role": "Defensive guard and timed counter",
+      "activation": "Block incoming attacks with your Weapon. Time the block to perform a Perfect Guard.",
+      "effects": [
+        {
+          "label": "Guard",
+          "value": "Blocks incoming attacks with the equipped Weapon."
+        },
+        {
+          "label": "Perfect Guard",
+          "value": "A correctly timed Guard deals Break Damage."
+        }
+      ],
+      "resourceRelations": [
+        "Break Damage"
+      ],
+      "acquisition": "Acquisition is not confirmed in the current Demo data.",
+      "acquisitionStatus": "Not Confirmed in Current Demo Data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Untarnished Seal Seal Guide - Mortal Shell II",
+      "description": "Mortal Shell II Seal Untarnished Seal: abilities, effects, and activation. Plan your next run with the page status in mind. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Untarnished Seal",
+        "Mortal Shell II Seal",
+        "Mortal Shell II seal guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "vatras-seal",
+    "name": "Vatra's Seal",
+    "category": "Harden · Seal",
+    "description": "Used in stonebirth rituals, this seal possesses a fraction of its creator’s power.",
+    "status": "Verified",
+    "image": "/assets/seals/vatras-seal.png",
+    "details": {
+      "ability": "Harden",
+      "role": "Reactive defense and timed counter",
+      "activation": "Harden to withstand the next attack. Time the defense to perform a Perfect Harden.",
+      "effects": [
+        {
+          "label": "Harden",
+          "value": "Withstands the next incoming attack."
+        },
+        {
+          "label": "Perfect Harden",
+          "value": "A correctly timed Harden deals Break Damage."
+        }
+      ],
+      "resourceRelations": [
+        "Break Damage"
+      ],
+      "acquisition": "Acquisition is not confirmed in the current Demo data.",
+      "acquisitionStatus": "Not Confirmed in Current Demo Data"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Vatra's Seal Seal Guide - Mortal Shell II",
+      "description": "Mortal Shell II Seal Vatra's Seal: abilities, effects, and activation. Use it to plan your next build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Vatra's Seal",
+        "Mortal Shell II Seal",
+        "Mortal Shell II seal guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "infinite-seal",
+    "name": "Infinite Seal",
+    "category": "Parry · Seal",
+    "description": "This seal is no doubt grand, but unfathomable.",
+    "status": "Verified",
+    "image": "/assets/seals/infinite-seal.png",
+    "details": {
+      "ability": "Parry",
+      "role": "High-risk timed counter",
+      "activation": "Time the Parry against incoming attacks to Break enemies more efficiently at greater risk.",
+      "effects": [
+        {
+          "label": "Parry",
+          "value": "Breaks enemies more efficiently when correctly timed."
+        },
+        {
+          "label": "Risk",
+          "value": "Carries greater risk."
+        }
+      ],
+      "resourceRelations": [
+        "Break Damage"
+      ],
+      "acquisition": "Granted through a dialogue event; exact location are not confirmed.",
+      "acquisitionStatus": "Verified Route; Location Unconfirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Infinite Seal Seal Guide - Mortal Shell II",
+      "description": "Mortal Shell II Seal Infinite Seal: abilities, effects, and activation. Check the status before relying on a value. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Infinite Seal",
+        "Mortal Shell II Seal",
+        "Mortal Shell II seal guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  },
+  {
+    "id": "slayer-seal",
+    "name": "Slayer Seal",
+    "category": "Gloomslayer · Seal",
+    "description": "The Gloomslayer once wielded this seal on a doomed crusade.",
+    "status": "Verified",
+    "image": "/assets/seals/slayer-seal.png",
+    "details": {
+      "ability": "Gloomslayer",
+      "role": "Sidearm pressure and Riposte recovery",
+      "activation": "Use Sidearms to deal Break Damage and perform a successful Riposte to recover resources.",
+      "effects": [
+        {
+          "label": "Sidearms",
+          "value": "Sidearms deal Break Damage."
+        },
+        {
+          "label": "Riposte",
+          "value": "A successful Riposte restores some Health and Resolve."
+        }
+      ],
+      "resourceRelations": [
+        "Sidearm",
+        "Break Damage",
+        "Health",
+        "Resolve"
+      ],
+      "acquisition": "Claimed from a dedicated Seal pickup; exact location is not confirmed.",
+      "acquisitionStatus": "Verified Route; Location Unconfirmed"
+    },
+    "notes": [],
+    "seo": {
+      "title": "Slayer Seal Seal Guide - Mortal Shell II",
+      "description": "Mortal Shell II Seal Slayer Seal: abilities, effects, and activation. Compare it with your current build or route. Details may change before release.",
+      "keywords": [
+        "Mortal Shell II",
+        "Slayer Seal",
+        "Mortal Shell II Seal",
+        "Mortal Shell II seal guide"
+      ]
+    },
+    "updatedAt": "2026-08-18"
+  }
+]

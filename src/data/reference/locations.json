@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "gameBuildId": "24459107",
+  "generatedAt": "2026-08-12T02:31:15.863Z",
+  "locations": [
+    {
+      "id": "l_core_world_01-661",
+      "internalId": "BP_TeleportLocation_C_UAID_D4E98A7EF56710B802_1503662976",
+      "title": "Dagger & Axe",
+      "category": "weapon",
+      "tags": [
+        "weapon"
+      ],
+      "world": {
+        "x": 28466.94821222594,
+        "y": -87603.94741381553,
+        "z": -41018.035193
+      },
+      "pixel": {
+        "x": 4344.785654362657,
+        "y": 2881.3452244130185
+      },
+      "location": "Weapon acquisition point."
+    },
+    {
+      "id": "l_core_world_01-662",
+      "internalId": "BP_TeleportLocation_C_UAID_D4E98A7EF56710B802_1583419977",
+      "title": "Crossbow",
+      "category": "weapon",
+      "tags": [
+        "weapon"
+      ],
+      "world": {
+        "x": 40946.154983528635,
+        "y": -69318.88985163465,
+        "z": -42729.33645713009
+      },
+      "pixel": {
+        "x": 4020.8147656644023,
+        "y": 2406.6494799734783
+      },
+      "location": "Weapon acquisition point."
+    },
+    {
+      "id": "l_core_world_01-663",
+      "internalId": "BP_TeleportLocation_C_UAID_D4E98A7EF56710B802_1677351979",
+      "title": "Trebushaxe",
+      "category": "weapon",
+      "tags": [
+        "weapon"
+      ],
+      "world": {
+        "x": 56866.98164227237,
+        "y": -78311.14423529875,
+        "z": -48595.79574799867
+      },
+      "pixel": {
+        "x": 3607.496479016152,
+        "y": 2640.0961002166596
+      },
+      "location": "Weapon acquisition point."
+    },
+    {
+      "id": "region-mushroom-village",
+      "internalId": "WorldPartitionCluster_MushroomVillage",
+      "title": "Mushroom Village",
+      "category": "region",
+      "region": "Mushroom Village",
+      "tags": [
+        "region",
+        "village",
+        "mushroom-village"
+      ],
+      "world": {
+        "x": 23497.60181611785,
+        "y": -90679.33985016144,
+        "z": -41232.680789669546
+      },
+      "pixel": {
+        "x": 4473.794140051436,
+        "y": 2961.185044275781
+      },
+      "location": "Central area of Mushroom Village."
+    },
+    {
+      "id": "entrance-mushroom-village-gate",
+      "internalId": "BP_Interactable_Lock_Door_C_UAID_D4E98A7EF567B85A02_2041027107",
+      "title": "Mushroom Village Gate",
+      "category": "dungeon",
+      "region": "Mushroom Village",
+      "tags": [
+        "entrance",
+        "gate",
+        "village",
+        "mushroom-village"
+      ],
+      "world": {
+        "x": 28237.470187390325,
+        "y": -87448.41050207865,
+        "z": -41060
+      },
+      "pixel": {
+        "x": 4350.743100296935,
+        "y": 2877.307353060758
+      },
+      "location": "Locked gate on the eastern side of Mushroom Village."
+    },
+    {
+      "id": "entrance-hall-of-illusions",
+      "internalId": "BP_TeleportLocation_C_UAID_D4E98A7EF567C55402_2134293430",
+      "title": "Hall of Illusions",
+      "category": "dungeon",
+      "region": "Mushroom Village",
+      "tags": [
+        "entrance",
+        "dungeon",
+        "hall-of-illusions",
+        "illusionist"
+      ],
+      "world": {
+        "x": 4367.019980325723,
+        "y": -99766.7086953093,
+        "z": -42011.054558956865
+      },
+      "pixel": {
+        "x": 4970.440418318286,
+        "y": 3197.1009173510984
+      },
+      "location": "Dungeon entrance near the village gate."
+    },
+    {
+      "id": "8ip1p6e20jp8quyg93c5jklrc-14",
+      "internalId": "BP_SpawnTrigger_C_UAID_345A6054A1DA6A8602_db7ea101cea92b00_1430892996",
+      "title": "Boss Encounter",
+      "category": "boss",
+      "tags": [
+        "boss"
+      ],
+      "world": {
+        "x": 187310.0012123165,
+        "y": -140224.00359765306,
+        "z": -38500.00330712649
+      },
+      "pixel": {
+        "x": 221.08404519287842,
+        "y": 4247.406920291976
+      }
+    },
+    {
+      "id": "5lm1bxz3v3yqyipy21sbe5g6t-22",
+      "internalId": "BP_SpawnTrigger_C_UAID_D4E98A7EF567789B02_1578961491",
+      "title": "Miniboss Encounter",
+      "category": "boss",
+      "tags": [
+        "boss"
+      ],
+      "world": {
+        "x": 36252.34963870691,
+        "y": -94569.23880383128,
+        "z": -40457.703755
+      },
+      "pixel": {
+        "x": 4142.669969829736,
+        "y": 3062.1701504696084
+      }
+    },
+    {
+      "id": "0omgjrszg6c25e3unwcfuwz6z-9",
+      "internalId": "BP_EvilStatue_C_UAID_D4E98A7EF567C67F02_1395511219",
+      "title": "Evil Statue",
+      "category": "evil-statue",
+      "tags": [
+        "evil-statue"
+      ],
+      "world": {
+        "x": 4297.295940102106,
+        "y": -94230.92277802699,
+        "z": -40988.82059470467
+      },
+      "pixel": {
+        "x": 4972.250514079085,
+        "y": 3053.387176876068
+      }
+    },
+    {
+      "id": "l_core_world_01-534",
+      "internalId": "BP_MapObjective_EvilStatue_C_UAID_244BFE455FF9A9BB02_1811766648",
+      "title": "Evil Statue",
+      "category": "evil-statue",
+      "tags": [
+        "evil-statue"
+      ],
+      "world": {
+        "x": 39170.019946,
+        "y": -83710.315116,
+        "z": -40579.528654
+      },
+      "pixel": {
+        "x": 4066.924751427239,
+        "y": 2780.2631974136493
+      }
+    },
+    {
+      "id": "l_core_world_01-535",
+      "internalId": "BP_MapObjective_EvilStatue_C_UAID_244BFE455FF9A9BB02_1886345649",
+      "title": "Evil Statue",
+      "category": "evil-statue",
+      "tags": [
+        "evil-statue"
+      ],
+      "world": {
+        "x": 4042.9578880000045,
+        "y": -94033.89968,
+        "z": -40989.157464
+      },
+      "pixel": {
+        "x": 4978.853347598823,
+        "y": 3048.2722886198153
+      }
+    },
+    {
+      "id": "l_core_world_01-500",
+      "internalId": "BP_LandingArea_C_UAID_D4E98A7EF5678C2C02_1270710525",
+      "title": "Landing Area",
+      "category": "landing-area",
+      "tags": [
+        "landing-area"
+      ],
+      "world": {
+        "x": 4114.003169662152,
+        "y": -99824.8591923495,
+        "z": -42132.11440549642
+      },
+      "pixel": {
+        "x": 4977.008951279433,
+        "y": 3198.6105540250956
+      }
+    },
+    {
+      "id": "l_core_world_01-501",
+      "internalId": "BP_LandingArea_C_UAID_D4E98A7EF567A12E02_1900767243",
+      "title": "Landing Area",
+      "category": "landing-area",
+      "tags": [
+        "landing-area"
+      ],
+      "world": {
+        "x": 18843.682214861692,
+        "y": -90317.1738423271,
+        "z": -40886.86355605796
+      },
+      "pixel": {
+        "x": 4594.6138761784205,
+        "y": 2951.782904739452
+      }
+    },
+    {
+      "id": "l_core_world_01-502",
+      "internalId": "BP_LandingAreaBase_C_UAID_345A60361B87959002_1894427263",
+      "title": "Landing Area Base",
+      "category": "landing-area",
+      "tags": [
+        "landing-area"
+      ],
+      "world": {
+        "x": 40001.259939910706,
+        "y": -88875.74541909272,
+        "z": -41128.22721181815
+      },
+      "pixel": {
+        "x": 4045.345049729526,
+        "y": 2914.3621891580706
+      }
+    },
+    {
+      "id": "l_core_world_01-497",
+      "internalId": "BP_LandingArea_HUB_C_UAID_D4E98A7EF5678B8902_1674660773",
+      "title": "Landing Area HUB",
+      "category": "landing-area",
+      "tags": [
+        "landing-area"
+      ],
+      "world": {
+        "x": 49163.74936525777,
+        "y": -134413.1689658401,
+        "z": -42378.93590415385
+      },
+      "pixel": {
+        "x": 3807.4789821005993,
+        "y": 4096.5526797743705
+      }
+    },
+    {
+      "id": "l_core_world_01-503",
+      "internalId": "BP_LandingAreaSelector_C_UAID_D4E98A7EF567CA8F02_1593042482",
+      "title": "Landing Area Selector",
+      "category": "landing-area",
+      "tags": [
+        "landing-area"
+      ],
+      "world": {
+        "x": 2988.1040213251254,
+        "y": -99974.34872094847,
+        "z": -27825.533082427446
+      },
+      "pixel": {
+        "x": 5006.238256823929,
+        "y": 3202.4914301351596
+      }
+    },
+    {
+      "id": "l_core_world_01-536",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94DC602_1587870680",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 17781.985637,
+        "y": -80680.602329,
+        "z": -38518.46418
+      },
+      "pixel": {
+        "x": 4622.176428042592,
+        "y": 2701.6092603411416
+      }
+    },
+    {
+      "id": "l_core_world_01-537",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94DC602_1820670754",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 42823.652502019744,
+        "y": -73689.31501669191,
+        "z": -41352.761674282505
+      },
+      "pixel": {
+        "x": 3972.07332313994,
+        "y": 2520.109457892012
+      }
+    },
+    {
+      "id": "l_core_world_01-538",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94DC602_1875252758",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 72414.78329369867,
+        "y": -102586.13440424917,
+        "z": -48122.85984717529
+      },
+      "pixel": {
+        "x": 3203.8622408288347,
+        "y": 3270.2956218930926
+      }
+    },
+    {
+      "id": "l_core_world_01-539",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94DC602_1929100762",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 65890.02975777736,
+        "y": -74783.85615032846,
+        "z": -44127.07851812844
+      },
+      "pixel": {
+        "x": 3373.2504271381194,
+        "y": 2548.524682535654
+      }
+    },
+    {
+      "id": "l_core_world_01-540",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94DC602_1969369766",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 28559.158878775364,
+        "y": -100129.65330985974,
+        "z": -40917.16982271135
+      },
+      "pixel": {
+        "x": 4342.391786536204,
+        "y": 3206.5232701880227
+      }
+    },
+    {
+      "id": "l_core_world_01-541",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1230057964",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 13939.409834853745,
+        "y": -188104.6497619245,
+        "z": -38079.26768056758
+      },
+      "pixel": {
+        "x": 4721.932984715287,
+        "y": 5490.4294756163345
+      }
+    },
+    {
+      "id": "l_core_world_01-542",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1247612965",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 40361.96787875203,
+        "y": -226528.67646475462,
+        "z": -39675.36512051415
+      },
+      "pixel": {
+        "x": 4035.9807629083743,
+        "y": 6487.950095829752
+      }
+    },
+    {
+      "id": "l_core_world_01-543",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1259656966",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 39262.974788803054,
+        "y": -208650.90297354653,
+        "z": -48211.023403522384
+      },
+      "pixel": {
+        "x": 4064.511564148303,
+        "y": 6023.827794465867
+      }
+    },
+    {
+      "id": "l_core_world_01-544",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1266872967",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 57917.86474811724,
+        "y": -185609.69241047322,
+        "z": -42539.614535824345
+      },
+      "pixel": {
+        "x": 3580.214654140755,
+        "y": 5425.658247346227
+      }
+    },
+    {
+      "id": "l_core_world_01-545",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1273753968",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 49713.17093288435,
+        "y": -161104.2242520148,
+        "z": -43717.24421404825
+      },
+      "pixel": {
+        "x": 3793.2155279567596,
+        "y": 4789.475319796754
+      }
+    },
+    {
+      "id": "l_core_world_01-546",
+      "internalId": "BP_MapObjective_MapStation_C_UAID_244BFE455FF94EC602_1283180969",
+      "title": "Map Station",
+      "category": "map-station",
+      "tags": [
+        "map-station"
+      ],
+      "world": {
+        "x": 79869.525343,
+        "y": -178337.231455,
+        "z": -37753.986184
+      },
+      "pixel": {
+        "x": 3010.330756737856,
+        "y": 5236.8589364648615
+      }
+    },
+    {
+      "id": "dt5yasy63sza30mjilusdia4p-54",
+      "internalId": "BP_Merchant_C_UAID_D4E98A7EF567508202_83a1dc45e2a01438_1482679696",
+      "title": "Merchant",
+      "category": "merchant",
+      "tags": [
+        "merchant"
+      ],
+      "world": {
+        "x": 42899.90181137719,
+        "y": -137304.5455487416,
+        "z": -41950.273214
+      },
+      "pixel": {
+        "x": 3970.093825807468,
+        "y": 4171.615290586943
+      }
+    },
+    {
+      "id": "6vh10lsmxo6rsx5g2v2wxh2ho-108",
+      "internalId": "BP_NPC_Genessa_Training_C_UAID_D85ED302F37F925702_83a1dc45e2a01438_2031001093",
+      "title": "Genessa Training",
+      "category": "npc",
+      "tags": [
+        "npc"
+      ],
+      "world": {
+        "x": 54801.70314661158,
+        "y": -127190.80320031257,
+        "z": -42723.09231056946
+      },
+      "pixel": {
+        "x": 3661.112876429108,
+        "y": 3909.0538829003162
+      }
+    },
+    {
+      "id": "5zhjk5zxip4dor8u60z8dbcga-15",
+      "internalId": "BP_NPC_ShellKeeper_C_UAID_D4E98A7EF56747A302_1167224404",
+      "title": "Shell Keeper",
+      "category": "npc",
+      "tags": [
+        "npc"
+      ],
+      "world": {
+        "x": 52648.411667,
+        "y": -134374.890996,
+        "z": -41870.365054
+      },
+      "pixel": {
+        "x": 3717.014166235473,
+        "y": 4095.558950915323
+      }
+    },
+    {
+      "id": "dt5yasy63sza30mjilusdia4p-55",
+      "internalId": "BP_NPC_Shopkeeper_Dog_C_UAID_F4B5205BC55B58A802_83a1dc45e2a01438_1607405401",
+      "title": "Shopkeeper Dog",
+      "category": "npc",
+      "tags": [
+        "npc"
+      ],
+      "world": {
+        "x": 43220.89315214791,
+        "y": -137581.48251262953,
+        "z": -41877.27689621264
+      },
+      "pixel": {
+        "x": 3961.7606158655444,
+        "y": 4178.804811198982
+      }
+    },
+    {
+      "id": "l_core_world_01-547",
+      "internalId": "BP_MapObjective_Shell_C_UAID_244BFE455FF9757A02_1752114451",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 23394.833855861973,
+        "y": -101563.24453416908,
+        "z": -41850.45697871716
+      },
+      "pixel": {
+        "x": 4476.462084261164,
+        "y": 3243.740525377475
+      }
+    },
+    {
+      "id": "l_core_world_01-548",
+      "internalId": "BP_MapObjective_Shell_C_UAID_244BFE455FF9757A02_1830336452",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 73443.832208,
+        "y": -73541.534048,
+        "z": -45198.372719
+      },
+      "pixel": {
+        "x": 3177.1472502537267,
+        "y": 2516.2729374594865
+      }
+    },
+    {
+      "id": "l_core_world_01-549",
+      "internalId": "BP_MapObjective_Shell_C_UAID_244BFE455FF9757A02_1864598453",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": -5809.188087999995,
+        "y": -90205.757027,
+        "z": -40984.873758
+      },
+      "pixel": {
+        "x": 5234.623489557651,
+        "y": 2948.8904288522463
+      }
+    },
+    {
+      "id": "l_core_world_01-550",
+      "internalId": "BP_MapObjective_Shell_C_UAID_244BFE455FF9757A02_1885403454",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 108053.487191,
+        "y": -173047.706185,
+        "z": -39058.152873
+      },
+      "pixel": {
+        "x": 2278.6509845962883,
+        "y": 5099.538333167021
+      }
+    },
+    {
+      "id": "l_core_world_01-551",
+      "internalId": "BP_MapObjective_Shell_C_UAID_244BFE455FF9757A02_1921059455",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 83178.51306919524,
+        "y": -111578.32176318672,
+        "z": -48084.40437686113
+      },
+      "pixel": {
+        "x": 2924.4266032132664,
+        "y": 3503.740502117006
+      }
+    },
+    {
+      "id": "l_core_world_01-552",
+      "internalId": "BP_MapObjective_Shell_C_UAID_D4E98A7EF5674BA302_1230920365",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 15195.407079,
+        "y": -168177.500001,
+        "z": -43715
+      },
+      "pixel": {
+        "x": 4689.326221253017,
+        "y": 4973.103612235676
+      }
+    },
+    {
+      "id": "l_core_world_01-553",
+      "internalId": "BP_MapObjective_Shell_C_UAID_D4E98A7EF567767A02_1713807806",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 18512.358029733543,
+        "y": -220515.9971352025,
+        "z": -41635.55924243499
+      },
+      "pixel": {
+        "x": 4603.215335603712,
+        "y": 6331.855794200572
+      }
+    },
+    {
+      "id": "l_core_world_01-554",
+      "internalId": "BP_MapObjective_Shell_C_UAID_D4E98A7EF567DF7D02_2107114074",
+      "title": "Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 32033.394899541643,
+        "y": -66504.00938526966,
+        "z": -38625.456979
+      },
+      "pixel": {
+        "x": 4252.197645849035,
+        "y": 2333.572773818987
+      }
+    },
+    {
+      "id": "2t3opr376n2vlo2mmndptle9i-26",
+      "internalId": "BP_Interaction_UnlockShell_C_UAID_D4E98A7EF567766E02_1896647150",
+      "title": "Unlock Shell",
+      "category": "shell",
+      "tags": [
+        "shell"
+      ],
+      "world": {
+        "x": 24044.899444,
+        "y": -100633.475877,
+        "z": -41932.729699
+      },
+      "pixel": {
+        "x": 4459.585825203934,
+        "y": 3219.6029352511914
+      }
+    },
+    {
+      "id": "l_core_world_01-555",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672A8F02_1757243440",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 41380.691276986414,
+        "y": -69228.5496516925,
+        "z": -42671.171799950214
+      },
+      "pixel": {
+        "x": 4009.5338315679423,
+        "y": 2404.304171061077
+      }
+    },
+    {
+      "id": "l_core_world_01-556",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1102796618",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 56846.48478279901,
+        "y": -78185.43928456835,
+        "z": -48358.78046564707
+      },
+      "pixel": {
+        "x": 3608.02859503128,
+        "y": 2636.832692105212
+      }
+    },
+    {
+      "id": "l_core_world_01-557",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1455776621",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 1683.068699151369,
+        "y": -182047.4818161882,
+        "z": -36441.395988101445
+      },
+      "pixel": {
+        "x": 5040.118090763335,
+        "y": 5333.180211433341
+      }
+    },
+    {
+      "id": "l_core_world_01-558",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1975496624",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 65462.43548325234,
+        "y": -189790.4588568405,
+        "z": -40571.092811512746
+      },
+      "pixel": {
+        "x": 3384.351140481432,
+        "y": 5534.194522599246
+      }
+    },
+    {
+      "id": "l_core_world_01-559",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5674C8E02_1722309287",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 27250.40455158872,
+        "y": -192509.6630633506,
+        "z": -52749.91421210584
+      },
+      "pixel": {
+        "x": 4376.3681690288295,
+        "y": 5604.787391158884
+      }
+    },
+    {
+      "id": "l_core_world_01-560",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5679DB902_1227952967",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 17155.576998,
+        "y": -223070.943336,
+        "z": -42049.591568
+      },
+      "pixel": {
+        "x": 4638.438532452286,
+        "y": 6398.184384343981
+      }
+    },
+    {
+      "id": "l_core_world_01-563",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672A8F02_1883523441",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 4523.737949247501,
+        "y": -99808.28827212147,
+        "z": -41971.96196293129
+      },
+      "pixel": {
+        "x": 4966.371885710641,
+        "y": 3198.1803587529757
+      }
+    },
+    {
+      "id": "l_core_world_01-564",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1162540619",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 71935.11343137032,
+        "y": -61321.29272253396,
+        "z": -43978.990467121264
+      },
+      "pixel": {
+        "x": 3216.3148810028597,
+        "y": 2199.0250133828913
+      }
+    },
+    {
+      "id": "l_core_world_01-565",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1270807620",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 38072.77219123892,
+        "y": -63024.9836309751,
+        "z": -40515.09325736252
+      },
+      "pixel": {
+        "x": 4095.4102422718624,
+        "y": 2243.254287549906
+      }
+    },
+    {
+      "id": "l_core_world_01-566",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1717404622",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": -7417.680295642356,
+        "y": -192382.70115247963,
+        "z": -34408.12158301739
+      },
+      "pixel": {
+        "x": 5276.38132397165,
+        "y": 5601.491351286359
+      }
+    },
+    {
+      "id": "l_core_world_01-567",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_1837595623",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": -3685.0339117064573,
+        "y": -202711.7016936555,
+        "z": -41537.6155461335
+      },
+      "pixel": {
+        "x": 5179.478629083952,
+        "y": 5869.641045895528
+      }
+    },
+    {
+      "id": "l_core_world_01-568",
+      "internalId": "BP_MapObjective_Sidearm_C_UAID_D4E98A7EF5672B8F02_2086066625",
+      "title": "Sidearm",
+      "category": "sidearm",
+      "tags": [
+        "sidearm"
+      ],
+      "world": {
+        "x": 63829.32623621053,
+        "y": -178271.63984216654,
+        "z": -46089.19995563746
+      },
+      "pixel": {
+        "x": 3426.74805430789,
+        "y": 5235.1561220560425
+      }
+    },
+    {
+      "id": "0wa68m3hs2grd90k5vcjdvcv1-192",
+      "internalId": "BP_Interaction_Traversal_JumpToLedgeTarpad_C_UAID_D4E98A7EF5672CB702_1934930562",
+      "title": "Traversal Jump To Ledge Tarpad",
+      "category": "traversal",
+      "tags": [
+        "traversal"
+      ],
+      "world": {
+        "x": 27798.180764839715,
+        "y": -99904.04285111892,
+        "z": -41870.55766446825
+      },
+      "pixel": {
+        "x": 4362.147429692834,
+        "y": 3200.6662295798037
+      }
+    },
+    {
+      "id": "ei9setedpul2nsos94xn65gmy-37",
+      "internalId": "BP_Interaction_Traversal_SqueezeThrough_NoWeaponStow_C_UAID_D4E98A7EF56706C902_1665118965",
+      "title": "Traversal Squeeze Through No Weapon Stow",
+      "category": "traversal",
+      "tags": [
+        "traversal"
+      ],
+      "world": {
+        "x": 61698.77838557436,
+        "y": -136061.11303935453,
+        "z": -42529.26356704557
+      },
+      "pixel": {
+        "x": 3482.0589000398504,
+        "y": 4139.334718393141
+      }
+    }
+  ]
+}
