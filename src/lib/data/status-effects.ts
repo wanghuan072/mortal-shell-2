@@ -44,18 +44,22 @@ export function findStatusEffect(slug: string) {
   return statusEffects.find((entry) => entry.slug === slug);
 }
 
+export function findStatusEffectByLabel(label: string) {
+  const raw = label.trim().toLowerCase();
+  const slugish = raw.replace(/[\s_]+/g, "-");
+  return statusEffects.find((entry) => (
+    entry.slug === slugish
+    || entry.name.toLowerCase() === raw
+    || entry.aliases.some((alias) => alias.toLowerCase() === raw || alias.toLowerCase() === slugish)
+  ));
+}
+
 export function statusEffectPath(slug: string) {
   return `${STATUS_EFFECTS_PATH}${slug}/`;
 }
 
 export function statusEffectHref(label: string) {
-  const raw = label.trim().toLowerCase();
-  const slugish = raw.replace(/[\s_]+/g, "-");
-  const match = statusEffects.find((entry) => (
-    entry.slug === slugish
-    || entry.name.toLowerCase() === raw
-    || entry.aliases.some((alias) => alias.toLowerCase() === raw || alias.toLowerCase() === slugish)
-  ));
+  const match = findStatusEffectByLabel(label);
   return match ? statusEffectPath(match.slug) : null;
 }
 

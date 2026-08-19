@@ -1,0 +1,49 @@
+.chip,
+.inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  vertical-align: middle;
+}
+
+.chip {
+  min-height: 28px;
+  padding: 2px 8px 2px 3px;
+  border: 1px solid var(--line);
+  background: rgba(2, 9, 13, .78);
+  font-size: 12px;
+  letter-spacing: .03em;
+}
+
+a.chip:hover,
+a.inline:hover {
+  color: var(--gold-bright);
+  border-color: var(--gold-dim);
+}
+
+.inline {
+  gap: 7px;
+  min-height: 0;
+}
+
+.icon {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px #000a);
+}
+
+.mark {
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold-bright);
+  background: #0b1518;
+  font-family: var(--font-display);
+  font-size: 10px;
+  line-height: 1;
+}

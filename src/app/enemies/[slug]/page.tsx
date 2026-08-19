@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Database, HeartPulse, ShieldCheck, Skull, Sparkles, Target } from "lucide-react";
+import { ArrowLeft, HeartPulse, ShieldCheck, Skull, Sparkles, Target } from "lucide-react";
 import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -10,7 +10,7 @@ import { WikiLocationCard, WikiMediaCard, WikiMediaGrid } from "@/components/Wik
 import { StatusEffectLink } from "@/components/StatusEffectLink";
 import { siteConfig } from "@/config/site";
 import { achievementPath, achievements } from "@/lib/data/achievements";
-import { enemyArchive, findArchiveRecord } from "@/lib/data/wiki";
+import { enemyArchive, findArchiveRecord, itemArchive } from "@/lib/data/wiki";
 import { getRecordMetadata } from "@/seo/tdk";
 import styles from "@/style/page/wiki/wiki.module.css";
 
@@ -103,7 +103,17 @@ export default async function EnemyDetailPage({ params }: PageProps) {
     ? enemyArchive.filter((candidate) => (candidate.details as EncounterDetails).family === details.family)
     : [];
   const linkedAchievements = achievements.filter((entry) => entry.entity?.slug === record.id || entry.entity?.name === record.name || (record.name.length > 4 && entry.description.toLowerCase().includes(record.name.toLowerCase())));
-  const hasEncounterIntel = regions.length || drops.length;
+  const gloomItem = itemArchive.find((entry) => entry.id === "gloom" || entry.name.toLowerCase() === "gloom");
+  const goldItem = itemArchive.find((entry) => entry.id === "coin" || entry.id === "gold" || entry.name.toLowerCase() === "coin" || entry.name.toLowerCase() === "gold");
+  const rewardCards = [
+    numeric(details.onDeath?.gloom) !== null && gloomItem
+      ? { title: gloomItem.name, body: measured(details.onDeath?.gloom), href: `/wiki/items/${gloomItem.id}/`, image: gloomItem.image, meta: "Currency" }
+      : null,
+    numeric(details.onDeath?.coin) !== null && goldItem
+      ? { title: goldItem.name, body: details.onDeath?.coinDropChance ? `${measured(details.onDeath?.coin)} · ${measured(details.onDeath?.coinDropChance)} chance` : measured(details.onDeath?.coin), href: `/wiki/items/${goldItem.id}/`, image: goldItem.image, meta: "Currency" }
+      : null,
+  ].filter((entry) => entry !== null);
+  const hasEncounterIntel = regions.length || drops.length || rewardCards.length;
   const hasCombatProfile = weakTo.length || resistantTo.length || numeric(details.misc?.riposteWeakness) !== null || attackEntries.length;
   const hasVitalStats = numeric(health) !== null || numeric(poise) !== null || numeric(details.misc?.tarstoneExp) !== null;
   const canonical = `${siteConfig.url}/enemies/${record.id}/`;
@@ -155,12 +165,12 @@ export default async function EnemyDetailPage({ params }: PageProps) {
         {resistances.length || hasCombatProfile ? <section className={styles.digestGrid}>
           {resistances.length ? <div>
             <SectionTitle title="Resistance profile" />
-            {resistances.map(([label, value]) => <article key={label}><span><b><StatusEffectLink label={label}>{titleCase(label)}</StatusEffectLink></b><small>{measured(value)} · {detailStatus(value)}</small></span><progress max={150} value={numeric(value) ?? 0} /></article>)}
+            {resistances.map(([label, value]) => <article key={label}><span><b><StatusEffectLink appearance="inline" label={label}>{titleCase(label)}</StatusEffectLink></b><small>{measured(value)} · {detailStatus(value)}</small></span><progress max={150} value={numeric(value) ?? 0} /></article>)}
           </div> : null}
           {hasCombatProfile ? <div>
             <SectionTitle title="Combat profile" />
-            {weakTo.length ? <article><Target size={16} /><span><b>Vulnerable to</b><small>{weakTo.map((entry, index) => <span key={entry}>{index ? " · " : null}<StatusEffectLink label={entry} /></span>)}</small></span></article> : null}
-            {resistantTo.length ? <article><ShieldCheck size={16} /><span><b>Resists</b><small>{resistantTo.map((entry, index) => <span key={entry}>{index ? " · " : null}<StatusEffectLink label={entry} /></span>)}</small></span></article> : null}
+            {weakTo.length ? <article className={styles.profileChips}><Target size={16} /><span><b>Vulnerable to</b><span className={styles.chipRow}>{weakTo.map((entry) => <StatusEffectLink key={entry} label={entry} />)}</span></span></article> : null}
+            {resistantTo.length ? <article className={styles.profileChips}><ShieldCheck size={16} /><span><b>Resists</b><span className={styles.chipRow}>{resistantTo.map((entry) => <StatusEffectLink key={entry} label={entry} />)}</span></span></article> : null}
             {numeric(details.misc?.riposteWeakness) !== null ? <article><Skull size={16} /><span><b>Riposte weakness</b><small>{measured(details.misc?.riposteWeakness)}× · {detailStatus(details.misc?.riposteWeakness)}</small></span></article> : null}
             {attackEntries.length ? <article><Sparkles size={16} /><span><b>Known attacks</b><small>{attackEntries.length} listed attacks</small></span></article> : null}
           </div> : null}
@@ -184,14 +194,18 @@ export default async function EnemyDetailPage({ params }: PageProps) {
         {extractedConditions.length ? <section className={styles.artifactRows} data-encounter-conditions>
           <h3>Control &amp; attrition</h3>
           <div>{extractedConditions.map(([label, value, suffix]) => <article key={label}>
-            <small>{label.toLowerCase().includes("poison") ? <StatusEffectLink label="poison">{label}</StatusEffectLink> : label}</small><b>{measured(value)}{suffix}</b><em>{detailStatus(value)}</em>
+            <small>{label.toLowerCase().includes("poison") ? <StatusEffectLink appearance="inline" label="poison">{label}</StatusEffectLink> : label}</small><b>{measured(value)}{suffix}</b><em>{detailStatus(value)}</em>
           </article>)}</div>
         </section> : null}
 
         {hasEncounterIntel ? <section className={styles.artifactRows} data-encounter-intelligence>
           <h3>Encounter intelligence</h3>
           {regions.length ? <WikiLocationCard body={regions.join(" · ")} href={`/map/?q=${encodeURIComponent(record.name)}`} hrefLabel="Open location map" title={record.name} /> : null}
-          {drops.length ? <p><Database size={15} /><b>Drops &amp; rewards</b><span>{drops.join(" · ")}</span></p> : null}
+          {rewardCards.length ? <WikiMediaGrid>{rewardCards.map((entry) => <WikiMediaCard body={entry.body} href={entry.href} image={entry.image} key={entry.title} meta={entry.meta} title={entry.title} />)}</WikiMediaGrid> : null}
+          {drops.length ? <WikiMediaGrid>{drops.map((entry) => {
+            const linked = itemArchive.find((item) => item.name.toLowerCase() === entry.toLowerCase() || item.id === entry);
+            return <WikiMediaCard body={linked?.description} href={linked ? `/wiki/items/${linked.id}/` : undefined} image={linked?.image} key={entry} meta={linked?.category ?? "Drop"} title={entry} />;
+          })}</WikiMediaGrid> : null}
         </section> : null}
 
         {linkedAchievements.length ? <section className={styles.artifactRows}>
@@ -209,7 +223,7 @@ export default async function EnemyDetailPage({ params }: PageProps) {
               <tbody>{familyVariants.map((variant) => {
                 const variantDetails = variant.details as EncounterDetails;
                 return <tr key={variant.id} data-current={variant.id === record.id || undefined}>
-                  <th scope="row"><Link href={`/enemies/${variant.id}/`}>{variant.name}</Link></th>
+                  <th scope="row"><Link className={styles.variantLink} href={`/enemies/${variant.id}/`}>{variant.image ? <Image alt="" height={40} src={variant.image} width={40} /> : <span className={styles.variantMark}>{variant.name.slice(0, 1)}</span>}{variant.name}</Link></th>
                   <td>{toText(variantDetails.classification, "—")}</td>
                   <td>{measured(variantDetails.core?.health)}</td>
                   <td>{measured(variantDetails.core?.poise)}</td>
@@ -221,6 +235,18 @@ export default async function EnemyDetailPage({ params }: PageProps) {
           </div>
         </section> : null}
       </article>
+      {familyVariants.length > 1 ? <aside className={styles.encounterRoster} aria-label={`${family} variants`}>
+        <section>
+          <p>{family}</p>
+          {familyVariants.map((variant) => {
+            const variantDetails = variant.details as EncounterDetails;
+            return <Link aria-current={variant.id === record.id ? "page" : undefined} href={`/enemies/${variant.id}/`} key={variant.id}>
+              {variant.image ? <Image alt="" height={48} src={variant.image} width={48} /> : <span className={styles.variantMark}>{variant.name.slice(0, 1)}</span>}
+              <span><b>{variant.name}</b><small>{toText(variantDetails.classification, classification)} · {measured(variantDetails.core?.health)} HP</small></span>
+            </Link>;
+          })}
+        </section>
+      </aside> : null}
     </div>
   </div>;
 }
