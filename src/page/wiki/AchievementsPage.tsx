@@ -17,7 +17,7 @@ export default function AchievementsPage() {
     filterLabel="Trophy type"
     emptyLabel="No achievements match these filters"
     parent={{ label: "Wiki", href: "/wiki/" }}
-    related={[{ label: "Shells", href: "/wiki/shells/" }, { label: "Weapons", href: "/wiki/weapons/" }, { label: "Bosses", href: "/bosses/" }]}
+    related={[{ label: "Shells", href: "/shells/" }, { label: "Weapons", href: "/weapons/" }, { label: "Bosses", href: "/bosses/" }]}
     fallbackLabel="Achievement"
   />;
 }

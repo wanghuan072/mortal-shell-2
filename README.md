@@ -23,9 +23,9 @@ npm run start
 
 - `/` — landing page
 - `/wiki/` — Wiki category hub
-- `/wiki/shells/` — verified Shell preview
-- `/wiki/weapons/` — searchable and filterable weapon database
-- `/wiki/weapons/[slug]/` — statically generated weapon detail pages
+- `/shells/` — verified Shell preview
+- `/weapons/` — searchable and filterable weapon database
+- `/weapons/[slug]/` — statically generated weapon detail pages
 - `/guides/`, `/enemies/`, `/map/`, `/updates/`, `/game-info/` — supporting first-stage hubs
 - `/sitemap.xml`, `/robots.txt` — generated search-engine discovery files
 

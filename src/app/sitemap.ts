@@ -7,8 +7,8 @@ import { weapons } from "@/lib/data/weapons";
 const staticPages = [
   { path: "", updatedAt: "2026-08-18", changeFrequency: "weekly" as const, priority: 1 },
   { path: "/wiki/", updatedAt: "2026-08-18", changeFrequency: "weekly" as const, priority: 0.9 },
-  { path: "/wiki/shells/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.8 },
-  { path: "/wiki/weapons/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/shells/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/weapons/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/wiki/sidearms/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/wiki/items/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.75 },
   { path: "/wiki/artifacts/", updatedAt: "2026-08-18", changeFrequency: "monthly" as const, priority: 0.75 },
@@ -40,9 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map(({ path, updatedAt, changeFrequency, priority }) => ({ url: `${siteConfig.url}${path}`, lastModified: asDate(updatedAt), changeFrequency, priority })),
     ...guides.map((guide) => ({ url: `${siteConfig.url}/guides/${guide.slug}/`, lastModified: asDate(guide.updatedAt), changeFrequency: "weekly" as const, priority: 0.75 })),
-    ...weapons.map((weapon) => ({ url: `${siteConfig.url}/wiki/weapons/${weapon.slug}/`, lastModified: asDate(weapon.updatedAt), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...weapons.map((weapon) => ({ url: `${siteConfig.url}/weapons/${weapon.slug}/`, lastModified: asDate(weapon.updatedAt), changeFrequency: "monthly" as const, priority: 0.7 })),
     ...Object.entries(archiveCollections).flatMap(([collection, records]) => {
-      const basePath = collection === "enemies" ? "/enemies" : `/wiki/${collection}`;
+      const basePath = collection === "enemies" ? "/enemies" : collection === "shells" ? "/shells" : `/wiki/${collection}`;
       return records.map((record) => ({ url: `${siteConfig.url}${basePath}/${record.id}/`, lastModified: asDate(record.updatedAt), changeFrequency: "monthly" as const, priority: 0.65 }));
     }),
   ];

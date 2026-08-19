@@ -45,7 +45,7 @@ export function TarforgeCalculator() {
         <section className={styles.resultCard}><h2><Coins size={17} /> Coin</h2><div className={styles.costRows}><div><span>Total Coin</span><b>{totals.coin.toLocaleString("en-US")}</b></div><div><span>Steps</span><b>{selectedUpgrades.length}</b></div></div></section>
       </div>
       <p className={styles.resultNote}>Upgrade costs are taken from the current weapon records. Base damage, move values, and final-release balance may change before launch.</p>
-      <Link className={styles.note} href={`/wiki/weapons/${weapon?.slug}/`}><ArrowLeft size={14} /> Open the full {weapon?.name} weapon record</Link>
+      <Link className={styles.note} href={`/weapons/${weapon?.slug}/`}><ArrowLeft size={14} /> Open the full {weapon?.name} weapon record</Link>
     </div>
   );
 }

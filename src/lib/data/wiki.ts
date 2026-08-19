@@ -253,8 +253,9 @@ export const archiveCounts = {
 const getSearchHref = (collection: keyof typeof wikiCollections, record: WikiRecord) => {
   if (collection === "weapons") {
     const slug = typeof record.details.slug === "string" ? record.details.slug : record.id;
-    return `/wiki/weapons/${slug}/`;
+    return `/weapons/${slug}/`;
   }
+  if (collection === "shells") return `/shells/${record.id}/`;
   if (collection === "enemies" || collection === "bosses") return `/enemies/${record.id}/`;
   return `/wiki/${collection}/${record.id}/`;
 };

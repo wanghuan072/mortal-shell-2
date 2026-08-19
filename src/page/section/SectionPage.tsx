@@ -18,7 +18,7 @@ const sections = {
     shortTitle: "Guides",
     tdkKey: "guides",
     eyebrow: "Combat and exploration help",
-    description: "Practical Mortal Shell II guides for combat, first builds, exploration routes, and current-beta map planning.",
+    description: "Mortal Shell II guides: combat, first builds, map routes, and current-beta exploration.",
     image: "/images/official/boss.png",
   },
   updates: {
@@ -26,7 +26,7 @@ const sections = {
     shortTitle: "Updates",
     tdkKey: "updates",
     eyebrow: "News and page updates",
-    description: "Release news, current beta discoveries, and newly recorded Mortal Shell II details.",
+    description: "Mortal Shell II updates: release news, beta notes, and wiki changes.",
     image: "/images/official/shell.png",
   },
 } as const;

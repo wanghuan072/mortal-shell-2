@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { BookOpenText, ChevronRight, Database, Search, SlidersHorizontal } from "lucide-react";
-import { StatusEffectLink } from "@/components/StatusEffectLink";
 import type { WikiRecord } from "@/types/wiki";
 import styles from "@/style/page/wiki/archive/archive.module.css";
 
@@ -43,13 +42,6 @@ export function ArchiveExplorer({ records, basePath, filterLabel, emptyLabel, en
 
   const filters = useMemo(() => ["All", ...Array.from(new Set(records.map((record) => record.category))).sort()], [records]);
   const statuses = useMemo(() => ["All", ...Array.from(new Set(records.map((record) => record.status))).sort()], [records]);
-  const measuredNumber = (record: WikiRecord, key: "health" | "poise") => {
-    const core = (record.details as { core?: Record<string, unknown> }).core ?? {};
-    const value = Number(measured(core[key]));
-    return Number.isFinite(value) ? value : 0;
-  };
-  const healthCap = useMemo(() => Math.max(100, ...records.map((record) => measuredNumber(record, "health"))), [records]);
-  const poiseCap = useMemo(() => Math.max(20, ...records.map((record) => measuredNumber(record, "poise"))), [records]);
   const filtered = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("en");
     return records.filter((record) => {
@@ -102,26 +94,14 @@ export function ArchiveExplorer({ records, basePath, filterLabel, emptyLabel, en
           const profile = (details.combatProfile ?? {}) as Record<string, unknown>;
           const weakTo = profileValues(profile.vulnerableTo);
           const resists = profileValues(profile.resists);
-          const classification = String(details.classification ?? record.category.split(" · ").at(-1) ?? "Encounter");
-          const healthValue = Number(measured(core.health));
-          const poiseValue = Number(measured(core.poise));
           return encounterQuickFilters ? <Link className={styles.encounterCard} href={`${basePath}/${record.id}/`} key={record.id}>
-            <span className={styles.encounterArt}>
-              {record.image ? <Image alt="" className={record.image.includes("/images/official/gallery/") || record.image.includes("/images/encounters/") ? styles.coverImage : undefined} fill sizes="280px" src={record.image} /> : fallbackImage ? <Image alt={fallbackImageAlt} className={styles.coverImage} fill sizes="280px" src={fallbackImage} /> : <span aria-label={fallbackLabel} className={styles.encounterSigil}>{record.name.slice(0, 1)}</span>}
-              <small>{classification}</small>
+            <span className={styles.encounterIdentity}>
+              {record.image ? <Image alt="" className={record.image.includes("/images/official/gallery/") || record.image.includes("/images/encounters/") ? styles.coverImage : undefined} width={54} height={54} src={record.image} /> : fallbackImage ? <Image alt={fallbackImageAlt} className={styles.coverImage} width={54} height={54} src={fallbackImage} /> : <span aria-label={fallbackLabel} className={styles.fallback} title={fallbackLabel}><Database size={19} /></span>}
+              <span><small>{record.category}</small><strong>{record.name}</strong><em data-tone={statusTone(record.status)}>{displayStatus(record.status)}</em></span>
             </span>
-            <span className={styles.encounterCopy}>
-              <strong>{record.name}</strong>
-              <em data-tone={statusTone(record.status)}>{record.category.split(" · ")[0]}</em>
-            </span>
-            <span className={styles.encounterMetrics}>
-              <span><small>Health</small><b>{measured(core.health)}</b>{Number.isFinite(healthValue) ? <progress max={healthCap} value={healthValue} /> : null}</span>
-              <span><small>Poise</small><b>{measured(core.poise)}</b>{Number.isFinite(poiseValue) ? <progress max={poiseCap} value={poiseValue} /> : null}</span>
-            </span>
-            <span className={styles.encounterTags}>
-              {weakTo.length ? <span className={styles.tagGroup}><small>Weak</small>{weakTo.map((entry) => <StatusEffectLink key={`weak-${entry}`} label={entry} linked={false} />)}</span> : <span>No weakness recorded</span>}
-              {resists.length ? <span className={styles.tagGroup}><small>Resists</small>{resists.map((entry) => <StatusEffectLink key={`resist-${entry}`} label={entry} linked={false} />)}</span> : null}
-            </span>
+            <span className={styles.encounterMetrics}><span><small>Health</small><b>{measured(core.health)}</b></span><span><small>Poise</small><b>{measured(core.poise)}</b></span></span>
+            <span className={styles.encounterTags}>{weakTo.length ? <strong>Weak: {weakTo.join(", ")}</strong> : <span>No weakness recorded</span>}{resists.length ? <span>Resists: {resists.join(", ")}</span> : null}</span>
+            <span className={styles.encounterOpen}>Open encounter record <ChevronRight size={14} /></span>
           </Link> : <Link href={`${basePath}/${record.id}/`} key={record.id}>
             {record.image ? <Image alt="" className={record.image.includes("/images/official/gallery/") || record.image.includes("/images/encounters/") ? styles.coverImage : undefined} width={54} height={54} src={record.image} /> : fallbackImage ? <Image alt={fallbackImageAlt} className={styles.coverImage} width={54} height={54} src={fallbackImage} /> : <span aria-label={fallbackLabel} className={styles.fallback} title={fallbackLabel}><Database size={19} /><small>{fallbackLabel}</small></span>}
             <span><strong>{record.name}</strong><small>{record.category}</small><em data-tone={statusTone(record.status)}>{displayStatus(record.status)}</em></span>

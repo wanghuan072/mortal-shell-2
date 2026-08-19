@@ -56,20 +56,20 @@ export function WeaponExplorer({ weapons, initialQuery = "" }: { weapons: Weapon
         <div className={styles.weaponGrid}>
           {filtered.map((weapon) => (
             <article className={styles.weaponCard} key={weapon.slug}>
-              <Link className={styles.cardImage} href={`/wiki/weapons/${weapon.slug}/`}>
+              <Link className={styles.cardImage} href={`/weapons/${weapon.slug}/`}>
                 <Image alt={`${weapon.name} in Mortal Shell II`} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" src={weapon.image} style={{ objectPosition: weapon.imagePosition }} />
                 <span><Swords size={17} /></span>
                 <small>1.0 launch</small>
               </Link>
               <div className={styles.cardBody}>
                 <p className={styles.cardType}>{weapon.type}</p>
-                <h3><Link href={`/wiki/weapons/${weapon.slug}/`}>{weapon.name}</Link></h3>
+                <h3><Link href={`/weapons/${weapon.slug}/`}>{weapon.name}</Link></h3>
                 <p className={styles.cardDescription}>{weapon.description}</p>
                 <div className={styles.cardFacts}>
                   <span><ShieldCheck size={13} /> 1.0 launch details</span>
                   <span>{weapon.upgrades.length ? `${weapon.upgrades.length} forge levels` : "Forge progression unconfirmed"}</span>
                 </div>
-                <Link className={styles.detailsButton} href={`/wiki/weapons/${weapon.slug}/`}>
+                <Link className={styles.detailsButton} href={`/weapons/${weapon.slug}/`}>
                   View details <ArrowRight size={15} />
                 </Link>
               </div>

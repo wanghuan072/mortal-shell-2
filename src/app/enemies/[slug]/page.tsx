@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { SectionTitle } from "@/components/SectionTitle";
 import { WikiLocationCard, WikiMediaCard, WikiMediaGrid } from "@/components/WikiMediaCard";
 import { StatusEffectLink } from "@/components/StatusEffectLink";
+import { StatusProfile } from "@/components/StatusProfile";
 import { siteConfig } from "@/config/site";
 import { achievementPath, achievements } from "@/lib/data/achievements";
 import { enemyArchive, findArchiveRecord, itemArchive } from "@/lib/data/wiki";
@@ -132,13 +133,13 @@ export default async function EnemyDetailPage({ params }: PageProps) {
         publisher: { "@id": `${siteConfig.url}/#organization` },
         about: { "@type": "VideoGame", name: "Mortal Shell II" },
       },
-      { "@type": "BreadcrumbList", itemListElement: [{ name: "Home", item: siteConfig.url }, { name: "Enemies", item: `${siteConfig.url}/enemies/` }, { name: record.name, item: canonical }].map((entry, index) => ({ "@type": "ListItem", position: index + 1, name: entry.name, item: entry.item })) },
+      { "@type": "BreadcrumbList", itemListElement: [{ name: "Home", item: siteConfig.url }, { name: "Wiki", item: `${siteConfig.url}/wiki/` }, { name: "Enemies", item: `${siteConfig.url}/enemies/` }, { name: record.name, item: canonical }].map((entry, index) => ({ "@type": "ListItem", position: index + 1, name: entry.name, item: entry.item })) },
     ],
   };
 
   return <div className={styles.page} data-encounter-dossier>
     <JsonLd data={schema} />
-    <Breadcrumbs items={[{ label: "Enemies", href: "/enemies/" }, { label: record.name }]} />
+    <Breadcrumbs items={[{ label: "Wiki", href: "/wiki/" }, { label: "Enemies", href: "/enemies/" }, { label: record.name }]} />
     <div className={styles.layout}>
       <article className={styles.dataDigest}>
         <header className={styles.hero} data-empty-vitals={hasVitalStats ? undefined : true} data-has-artwork={record.image ? true : undefined}>
@@ -169,8 +170,10 @@ export default async function EnemyDetailPage({ params }: PageProps) {
           </div> : null}
           {hasCombatProfile ? <div>
             <SectionTitle title="Combat profile" />
-            {weakTo.length ? <article className={styles.profileChips}><Target size={16} /><span><b>Vulnerable to</b><span className={styles.chipRow}>{weakTo.map((entry) => <StatusEffectLink key={entry} label={entry} />)}</span></span></article> : null}
-            {resistantTo.length ? <article className={styles.profileChips}><ShieldCheck size={16} /><span><b>Resists</b><span className={styles.chipRow}>{resistantTo.map((entry) => <StatusEffectLink key={entry} label={entry} />)}</span></span></article> : null}
+            <StatusProfile rows={[
+              { icon: Target, label: "Vulnerable to", values: weakTo },
+              { icon: ShieldCheck, label: "Resists", values: resistantTo },
+            ]} />
             {numeric(details.misc?.riposteWeakness) !== null ? <article><Skull size={16} /><span><b>Riposte weakness</b><small>{measured(details.misc?.riposteWeakness)}× · {detailStatus(details.misc?.riposteWeakness)}</small></span></article> : null}
             {attackEntries.length ? <article><Sparkles size={16} /><span><b>Known attacks</b><small>{attackEntries.length} listed attacks</small></span></article> : null}
           </div> : null}
@@ -235,18 +238,6 @@ export default async function EnemyDetailPage({ params }: PageProps) {
           </div>
         </section> : null}
       </article>
-      {familyVariants.length > 1 ? <aside className={styles.encounterRoster} aria-label={`${family} variants`}>
-        <section>
-          <p>{family}</p>
-          {familyVariants.map((variant) => {
-            const variantDetails = variant.details as EncounterDetails;
-            return <Link aria-current={variant.id === record.id ? "page" : undefined} href={`/enemies/${variant.id}/`} key={variant.id}>
-              {variant.image ? <Image alt="" height={48} src={variant.image} width={48} /> : <span className={styles.variantMark}>{variant.name.slice(0, 1)}</span>}
-              <span><b>{variant.name}</b><small>{toText(variantDetails.classification, classification)} · {measured(variantDetails.core?.health)} HP</small></span>
-            </Link>;
-          })}
-        </section>
-      </aside> : null}
     </div>
   </div>;
 }

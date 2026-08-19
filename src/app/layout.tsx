@@ -37,7 +37,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <JsonLd data={{ "@context": "https://schema.org", "@graph": [
           { "@type": "Organization", "@id": `${siteConfig.url}/#organization`, name: siteConfig.name, url: siteConfig.url, logo: `${siteConfig.url}${siteConfig.logo}`, email: "wyong@mortalshell.org" },
-          { "@type": "WebSite", "@id": `${siteConfig.url}/#website`, name: siteConfig.name, url: siteConfig.url, description: siteConfig.description, publisher: { "@id": `${siteConfig.url}/#organization` }, potentialAction: { "@type": "SearchAction", target: `${siteConfig.url}/wiki/weapons/?q={search_term_string}`, "query-input": "required name=search_term_string" } },
+          { "@type": "WebSite", "@id": `${siteConfig.url}/#website`, name: siteConfig.name, url: siteConfig.url, description: siteConfig.description, publisher: { "@id": `${siteConfig.url}/#organization` }, potentialAction: { "@type": "SearchAction", target: `${siteConfig.url}/weapons/?q={search_term_string}`, "query-input": "required name=search_term_string" } },
         ] }} />
         <SiteHeader />
         <main>{children}</main>

@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import { SectionTitle } from "@/components/SectionTitle";
 import buildData from "@/data/game-info.json";
-import media from "@/data/media.json";
 import videos from "@/data/videos.json";
 import { archiveCounts } from "@/lib/data/wiki";
 import { featuredShells, researchNotes, siteConfig } from "@/config/site";
@@ -26,9 +25,9 @@ export const metadata: Metadata = getPageMetadata("home", "/");
 
 const exploreCards = [
   { title: "Wiki", href: "/wiki/", text: "Shells, weapons, items, Tarstones, skills, and achievements.", image: "/images/official/trailer.webp", icon: Database },
-  { title: "Weapons", href: "/wiki/weapons/", text: "Compare moves, skills, Forge costs, and upgrades.", image: "/images/official/world.png", icon: Swords },
+  { title: "Weapons", href: "/weapons/", text: "Compare moves, skills, Forge costs, and upgrades.", image: "/images/official/world.png", icon: Swords },
   { title: "Map", href: "/map/", text: "Search 54 marked locations across the world map.", image: "/images/official/combat.png", icon: Map },
-  { title: "Shells", href: "/wiki/shells/", text: "Check abilities, passives, and known variants.", image: "/images/official/shell.png", icon: Shield },
+  { title: "Shells", href: "/shells/", text: "Check abilities, passives, and known variants.", image: "/images/official/shell.png", icon: Shield },
   { title: "Enemies", href: "/enemies/", text: "Browse 1.0 launch enemy HP, poise, and resistances.", image: "/images/official/feature.webp", icon: Skull },
   { title: "Items", href: "/wiki/items/", text: "Look up materials, keys, consumables, and currencies.", image: "/images/official/battle.png", icon: Database },
 ];
@@ -64,7 +63,7 @@ export default function Home() {
             <h1>Mortal Shell <span>II</span> - Wiki, Guides, and Interactive Map</h1>
             <p className={styles.heroSubtitle}><i /> Wiki &amp; Guide <i /></p>
             <p className={styles.lead}>
-              Find clear help for <Link href="/wiki/weapons/">weapons</Link>, <Link href="/wiki/shells/">Shells</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/enemies/">enemies</Link>, <Link href="/bosses/">Bosses</Link>, and <Link href="/map/">map locations</Link>—whether you are choosing a build, planning a route, or checking a tough encounter.
+              Find clear help for <Link href="/weapons/">weapons</Link>, <Link href="/shells/">Shells</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/enemies/">enemies</Link>, <Link href="/bosses/">Bosses</Link>, and <Link href="/map/">map locations</Link>—whether you are choosing a build, planning a route, or checking a tough encounter.
             </p>
             <div className={styles.heroActions}>
               <Link className={styles.primaryButton} href="/wiki/">
@@ -80,12 +79,13 @@ export default function Home() {
               <span>Release date</span>
               <strong>August 20, 2026</strong>
               <p>Steam · PlayStation 5 · Xbox Series X|S</p>
+              <dl className={styles.releaseFacts}>
+                <div><dt>Wiki data</dt><dd>1.0 launch</dd></div>
+                <div><dt>Weapons</dt><dd>{archiveCounts.weapons}</dd></div>
+                <div><dt>Playable Shells</dt><dd>{archiveCounts.namedShells}</dd></div>
+                <div><dt>Map</dt><dd>54 locations</dd></div>
+              </dl>
             </div>
-            <a className={styles.trailerCard} href="https://www.youtube.com/@MortalShellGame" target="_blank" rel="noreferrer">
-              <Image alt="Mortal Shell II playable Shell lineup" fill sizes="360px" src="/images/official/trailer.webp" />
-              <span className={styles.play}><Play size={24} fill="currentColor" /></span>
-              <div><b>Official media</b><small>Visit the Mortal Shell channel</small></div>
-            </a>
           </aside>
         </div>
       </section>
@@ -112,7 +112,7 @@ export default function Home() {
         <section className={styles.dashboard}>
           <div className={styles.dashboardPanel}>
             <SectionTitle title="Start here" href="/guides/" />
-            <Link className={styles.guideLead} href="/wiki/weapons/">
+            <Link className={styles.guideLead} href="/weapons/">
               <Image alt="A Shell wielding a scythe" width={120} height={74} src="/images/official/world.png" />
               <span><b>Choose your equipment</b><small>Compare primary weapons, sidearms, Forge upgrades, Tarstones, and skills</small></span>
               <ArrowRight size={16} />
@@ -130,9 +130,9 @@ export default function Home() {
           </div>
 
           <div className={styles.dashboardPanel}>
-            <SectionTitle title="Featured Shells" href="/wiki/shells/" />
+            <SectionTitle title="Featured Shells" href="/shells/" />
             {featuredShells.map((shell) => (
-              <Link className={styles.characterRow} href={`/wiki/shells/${shell.name.toLowerCase()}/`} key={shell.name}>
+              <Link className={styles.characterRow} href={`/shells/${shell.name.toLowerCase()}/`} key={shell.name}>
                 <Image alt={`${shell.name}, ${shell.title}`} width={74} height={74} src={shell.image} />
                 <span><b>{shell.name}</b><small>{shell.title}</small></span>
                 <Shield size={18} />
@@ -141,9 +141,9 @@ export default function Home() {
           </div>
 
           <div className={styles.dashboardPanel}>
-            <SectionTitle title="Weapon records" href="/wiki/weapons/" />
+            <SectionTitle title="Weapon records" href="/weapons/" />
             {weapons.slice(0, 3).map((weapon) => (
-              <Link className={styles.mediaRow} href={`/wiki/weapons/${weapon.slug}/`} key={weapon.slug}>
+              <Link className={styles.mediaRow} href={`/weapons/${weapon.slug}/`} key={weapon.slug}>
                 <Image alt="" width={86} height={62} src={weapon.image} />
                 <span><b>{weapon.name}</b><small>{weapon.type} · 1.0 launch</small></span>
               </Link>
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.homeInfoGrid} aria-label="Mortal Shell II beta information and official media">
+        <section className={styles.homeInfoGrid} aria-label="Mortal Shell II beta information and official video">
           <article className={styles.homeInfoPanel} id="open-beta">
             <SectionTitle title="Open Beta" />
             <p className={styles.infoLead}>Start with the opening area of Mortal Shell II and see which progress and records belong to the current beta build. Select progress carries forward, but final-game progression may differ.</p>
@@ -180,17 +180,13 @@ export default function Home() {
             <SectionTitle title="Official video" />
             <div className={styles.homeVideoList}>{videos.map((video) => <a href={video.url} key={video.url} rel="noreferrer" target="_blank"><Image alt="" height={72} src={video.thumbnail} width={128} /><span><b>{video.title}</b><small>{video.channel} · {video.url.includes("youtube.com") ? "YouTube" : "Steam"}</small></span><Play size={15} /></a>)}</div>
           </article>
-          <article className={`${styles.homeInfoPanel} ${styles.mediaPanel}`} id="official-media">
-            <SectionTitle title="Official gallery" />
-            <div className={styles.homeMediaGrid}>{media.map((item) => <figure key={item.slug}><Image alt={item.alt} height={135} src={item.image} width={240} /><figcaption><b>{item.title}</b><small>Official media</small></figcaption></figure>)}</div>
-          </article>
         </section>
 
         <section className={styles.aboutFaq}>
           <div className={styles.aboutPanel}>
             <SectionTitle title="About Mortal Shell II" href="/wiki/" linkLabel="Wiki index" />
             <p>Mortal Shell II is a standalone action RPG from Cold Symmetry and Playstack. It expands the first game with free exploration, a compact interconnected world, and combat that does not use a stamina bar.</p>
-            <p>The 1.0 launch records cover <Link href="/wiki/weapons/">weapon paths</Link>, <Link href="/wiki/shells/">Shell variants</Link>, <Link href="/map/">connected routes</Link>, and <Link href="/enemies/">hostile encounters</Link> across a compact dark-fantasy world.</p>
+            <p>The 1.0 launch records cover <Link href="/weapons/">weapon paths</Link>, <Link href="/shells/">Shell variants</Link>, <Link href="/map/">connected routes</Link>, and <Link href="/enemies/">hostile encounters</Link> across a compact dark-fantasy world.</p>
           </div>
           <div className={styles.faqPanel}>
             <SectionTitle title="Mortal Shell II FAQ" />
@@ -203,7 +199,7 @@ export default function Home() {
 
         <section className={styles.trustBar}>
           <Skull size={20} />
-            <p><b>Built from 1.0 launch data.</b> Check <Link href="/wiki/weapons/">{archiveCounts.weapons} weapons</Link>, <Link href="/wiki/sidearms/">{archiveCounts.sidearms} sidearms</Link>, <Link href="/wiki/shells/">{archiveCounts.namedShells} playable Shells</Link>, <Link href="/wiki/artifacts/">{archiveCounts.artifacts} Artifacts</Link>, <Link href="/enemies/">{archiveCounts.enemyVariants} enemies</Link>, <Link href="/bosses/">{archiveCounts.bosses} Bosses</Link>, and <Link href="/map/">54 map locations</Link>.</p>
+            <p><b>Built from 1.0 launch data.</b> Check <Link href="/weapons/">{archiveCounts.weapons} weapons</Link>, <Link href="/wiki/sidearms/">{archiveCounts.sidearms} sidearms</Link>, <Link href="/shells/">{archiveCounts.namedShells} playable Shells</Link>, <Link href="/wiki/artifacts/">{archiveCounts.artifacts} Artifacts</Link>, <Link href="/enemies/">{archiveCounts.enemyVariants} enemies</Link>, <Link href="/bosses/">{archiveCounts.bosses} Bosses</Link>, and <Link href="/map/">54 map locations</Link>.</p>
         </section>
       </div>
     </>

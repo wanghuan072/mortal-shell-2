@@ -1,8 +1,8 @@
-import { PlayCircle } from "lucide-react";
-import media from "@/data/wiki/media.json";
+import { FlaskConical, Sparkles } from "lucide-react";
 import { achievementEntityPath, achievementPath, achievementRecords, achievements } from "@/lib/data/achievements";
-import { matchingStatusEffects, recordMatchesStatusEffect, findStatusEffect, shellStatusEffects, statusEffectAnchor, statusEffectRecords } from "@/lib/data/status-effects";
+import { matchingStatusEffects, recordMatchesStatusEffect, findStatusEffect, shellStatusEffects, statusEffectRecords } from "@/lib/data/status-effects";
 import { artifactArchive, enemyArchive, itemArchive, sealArchive, shellArchive, skillArchive, sidearmArchive, tarstoneArchive, weaponRecords } from "@/lib/data/wiki";
+import { StatusProfile } from "@/components/StatusProfile";
 import { WikiLocationCard, WikiMediaCard, WikiMediaGrid } from "@/components/WikiMediaCard";
 import type { WikiRecord } from "@/types/wiki";
 import styles from "@/style/page/wiki/archive/archive.module.css";
@@ -20,14 +20,14 @@ function MediaCards({ entries }: { entries: Array<{ title: string; body?: string
   return <WikiMediaGrid>{entries.map((entry) => <WikiMediaCard body={entry.body} empty={entry.empty} href={entry.href} image={entry.image} key={`${entry.title}-${entry.href ?? ""}`} meta={entry.meta} title={entry.title} />)}</WikiMediaGrid>;
 }
 
-function RelatedConditions({ record, extra, kind }: { record: WikiRecord; extra?: unknown; kind?: "shell" }) {
+function RelatedConditions({ record, extra, kind, label = "Related conditions" }: { record: WikiRecord; extra?: unknown; kind?: "shell"; label?: string }) {
   const mapped = kind === "shell" ? shellStatusEffects(record.id) : [];
   const matches = [...mapped, ...matchingStatusEffects(record.id.replace(/[-_]/g, " "), record.name, record.description, extra)]
     .filter((entry, index, list) => list.findIndex((item) => item.slug === entry.slug) === index);
   if (!matches.length) return null;
   return <section className={styles.referenceSection}>
     <h2>Status effects</h2>
-    <MediaCards entries={matches.map((effect) => ({ title: effect.name, body: effect.description, meta: effect.category, href: statusEffectAnchor(effect.slug), image: effect.icon }))} />
+    <StatusProfile rows={[{ icon: kind === "shell" ? Sparkles : FlaskConical, label, values: matches.map((entry) => entry.slug) }]} />
   </section>;
 }
 
@@ -58,7 +58,6 @@ function ShellReferences({ record }: { record: WikiRecord }) {
     return { title: name, body: linkedSkill ? linkedSkill.description : "Three upgrade levels are listed for this Shell Memory skill.", meta: linkedSkill ? "Linked skill" : "Skill name", href: linkedSkill ? `/wiki/skills/${linkedSkill.id}/` : undefined, image: linkedSkill?.image };
   });
   const parentShell = typeof details.parentShell === "string" ? shellArchive.find((entry) => entry.name === details.parentShell) : undefined;
-  const shellVideos = (media.shellVideos as Record<string, Array<{ label: string; src: string; poster: string }>>)[record.id] ?? [];
   const abilities = arrayValue(details.abilities).flatMap((entry) => {
     const value = objectValue(entry);
     return value ? [{ title: textValue(value.name), body: textValue(value.description), meta: textValue(value.type) }] : [];
@@ -67,19 +66,18 @@ function ShellReferences({ record }: { record: WikiRecord }) {
     const value = objectValue(entry);
     if (!value) return [];
     const linkedRecord = typeof value.id === "string" ? shellArchive.find((entry) => entry.id === value.id) : undefined;
-    return [{ title: textValue(value.name), body: textValue(value.gameplay), meta: textValue(value.type), href: linkedRecord ? `/wiki/shells/${linkedRecord.id}/` : undefined, image: linkedRecord?.image }];
+    return [{ title: textValue(value.name), body: textValue(value.gameplay), meta: textValue(value.type), href: linkedRecord ? `/shells/${linkedRecord.id}/` : undefined, image: linkedRecord?.image }];
   });
   const skillEntries = shellSkills.length
     ? shellSkills.map((entry) => ({ title: entry.name, body: entry.description, meta: `${textValue(entry.details.type)} · 3 levels`, href: `/wiki/skills/${entry.id}/`, image: entry.image }))
     : listedSkills;
   return <>
-    {parentShell ? <section className={styles.referenceSection}><h2>Parent Shell</h2><MediaCards entries={[{ title: parentShell.name, body: parentShell.description, meta: parentShell.category, href: `/wiki/shells/${parentShell.id}/`, image: parentShell.image }]} /></section> : null}
+    <RelatedConditions extra={details.abilities} kind="shell" label="Signature conditions" record={record} />
     {abilities.length ? <section className={styles.referenceSection}><h2>Signature abilities</h2><div className={styles.abilityBoard}>{abilities.map((ability) => <article key={ability.title}><small>{ability.meta}</small><b>{ability.title}</b><p>{ability.body}</p></article>)}</div></section> : null}
     {skillEntries.length ? <section className={styles.referenceSection}><h2>Skill Tree</h2><MediaCards entries={skillEntries} /></section> : null}
     {variants.length ? <section className={styles.referenceSection}><h2>Variants and memories</h2><MediaCards entries={variants} /></section> : null}
+    {parentShell ? <section className={styles.referenceSection}><h2>Parent Shell</h2><MediaCards entries={[{ title: parentShell.name, body: parentShell.description, meta: parentShell.category, href: `/shells/${parentShell.id}/`, image: parentShell.image }]} /></section> : null}
     <AchievementCards record={record} />
-    {shellVideos.length ? <section className={styles.referenceSection}><h2>Abilities in motion</h2><div className={styles.videoGrid}>{shellVideos.map((video) => <figure className={styles.videoCard} key={video.src}><video controls loop muted playsInline poster={video.poster} preload="metadata" src={video.src} /><figcaption><PlayCircle size={14} />{video.label}</figcaption></figure>)}</div></section> : null}
-    <RelatedConditions extra={details.abilities} kind="shell" record={record} />
   </>;
 }
 
@@ -97,7 +95,7 @@ function EquipmentReferences({ record }: { record: WikiRecord }) {
       ...displayedTarstones.map((stone) => ({ title: stone.name, body: stone.description, meta: stone.category, href: `/wiki/tarstones/${stone.id}/`, image: stone.image })),
     ]} /> : <p className={styles.referenceEmpty}>No Tarstones are linked to this sidearm yet.</p>}</section>
     <AchievementCards record={record} />
-    <RelatedConditions record={record} />
+    <RelatedConditions label="Combat conditions" record={record} />
   </>;
 }
 
@@ -105,7 +103,7 @@ function SkillReferences({ record }: { record: WikiRecord }) {
   const details = record.details;
   const owner = textValue(details.owner ?? details.shell);
   const ownerRecord = shellArchive.find((entry) => entry.name === owner && entry.details.playable === true) ?? shellArchive.find((entry) => entry.name === owner);
-  const ownerHref = ownerRecord ? `/wiki/shells/${ownerRecord.id}/` : undefined;
+  const ownerHref = ownerRecord ? `/shells/${ownerRecord.id}/` : undefined;
   const levels = arrayValue(details.levels).flatMap((entry, index) => {
     const value = objectValue(entry);
     return value
@@ -118,7 +116,7 @@ function SkillReferences({ record }: { record: WikiRecord }) {
       <h2>Upgrade ladder</h2>
       {levels.length ? <ol className={styles.skillLadder}>{levels.map((level) => <li key={level.meta}><em>{level.meta}</em><p>{level.title}</p></li>)}</ol> : <p className={styles.referenceEmpty}>No upgrade levels are listed for this skill.</p>}
     </section>
-    <RelatedConditions extra={details.levels} record={record} />
+    <RelatedConditions extra={details.levels} label="Inflicts / interacts with" record={record} />
   </>;
 }
 
@@ -137,7 +135,7 @@ function TarstoneReferences({ record }: { record: WikiRecord }) {
     const target = value.kind === "sidearm"
       ? sidearmArchive.find((item) => item.id === value.id)
       : value.kind === "weapon" ? weaponRecords.find((item) => item.id === value.id || item.details.slug === value.id) : null;
-    const href = target ? value.kind === "weapon" ? `/wiki/weapons/${target.details.slug ?? target.id}/` : `/wiki/sidearms/${target.id}/` : undefined;
+    const href = target ? value.kind === "weapon" ? `/weapons/${target.details.slug ?? target.id}/` : `/wiki/sidearms/${target.id}/` : undefined;
     return [{ title: target?.name ?? textValue(value.id), body: target ? target.description : "Listed in the launch compatibility field.", meta: textValue(value.kind), href, image: target?.image }];
   });
   return <>
@@ -147,7 +145,7 @@ function TarstoneReferences({ record }: { record: WikiRecord }) {
     </section>
     <section className={styles.referenceSection}><h2>Fits these weapons</h2><MediaCards entries={compatible.length ? compatible : [{ title: "General slot", body: "This Tarstone is currently recorded as a general slot effect.", empty: true }]} /></section>
     <AchievementCards record={record} />
-    <RelatedConditions extra={record.details.levels} record={record} />
+    <RelatedConditions extra={record.details.levels} label="Inflicts / interacts with" record={record} />
   </>;
 }
 
@@ -165,7 +163,7 @@ function CatalogReferences({ record, title }: Props) {
     {relationships.length ? <section className={styles.referenceSection}><h2>Used with</h2><div className={styles.usedWith}>{relationships.map((entry) => <span key={entry.title}><small>{entry.meta}</small><b>{entry.title}</b></span>)}</div></section> : null}
     <section className={styles.mapStrip}><WikiLocationCard body="Search marked locations and merchants on the world map." href={`/map/?q=${encodeURIComponent(record.name)}`} hrefLabel="Search the interactive map" title={textValue(record.details.acquisition) === "Not documented" ? record.name : textValue(record.details.acquisition)} /></section>
     <AchievementCards record={record} />
-    <RelatedConditions extra={record.details.effects} record={record} />
+    <RelatedConditions extra={record.details.effects} label="Combat conditions" record={record} />
   </>;
 }
 
@@ -183,7 +181,7 @@ function SealReferences({ record }: { record: WikiRecord }) {
     {effects.length ? <section className={styles.referenceSection}><h2>How it works</h2><ol className={styles.sealSteps}>{effects.map((effect, index) => <li key={effect.title}><em>{String(index + 1).padStart(2, "0")}</em><div><b>{effect.title}</b><p>{effect.body}</p></div></li>)}</ol></section> : null}
     {resources.length ? <section className={styles.referenceSection}><h2>Related systems</h2><MediaCards entries={resources} /></section> : null}
     <AchievementCards record={record} />
-    <RelatedConditions extra={record.details.effects} record={record} />
+    <RelatedConditions extra={record.details.effects} label="Combat conditions" record={record} />
   </>;
 }
 
@@ -235,13 +233,13 @@ function StatusEffectReferences({ record }: { record: WikiRecord }) {
       <div className={styles.effectSheet}><article><small>{effect.category}{effect.stacks ? ` · Max stacks ${effect.stacks}` : ""}</small><b>{effect.name}</b><p>{effect.description}</p></article></div>
     </section>
     {tarstones.length ? <section className={styles.referenceSection}><h2>Tarstones</h2><MediaCards entries={tarstones.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/wiki/tarstones/${entry.id}/`, image: entry.image }))} /></section> : null}
-    {shells.length ? <section className={styles.referenceSection}><h2>Shells</h2><MediaCards entries={shells.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/wiki/shells/${entry.id}/`, image: entry.image }))} /></section> : null}
+    {shells.length ? <section className={styles.referenceSection}><h2>Shells</h2><MediaCards entries={shells.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/shells/${entry.id}/`, image: entry.image }))} /></section> : null}
     {skills.length ? <section className={styles.referenceSection}><h2>Skills</h2><MediaCards entries={skills.map((entry) => ({ title: entry.name, body: entry.description, meta: textValue(entry.details.owner ?? entry.category), href: `/wiki/skills/${entry.id}/`, image: entry.image }))} /></section> : null}
-    {weapons.length ? <section className={styles.referenceSection}><h2>Weapons</h2><MediaCards entries={weapons.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/wiki/weapons/${String(entry.details.slug ?? entry.id)}/`, image: entry.image }))} /></section> : null}
+    {weapons.length ? <section className={styles.referenceSection}><h2>Weapons</h2><MediaCards entries={weapons.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/weapons/${String(entry.details.slug ?? entry.id)}/`, image: entry.image }))} /></section> : null}
     {items.length ? <section className={styles.referenceSection}><h2>Items</h2><MediaCards entries={items.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/wiki/items/${entry.id}/`, image: entry.image }))} /></section> : null}
     {artifacts.length ? <section className={styles.referenceSection}><h2>Artifacts</h2><MediaCards entries={artifacts.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/wiki/artifacts/${entry.id}/`, image: entry.image }))} /></section> : null}
     {encounters.length ? <section className={styles.referenceSection}><h2>Encounters weak to this</h2><MediaCards entries={encounters.map((entry) => ({ title: entry.name, body: entry.description, meta: entry.category, href: `/enemies/${entry.id}/`, image: entry.image }))} /></section> : null}
-    {relatedConditions.length ? <section className={styles.referenceSection}><h2>Related conditions</h2><MediaCards entries={relatedConditions} /></section> : null}
+    {relatedConditions.length ? <section className={styles.referenceSection}><h2>Related conditions</h2><StatusProfile rows={[{ icon: FlaskConical, label: "Also see", values: relatedConditions.map((entry) => entry.title) }]} /></section> : null}
     <section className={styles.referenceSection}>
       <h2>Keep looking</h2>
       <MediaCards entries={[
@@ -272,7 +270,7 @@ function AchievementReferences({ record }: { record: WikiRecord }) {
   const linked = wikiRecordForEntity(entity);
   const linkedHref = linked
     ? entity?.kind === "weapon"
-      ? `/wiki/weapons/${String(linked.details.slug ?? linked.id)}/`
+      ? `/weapons/${String(linked.details.slug ?? linked.id)}/`
       : achievementEntityPath(entity)
     : achievementEntityPath(entity);
   const note = textValue(record.details.note);
@@ -289,9 +287,9 @@ function AchievementReferences({ record }: { record: WikiRecord }) {
     .slice(0, 8);
   const relatedAchievements = achievementRecords.filter((item) => item.id !== record.id && item.category === record.category).slice(0, 8);
   const hrefFor = (item: WikiRecord) => {
-    if (weaponRecords.includes(item)) return `/wiki/weapons/${String(item.details.slug ?? item.id)}/`;
+    if (weaponRecords.includes(item)) return `/weapons/${String(item.details.slug ?? item.id)}/`;
     if (enemyArchive.includes(item)) return `/enemies/${item.id}/`;
-    if (shellArchive.includes(item)) return `/wiki/shells/${item.id}/`;
+    if (shellArchive.includes(item)) return `/shells/${item.id}/`;
     if (sidearmArchive.includes(item)) return `/wiki/sidearms/${item.id}/`;
     if (itemArchive.includes(item)) return `/wiki/items/${item.id}/`;
     if (tarstoneArchive.includes(item)) return `/wiki/tarstones/${item.id}/`;
@@ -312,8 +310,8 @@ function AchievementReferences({ record }: { record: WikiRecord }) {
       <h2>Keep looking</h2>
       <MediaCards entries={[
         { title: "All achievements", body: "Browse every 1.0 launch trophy.", meta: "Wiki", href: "/wiki/achievements/" },
-        { title: "Shells", body: "Claimable Shells tied to several trophies.", meta: "Wiki", href: "/wiki/shells/" },
-        { title: "Weapons", body: "Unlock routes for melee trophies.", meta: "Wiki", href: "/wiki/weapons/" },
+        { title: "Shells", body: "Claimable Shells tied to several trophies.", meta: "Shells", href: "/shells/" },
+        { title: "Weapons", body: "Unlock routes for melee trophies.", meta: "Weapons", href: "/weapons/" },
         { title: "Bosses", body: "Encounter records for boss trophies.", meta: "Wiki", href: "/bosses/" },
       ]} />
     </section>

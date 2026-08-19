@@ -17,6 +17,6 @@ export default function TarstonesPage() {
     filterLabel="Equipment slot"
     emptyLabel="No Tarstones match these filters"
     parent={{ label: "Wiki", href: "/wiki/" }}
-    related={[{ label: "Weapons", href: "/wiki/weapons/" }, { label: "Sidearms", href: "/wiki/sidearms/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
+    related={[{ label: "Weapons", href: "/weapons/" }, { label: "Sidearms", href: "/wiki/sidearms/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
   />;
 }

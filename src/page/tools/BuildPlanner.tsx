@@ -8,7 +8,7 @@ import { weapons } from "@/lib/data/weapons";
 import styles from "@/style/page/tools/tools.module.css";
 
 const shellOptions = shellRecords.filter((record) => record.details.playable === true);
-const weaponOptions = weapons.map((weapon) => ({ id: weapon.slug, name: weapon.name, href: `/wiki/weapons/${weapon.slug}/`, maxLevel: weapon.upgrades.length }));
+const weaponOptions = weapons.map((weapon) => ({ id: weapon.slug, name: weapon.name, href: `/weapons/${weapon.slug}/`, maxLevel: weapon.upgrades.length }));
 const sidearmOptions = sidearmRecords.map((record) => ({ id: record.id, name: record.name, href: `/wiki/sidearms/${record.id}/` }));
 const sealOptions = sealRecords.map((record) => ({ id: record.id, name: record.name, href: `/wiki/seals/${record.id}/` }));
 const tarstoneOptions = tarstoneRecords.map((record) => ({ id: record.id, name: record.name, href: `/wiki/tarstones/${record.id}/` }));
@@ -82,7 +82,7 @@ export function BuildPlanner() {
           <div><dt>Seal</dt><dd>{selected.seal?.name ?? "Not selected"}</dd></div>
           <div><dt>Tarstones</dt><dd>{selected.tarstones.length ? selected.tarstones.map((entry) => entry?.name).join(" · ") : "None selected"}</dd></div>
         </dl>
-        <div className={styles.summaryLinks}>{selected.weapon && <Link href={selected.weapon.href}>Weapon record <ArrowRight size={13} /></Link>}{selected.shell && <Link href={`/wiki/shells/${selected.shell.id}/`}>Shell record <ArrowRight size={13} /></Link>}</div>
+        <div className={styles.summaryLinks}>{selected.weapon && <Link href={selected.weapon.href}>Weapon record <ArrowRight size={13} /></Link>}{selected.shell && <Link href={`/shells/${selected.shell.id}/`}>Shell record <ArrowRight size={13} /></Link>}</div>
       </aside>
     </div>
     <p className={styles.resultNote}><Link2 size={14} /> The share link stores the selected loadout in the URL. It does not save account data.</p>

@@ -21,7 +21,7 @@ export default async function MapPage({ searchParams }: { searchParams: Promise<
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Mortal Shell II Interactive Map",
-    description: "A player-focused interactive map of Mortal Shell II beta locations and points of interest.",
+    description: "Mortal Shell II interactive map: beta locations, weapons, Shells, merchants, dungeons, and Bosses.",
     url: `${siteConfig.url}/map/`,
     dateModified: buildData.reviewedAt,
     isPartOf: { "@id": `${siteConfig.url}/#website` },
@@ -40,7 +40,7 @@ export default async function MapPage({ searchParams }: { searchParams: Promise<
       <div className={styles.seoIntro}>
         <p className={styles.eyebrow}>Map guide and data methodology</p>
         <h2 id="map-guide-heading">Mortal Shell II map for beta exploration</h2>
-        <p>This interactive Mortal Shell II map brings current Open Beta points of interest into one searchable view. Use the list or map markers to locate <Link href="/wiki/weapons/">weapon pickups</Link>, <Link href="/wiki/shells/">Shell encounters</Link>, map stations, merchants, dungeon entrances, <Link href="/bosses/">verified encounters</Link>, evil statues, landing areas, NPCs, and traversal points.</p>
+        <p>This interactive Mortal Shell II map brings current Open Beta points of interest into one searchable view. Use the list or map markers to locate <Link href="/weapons/">weapon pickups</Link>, <Link href="/shells/">Shell encounters</Link>, map stations, merchants, dungeon entrances, <Link href="/bosses/">verified encounters</Link>, evil statues, landing areas, NPCs, and traversal points.</p>
         <p>The map currently contains <strong>{locations.length} marked locations</strong>. Select a marker to open its in-map details, then mark it as found to keep a personal discovery checklist in this browser. The optimized map loads first; the 8K layer is available when you need to inspect a dense area.</p>
       </div>
       <div className={styles.seoGrid}>

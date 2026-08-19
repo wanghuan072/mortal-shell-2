@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Mortal Shell II Wiki",
   shortName: "Mortal Shell II",
   description:
-    "Mortal Shell II guides, weapon and Shell details, encounter notes, and an interactive map for players planning their next run. Wiki numbers match the 1.0 launch version.",
+    "Mortal Shell II Wiki: weapons, Shells, encounters, and map locations. 1.0 launch version.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mortalshell.org",
   ogImage: "/images/og-image.png",
   logo: "/images/logo.png",
@@ -10,30 +10,19 @@ export const siteConfig = {
   releaseDate: "2026-08-20",
 };
 
-export const primaryNav = [
-  { href: "/", label: "Home" },
-  { href: "/wiki/", label: "Wiki" },
-  { href: "/enemies/", label: "Enemies" },
-  { href: "/map/", label: "Map" },
-  { href: "/guides/", label: "Guides" },
-  { href: "/tools/", label: "Tools" },
-  { href: "/updates/", label: "Updates" },
-];
+export type NavItem = {
+  href: string;
+  label: string;
+  children?: { href: string; label: string }[];
+};
 
 export const wikiCategories = [
   {
-    title: "Shells",
-    href: "/wiki/shells/",
-    description: "Playable bodies and their signature abilities.",
-    image: "/images/official/trailer.webp",
-    eyebrow: "8 playable Shells",
-  },
-  {
-    title: "Weapons",
-    href: "/wiki/weapons/",
-    description: "Melee arms and 1.0 upgrade scaling.",
-    image: "/images/official/world.png",
-    eyebrow: "10 melee weapons",
+    title: "Enemies",
+    href: "/enemies/",
+    description: "Health, poise, resistances, and attacks.",
+    image: "/images/official/feature.webp",
+    eyebrow: "1.0 launch enemies",
   },
   {
     title: "Sidearms",
@@ -93,6 +82,17 @@ export const wikiCategories = [
   },
 ];
 
+export const primaryNav: NavItem[] = [
+  { href: "/", label: "Home" },
+  { href: "/wiki/", label: "Wiki", children: wikiCategories.map(({ href, title }) => ({ href, label: title })) },
+  { href: "/shells/", label: "Shells" },
+  { href: "/weapons/", label: "Weapons" },
+  { href: "/map/", label: "Map" },
+  { href: "/guides/", label: "Guides" },
+  { href: "/tools/", label: "Tools" },
+  { href: "/updates/", label: "Updates" },
+];
+
 export const featuredShells = [
   {
     name: "Proxima",
@@ -133,7 +133,7 @@ export const researchNotes = [
   {
     label: "Site update",
     title: "More pages are ready for your next run",
-    description: "Shells, weapons, items, Tarstones, and skills are organized for quick planning.",
+    description: "Shells, weapons, items, Tarstones, and skills. 1.0 launch version.",
     date: "2026-08-17",
   },
 ];

@@ -11,7 +11,7 @@ import { weapons } from "@/lib/data/weapons";
 import { getPageMetadata } from "@/seo/tdk";
 import styles from "@/style/page/wiki/weapons/weapons.module.css";
 
-export const metadata: Metadata = getPageMetadata("weapons", "/wiki/weapons/");
+export const metadata: Metadata = getPageMetadata("weapons", "/weapons/");
 
 export default async function WeaponsPage({ searchParams }: { searchParams: Promise<{ q?: string | string[] }> }) {
   const params = await searchParams;
@@ -20,7 +20,7 @@ export default async function WeaponsPage({ searchParams }: { searchParams: Prom
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Mortal Shell II Weapons",
-    url: `${siteConfig.url}/wiki/weapons/`,
+    url: `${siteConfig.url}/weapons/`,
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: weapons.length,
@@ -28,7 +28,7 @@ export default async function WeaponsPage({ searchParams }: { searchParams: Prom
         "@type": "ListItem",
         position: index + 1,
         name: weapon.name,
-        url: `${siteConfig.url}/wiki/weapons/${weapon.slug}/`,
+        url: `${siteConfig.url}/weapons/${weapon.slug}/`,
       })),
     },
   };
@@ -40,7 +40,7 @@ export default async function WeaponsPage({ searchParams }: { searchParams: Prom
         <Image alt="A black-armored knight beneath a full moon" fill priority sizes="100vw" src="/images/official/mortal-shell-ii-hero-v2.png" />
         <span className={styles.heroShade} />
         <div className={styles.heroInner}>
-          <Breadcrumbs items={[{ label: "Wiki", href: "/wiki/" }, { label: "Weapons" }]} />
+          <Breadcrumbs items={[{ label: "Weapons" }]} />
           <div className={styles.heroCopy}>
             <p>Melee arms and upgrade scaling</p>
             <h1>Mortal Shell II Weapons - Moves, Skills, and Forge Upgrades</h1>
@@ -69,7 +69,7 @@ export default async function WeaponsPage({ searchParams }: { searchParams: Prom
           <section>
             <SectionTitle title="Weapon picks" />
             {weapons.slice(0, 4).map((weapon) => (
-              <Link className={styles.popularRow} href={`/wiki/weapons/${weapon.slug}/`} key={weapon.slug}>
+              <Link className={styles.popularRow} href={`/weapons/${weapon.slug}/`} key={weapon.slug}>
                 <Image alt="" width={72} height={45} src={weapon.image} />
                 <span><b>{weapon.name}</b><small>{weapon.type}</small></span>
               </Link>

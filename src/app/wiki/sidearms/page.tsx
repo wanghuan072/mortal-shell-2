@@ -17,6 +17,6 @@ export default function SidearmsPage() {
     filterLabel="Family"
     emptyLabel="No sidearms match these filters"
     parent={{ label: "Wiki", href: "/wiki/" }}
-    related={[{ label: "Weapons", href: "/wiki/weapons/" }, { label: "Tarstones", href: "/wiki/tarstones/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
+    related={[{ label: "Weapons", href: "/weapons/" }, { label: "Tarstones", href: "/wiki/tarstones/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
   />;
 }

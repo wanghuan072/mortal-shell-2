@@ -12,7 +12,7 @@
     "status": "Current beta guide",
     "seo": {
       "title": "Mortal Shell II Beginner Guide - Combat, Hardening, and First Build",
-      "description": "A practical Mortal Shell II beginner guide covering Hardening, Shell choice, weapon upgrades, safe exploration, and a repeatable first-run combat plan.",
+      "description": "Mortal Shell II beginner guide: Hardening, Shell choice, weapon upgrades, and first-run combat.",
       "keywords": [
         "Mortal Shell II beginner guide",
         "Mortal Shell 2 combat guide",
@@ -93,8 +93,8 @@
       }
     ],
     "related": [
-      { "label": "Browse Shells", "href": "/wiki/shells/" },
-      { "label": "Compare weapons", "href": "/wiki/weapons/" },
+      { "label": "Browse Shells", "href": "/shells/" },
+      { "label": "Compare weapons", "href": "/weapons/" },
       { "label": "Check encounter data", "href": "/enemies/" }
     ],
     "faq": [
@@ -116,7 +116,7 @@
     "status": "Current beta map guide",
     "seo": {
       "title": "Mortal Shell II Map Guide - Locations, Routes, Shells, and Dungeons",
-      "description": "Plan Mortal Shell II exploration with a practical map guide covering map stations, Shell and sidearm markers, optional routes, dungeons, and beta data status.",
+      "description": "Mortal Shell II map guide: map stations, Shell and sidearm markers, optional paths, and dungeons.",
       "keywords": [
         "Mortal Shell II map guide",
         "Mortal Shell 2 interactive map guide",
@@ -215,7 +215,7 @@
     ],
     "related": [
       { "label": "Open interactive map", "href": "/map/" },
-      { "label": "Browse Shell records", "href": "/wiki/shells/" },
+      { "label": "Browse Shell records", "href": "/shells/" },
       { "label": "Browse encounters", "href": "/enemies/" }
     ],
     "faq": [

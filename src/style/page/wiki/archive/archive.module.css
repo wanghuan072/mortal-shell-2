@@ -55,28 +55,23 @@
 .index em[data-tone="unconfirmed"],
 .status[data-tone="unconfirmed"] { color: var(--gold); border-color: var(--gold-dim); }
 .index > button > svg { color: var(--gold-dim); }
-.explorer[data-encounter-list="true"] .index { padding: 12px; gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); background: linear-gradient(145deg, #07131a, #040b10); }
-.index > .encounterCard { min-height: 0; padding: 0 0 12px; display: grid; grid-template-columns: 1fr; align-content: start; gap: 0; overflow: hidden; border: 1px solid var(--line-strong); background:
-  linear-gradient(#06151c, #06151c) padding-box,
-  linear-gradient(145deg, rgba(215, 181, 102, .45), rgba(8, 16, 20, .2) 42%, rgba(215, 181, 102, .18)) border-box;
-  box-shadow: inset 0 0 0 1px rgba(2, 8, 12, .85), 0 16px 28px #0006; }
-.index > .encounterCard:hover { border-color: var(--gold); background: linear-gradient(180deg, rgba(28, 42, 40, .98), rgba(6, 14, 18, .98)); }
-.encounterArt { position: relative; display: block; height: 168px; overflow: hidden; background: radial-gradient(circle at 50% 40%, #33464a 0%, #10191c 52%, #050b10 100%); }
-.encounterArt img { width: 100% !important; height: 100% !important; padding: 14px; object-fit: contain; filter: drop-shadow(0 14px 18px #000c); }
-.encounterArt img.coverImage { object-fit: cover; padding: 0; }
-.encounterArt small { position: absolute; z-index: 1; top: 8px; left: 8px; padding: 3px 7px; border: 1px solid var(--gold-dim); color: var(--gold-bright); background: rgba(3, 10, 15, .82); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
-.encounterSigil { width: 100%; height: 100%; display: grid; place-items: center; color: var(--gold-bright); font-family: var(--font-display); font-size: 72px; font-weight: 500; background: radial-gradient(circle at 50% 42%, rgba(185, 148, 77, .16), transparent 62%); }
-.encounterCopy { min-width: 0; padding: 12px 12px 0; display: grid; gap: 5px; }
-.encounterCopy strong { overflow: hidden; color: var(--text); font-family: var(--font-display); font-size: 18px; font-weight: 500; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; text-transform: uppercase; }
-.encounterCopy em { width: fit-content; margin: 0; padding: 0; border: 0; color: var(--gold); font-size: 11px; font-style: normal; letter-spacing: .08em; text-transform: uppercase; }
-.encounterMetrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; padding: 10px 12px 0; }
-.encounterMetrics > span { min-width: 0; padding: 8px 9px; display: grid; gap: 4px; border: 1px solid var(--line); background: rgba(2, 9, 13, .55); }
+.explorer[data-encounter-list="true"] .index { padding: 12px; gap: 10px; background: linear-gradient(145deg, #07131a, #040b10); }
+.index > .encounterCard { min-height: 0; padding: 14px; display: grid; grid-template-columns: 1fr; align-content: start; gap: 12px; border: 1px solid var(--line); background: linear-gradient(145deg, rgba(13, 28, 34, .94), rgba(3, 11, 16, .96)); }
+.index > .encounterCard:hover { border-color: var(--gold-dim); background: linear-gradient(145deg, rgba(37, 50, 49, .96), rgba(7, 17, 21, .98)); }
+.encounterIdentity { min-width: 0; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 11px; align-items: center; }
+.encounterIdentity > img,
+.encounterIdentity > .fallback { width: 76px; height: 66px; }
+.encounterIdentity > span:last-child { min-width: 0; display: grid; gap: 4px; }
+.encounterIdentity small { overflow: hidden; color: var(--gold); font-size: 10px; letter-spacing: .07em; text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
+.encounterIdentity strong { overflow: hidden; color: var(--text); font-family: var(--font-display); font-size: 18px; font-weight: 500; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; }
+.encounterIdentity em { width: fit-content; margin-top: 1px; }
+.encounterMetrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+.encounterMetrics > span { min-width: 0; padding: 8px 9px; display: grid; gap: 3px; border: 1px solid var(--line); background: rgba(2, 9, 13, .55); }
 .encounterMetrics small { color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .encounterMetrics b { color: var(--text); font-family: var(--font-display); font-size: 18px; font-weight: 500; }
-.encounterMetrics progress { width: 100%; height: 4px; accent-color: var(--gold-bright); }
-.encounterTags { min-height: 34px; padding: 10px 12px 0; display: grid; gap: 8px; color: var(--muted); font-size: 12px; line-height: 1.42; }
-.tagGroup { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-.tagGroup small { width: 100%; color: var(--muted-dark); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.encounterTags { min-height: 34px; display: grid; gap: 3px; color: var(--muted); font-size: 12px; line-height: 1.42; }
+.encounterTags strong { color: #a9d8b5; font-weight: 500; }
+.encounterOpen { width: fit-content; display: inline-flex; align-items: center; gap: 5px; color: var(--gold-bright); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
 .empty { min-height: 300px; display: grid; place-content: center; justify-items: center; gap: 8px; color: var(--muted); text-align: center; }
 .empty b { color: var(--text); font-family: var(--font-display); font-size: 16px; font-weight: 500; }
 .empty span { max-width: 240px; font-size: 12px; line-height: 1.6; }
@@ -227,7 +222,6 @@
   .filters label { margin: 0; }
   .filters > p { margin: 23px 0 0; padding: 0; border: 0; }
   .index { grid-column: 1 / -1; grid-template-columns: 1fr; }
-  .explorer[data-encounter-list="true"] .index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .page:has(.detailRecord) { grid-template-columns: 220px minmax(0, 1fr); gap: 14px; }
   .page:has(.detailRecord) > .detailActions { grid-column: 1; grid-row: 2 / span 2; }
   .page:has(.detailRecord) > .detailRecord { grid-column: 2; }
@@ -240,7 +234,6 @@
   .filters { display: grid; grid-template-columns: 1fr; }
   .filters > p { margin: 0; }
   .index { grid-column: auto; padding: 8px; border-right: 0; border-bottom: 1px solid var(--line); }
-  .explorer[data-encounter-list="true"] .index { grid-template-columns: 1fr; }
   .mediaStrip { grid-template-columns: 1fr; }
   .recordHeader { grid-template-columns: 1fr; }
   .recordHeader figure,

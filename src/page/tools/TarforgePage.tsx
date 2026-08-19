@@ -12,7 +12,7 @@ export const metadata: Metadata = getPageMetadata("tarforge", "/tools/tarforge/"
 export default function TarforgePage() {
   const canonical = `${siteConfig.url}/tools/tarforge/`;
   return <div className={`container ${styles.page}`}>
-    <JsonLd data={{ "@context": "https://schema.org", "@type": "WebApplication", name: "Mortal Shell II Tarforge Calculator", url: canonical, applicationCategory: "GameApplication", description: "Calculate current-beta Mortal Shell II weapon Forge materials and Coin costs." }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@type": "WebApplication", name: "Mortal Shell II Tarforge Calculator", url: canonical, applicationCategory: "GameApplication", description: "Mortal Shell II Tarforge calculator: Forge materials and Coin costs by weapon upgrade level." }} />
     <Breadcrumbs items={[{ label: "Wiki", href: "/wiki/" }, { label: "Tarforge Calculator" }]} />
     <section className={styles.hero}><Image alt="Mortal Shell II weapon Forge artwork" fill priority sizes="100vw" src="/images/official/world.png" /><span className={styles.shade} /><div className={styles.heroInner}><p>Tools / Current Beta</p><h1>Mortal Shell II Tarforge Calculator</h1><div>Choose a weapon, current Forge level, and target level to calculate the listed materials and Coin required for the upgrade path.</div></div></section>
     <TarforgeCalculator />

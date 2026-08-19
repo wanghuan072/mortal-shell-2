@@ -574,20 +574,6 @@
 .page[data-encounter-dossier] .variantMark { width: 40px; height: 40px; object-fit: contain; border: 1px solid var(--line); background: radial-gradient(circle at 50% 40%, #2a3c3e, #071015 72%); }
 .page[data-encounter-dossier] .variantMark { display: grid; place-items: center; color: var(--gold-bright); font-family: var(--font-display); font-size: 16px; }
 .page[data-encounter-dossier] .layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
-.page[data-encounter-dossier] .layout:has(.encounterRoster) { grid-template-columns: minmax(0, 1fr) 280px; align-items: start; }
-.page[data-encounter-dossier] .encounterRoster { min-width: 0; }
-.page[data-encounter-dossier] .encounterRoster section { padding: 12px; display: grid; gap: 6px; border: 1px solid var(--line-strong); background: linear-gradient(180deg, rgba(8, 20, 26, .96), rgba(4, 12, 17, .98)); }
-.page[data-encounter-dossier] .encounterRoster p { margin: 0 0 4px; padding-bottom: 8px; border-bottom: 1px solid var(--line); color: var(--gold); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
-.page[data-encounter-dossier] .encounterRoster a { min-height: 58px; padding: 6px; display: grid; grid-template-columns: 48px minmax(0, 1fr); align-items: center; gap: 8px; border: 1px solid var(--line); color: var(--text); background: rgba(2, 9, 13, .55); }
-.page[data-encounter-dossier] .encounterRoster a:hover,
-.page[data-encounter-dossier] .encounterRoster a[aria-current="page"] { border-color: var(--gold-dim); background: linear-gradient(110deg, rgba(179, 139, 68, .16), rgba(11, 23, 27, .9) 65%); }
-.page[data-encounter-dossier] .encounterRoster img,
-.page[data-encounter-dossier] .encounterRoster .variantMark { width: 48px; height: 48px; }
-.page[data-encounter-dossier] .encounterRoster b { display: block; overflow: hidden; font-family: var(--font-display); font-size: 13px; font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
-.page[data-encounter-dossier] .encounterRoster small { display: block; margin-top: 3px; color: var(--muted-dark); font-size: 10px; letter-spacing: .05em; text-transform: uppercase; }
 .page[data-encounter-dossier] .artifactRows[data-encounter-intelligence] { display: grid; grid-template-columns: 1fr; gap: 12px; padding: 16px; }
 .page[data-encounter-dossier] .artifactRows[data-encounter-intelligence] > h3 { margin: 0; padding: 0 0 8px; border: 0; }
 .page[data-encounter-dossier] .artifactRows[data-encounter-intelligence] > div { display: grid; width: 100%; }
-@media (max-width: 1024px) {
-  .page[data-encounter-dossier] .layout:has(.encounterRoster) { grid-template-columns: minmax(0, 1fr); }
-}

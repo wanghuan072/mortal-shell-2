@@ -19,7 +19,7 @@
       },
       {
         "label": "Gragu",
-        "href": "/wiki/shells/gragu/"
+        "href": "/shells/gragu/"
       }
     ],
     "icon": "/assets/status-effects/bloodcurse.webp"
@@ -59,7 +59,7 @@
     "related": [
       {
         "label": "Smert",
-        "href": "/wiki/shells/smert/"
+        "href": "/shells/smert/"
       },
       {
         "label": "Smert skills",
@@ -116,7 +116,7 @@
     "related": [
       {
         "label": "Weapons",
-        "href": "/wiki/weapons/"
+        "href": "/weapons/"
       },
       {
         "label": "Rupturing Stone",
@@ -145,7 +145,7 @@
       },
       {
         "label": "Sariel",
-        "href": "/wiki/shells/sariel/"
+        "href": "/shells/sariel/"
       }
     ],
     "icon": "/assets/status-effects/curse.webp"
@@ -160,11 +160,11 @@
     "related": [
       {
         "label": "Eredrim",
-        "href": "/wiki/shells/eredrim/"
+        "href": "/shells/eredrim/"
       },
       {
         "label": "Weapons",
-        "href": "/wiki/weapons/"
+        "href": "/weapons/"
       },
       {
         "label": "Seals",
@@ -183,11 +183,11 @@
     "related": [
       {
         "label": "Genessa",
-        "href": "/wiki/shells/genessa/"
+        "href": "/shells/genessa/"
       },
       {
         "label": "Smert",
-        "href": "/wiki/shells/smert/"
+        "href": "/shells/smert/"
       }
     ],
     "icon": "/assets/status-effects/faith.webp"
@@ -206,7 +206,7 @@
       },
       {
         "label": "Weapons",
-        "href": "/wiki/weapons/"
+        "href": "/weapons/"
       }
     ],
     "icon": "/assets/status-effects/fragile.webp"
@@ -269,7 +269,7 @@
       },
       {
         "label": "Tiel",
-        "href": "/wiki/shells/tiel/"
+        "href": "/shells/tiel/"
       }
     ],
     "icon": null
@@ -288,7 +288,7 @@
       },
       {
         "label": "Shells",
-        "href": "/wiki/shells/"
+        "href": "/shells/"
       }
     ],
     "icon": "/assets/status-effects/leech.webp"
@@ -313,7 +313,7 @@
       },
       {
         "label": "Proxima",
-        "href": "/wiki/shells/proxima/"
+        "href": "/shells/proxima/"
       }
     ],
     "icon": "/assets/status-effects/lightning.webp"
@@ -328,11 +328,11 @@
     "related": [
       {
         "label": "Gragu",
-        "href": "/wiki/shells/gragu/"
+        "href": "/shells/gragu/"
       },
       {
         "label": "Smert",
-        "href": "/wiki/shells/smert/"
+        "href": "/shells/smert/"
       }
     ],
     "icon": null
@@ -347,7 +347,7 @@
     "related": [
       {
         "label": "Sariel",
-        "href": "/wiki/shells/sariel/"
+        "href": "/shells/sariel/"
       },
       {
         "label": "Sariel skills",
@@ -418,7 +418,7 @@
       },
       {
         "label": "Tiel",
-        "href": "/wiki/shells/tiel/"
+        "href": "/shells/tiel/"
       }
     ],
     "icon": "/assets/status-effects/poison.webp"
@@ -433,7 +433,7 @@
     "related": [
       {
         "label": "Tiel",
-        "href": "/wiki/shells/tiel/"
+        "href": "/shells/tiel/"
       },
       {
         "label": "Skills",
@@ -452,7 +452,7 @@
     "related": [
       {
         "label": "Eredrim",
-        "href": "/wiki/shells/eredrim/"
+        "href": "/shells/eredrim/"
       },
       {
         "label": "Execution",
@@ -519,7 +519,7 @@
       },
       {
         "label": "Tiel",
-        "href": "/wiki/shells/tiel/"
+        "href": "/shells/tiel/"
       }
     ],
     "icon": null
@@ -534,7 +534,7 @@
     "related": [
       {
         "label": "Weapons",
-        "href": "/wiki/weapons/"
+        "href": "/weapons/"
       },
       {
         "label": "Tarstones",

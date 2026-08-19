@@ -39,8 +39,8 @@ export function achievementPath(slug: string) {
 
 export function achievementEntityPath(entity?: AchievementEntity | null) {
   if (!entity?.kind || !entity.slug) return null;
-  if (entity.kind === "shell") return `/wiki/shells/${entity.slug}/`;
-  if (entity.kind === "weapon") return `/wiki/weapons/${entity.slug}/`;
+  if (entity.kind === "shell") return `/shells/${entity.slug}/`;
+  if (entity.kind === "weapon") return `/weapons/${entity.slug}/`;
   if (entity.kind === "sidearm") return `/wiki/sidearms/${entity.slug}/`;
   if (entity.kind === "boss" || entity.kind === "enemy") return `/enemies/${entity.slug}/`;
   if (entity.kind === "item") return `/wiki/items/${entity.slug}/`;

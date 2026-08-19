@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Disc3, GitFork, MessageCircle } from "lucide-react";
 import { primaryNav, siteConfig } from "@/config/site";
 import styles from "@/style/common/shared.module.css";
 
@@ -11,7 +10,7 @@ export function SiteFooter() {
         <div>
           <p className={styles.footerBrand}>Mortal Shell <b>II</b></p>
           <p>
-            Player-focused Mortal Shell II information for weapons, Shells, items, encounters, and map locations, so you can decide what to try next.
+            Mortal Shell II Wiki: weapons, Shells, items, encounters, and map locations. 1.0 launch version.
           </p>
         </div>
         <div>
@@ -25,15 +24,6 @@ export function SiteFooter() {
           <Link href="/legal/copyright/" rel="noopener noreferrer nofollow">Copyright</Link>
           <Link href="/legal/about-us/" rel="noopener noreferrer nofollow">About Us</Link>
           <Link href="/legal/contact-us/" rel="noopener noreferrer nofollow">Contact Us</Link>
-        </div>
-        <div>
-          <h2>Community</h2>
-          <div className={styles.socials} aria-label="Community channels">
-            <span title="Steam"><Disc3 size={20} /></span>
-            <span title="Community"><MessageCircle size={20} /></span>
-            <span title="Community updates"><GitFork size={20} /></span>
-          </div>
-          <p className={styles.muted}>Community links will be added after their official destinations are verified.</p>
         </div>
       </div>
       <div className={styles.footerBottom}>

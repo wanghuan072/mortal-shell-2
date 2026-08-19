@@ -7,9 +7,9 @@ import styles from "@/style/common/shared.module.css";
 
 const fixedResults = [
   { label: "Mortal Shell II Wiki", href: "/wiki/", type: "Hub" },
-  { label: "Weapons", href: "/wiki/weapons/", type: "Wiki" },
+  { label: "Weapons", href: "/weapons/", type: "Weapons" },
   { label: "Sidearms", href: "/wiki/sidearms/", type: "Wiki" },
-  { label: "Shells", href: "/wiki/shells/", type: "Wiki" },
+  { label: "Shells", href: "/shells/", type: "Shells" },
   { label: "Items", href: "/wiki/items/", type: "Wiki" },
   { label: "Artifacts", href: "/wiki/artifacts/", type: "Wiki" },
   { label: "Tarstones", href: "/wiki/tarstones/", type: "Wiki" },

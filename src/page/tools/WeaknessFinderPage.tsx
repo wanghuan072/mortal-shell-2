@@ -22,7 +22,7 @@ export const metadata: Metadata = getPageMetadata("weaknessFinder", "/tools/weak
 export default function WeaknessFinderPage() {
   const canonical = `${siteConfig.url}/tools/weakness-finder/`;
   return <div className={`container ${styles.page}`}>
-    <JsonLd data={{ "@context": "https://schema.org", "@type": "WebApplication", name: "Mortal Shell II Weakness Finder", url: canonical, applicationCategory: "GameApplication", description: "Filter Mortal Shell II encounter records by 1.0 launch weakness and resistance." }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@type": "WebApplication", name: "Mortal Shell II Weakness Finder", url: canonical, applicationCategory: "GameApplication", description: "Mortal Shell II Weakness Finder: enemy and Boss weaknesses, damage types, and resistances. 1.0 launch version." }} />
     <Breadcrumbs items={[{ label: "Wiki", href: "/wiki/" }, { label: "Weakness Finder" }]} />
     <section className={styles.hero}><Image alt="Mortal Shell II Boss encounter artwork" fill priority sizes="100vw" src="/images/encounters/cathedral-guardian-boss.webp" /><span className={styles.shade} /><div className={styles.heroInner}><p>Tools / Bestiary</p><h1>Mortal Shell II Weakness Finder</h1><div>Choose a damage type and rank enemies and Bosses by what they resist least, using 1.0 launch resistance records.</div></div></section>
     <WeaknessFinder records={records} />

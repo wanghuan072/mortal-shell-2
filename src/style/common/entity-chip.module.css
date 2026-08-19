@@ -16,6 +16,11 @@
   letter-spacing: .03em;
 }
 
+a.chip span {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 a.chip:hover,
 a.inline:hover {
   color: var(--gold-bright);

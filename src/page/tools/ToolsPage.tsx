@@ -14,7 +14,7 @@ export const metadata: Metadata = getPageMetadata("tools", "/tools/");
 export default function ToolsPage() {
   const canonical = `${siteConfig.url}/tools/`;
   return <div className={`container ${styles.page}`}>
-    <JsonLd data={{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Mortal Shell II Tools", url: canonical, description: "Plan a Mortal Shell II loadout and calculate weapon scaling." }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Mortal Shell II Tools", url: canonical, description: "Mortal Shell II tools: build planner, damage calculator, Tarforge costs, and Weakness Finder. 1.0 launch data." }} />
     <Breadcrumbs items={[{ label: "Tools" }]} />
     <section className={styles.hero}><Image alt="Mortal Shell II combat and equipment artwork" fill priority sizes="100vw" src="/images/official/combat.png" /><span className={styles.shade} /><div className={styles.heroInner}><p>Tools / Practical references</p><h1>Mortal Shell II Tools</h1><div>Interactive tools that turn the 1.0 launch records into decisions: assemble a loadout or test weapon scaling.</div></div></section>
     <section className={styles.toolsIntro}><p>Plan your build</p><h2>Interactive tools for your next run</h2><span>Turn the current records into decisions: compare equipment and estimate what each Forge level changes.</span></section>

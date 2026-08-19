@@ -17,6 +17,7 @@ export default function EnemiesPage() {
     filterLabel="Enemy family"
     emptyLabel="No enemies match these filters"
     encounterQuickFilters
+    parent={{ label: "Wiki", href: "/wiki/" }}
     related={[{ label: "Bosses", href: "/bosses/" }, { label: "Status Effects", href: "/wiki/status-effects/" }, { label: "Weakness Finder", href: "/tools/weakness-finder/" }]}
     fallbackLabel="Image not available"
   />;

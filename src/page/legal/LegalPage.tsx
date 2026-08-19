@@ -29,7 +29,7 @@ const pages: Record<LegalPageKey, { title: string; description: string; intro: s
     intro: "These terms set the basic rules for browsing and using this independent fan site.",
     sections: [
       { heading: "Acceptance of these terms", body: <p>By accessing or using {siteConfig.name}, you agree to use the site lawfully and in accordance with these terms. If you do not agree, please do not use the site.</p> },
-      { heading: "Informational purpose", body: <><p>The site provides player-oriented guides and beta-era notes for general informational use. Game information can change, especially before release and during updates. You are responsible for deciding how to use any information shown here.</p><p>The site does not provide official support, warranties, game entitlements, or a guarantee that every entry is complete, current, or error-free.</p></> },
+      { heading: "Informational purpose", body: <><p>The site provides guides and beta-era notes for general informational use. Game information can change, especially before release and during updates. You are responsible for deciding how to use any information shown here.</p><p>The site does not provide official support, warranties, game entitlements, or a guarantee that every entry is complete, current, or error-free.</p></> },
       { heading: "Acceptable use", body: <ul><li>Do not interfere with the site, its security, or other visitors’ access.</li><li>Do not attempt to scrape, copy, or republish the site at scale in a way that harms the service or misrepresents its origin.</li><li>Do not use the site in a way that violates applicable law or the rights of another person or organization.</li></ul> },
       { heading: "External links and changes", body: <p>Links may lead to external websites that are not controlled by this site. We are not responsible for their availability, content, or policies. We may update, remove, or revise pages and these terms as the site develops.</p> },
       { heading: "Questions", body: <p>If you have a question about these terms, email {emailLink}.</p> },
@@ -48,10 +48,10 @@ const pages: Record<LegalPageKey, { title: string; description: string; intro: s
   },
   "about-us": {
     title: "About Mortal Shell II Wiki",
-    description: "About this independent Mortal Shell II player guide and wiki.",
-    intro: `${siteConfig.name} is built for players who want a clear place to check equipment, encounters, locations, and beta-era changes.`,
+    description: "What Mortal Shell II Wiki covers and how the pages are written.",
+    intro: "Use Mortal Shell II Wiki to check equipment, encounters, locations, and what changed in the beta.",
     sections: [
-      { heading: "What this site is for", body: <p>The site organizes Mortal Shell II information around practical player questions: what a weapon does, how a Shell differs, what an enemy can do, and where a location sits on the map. It is intended to make planning a run easier, not to replace discovery or official announcements.</p> },
+      { heading: "What this site is for", body: <p>Look up what a weapon does, how a Shell differs, what an enemy can do, and where a location sits on the map. The goal is to make your next run easier to plan, not to replace discovery or official announcements.</p> },
       { heading: "How pages are written", body: <p>Pages aim to distinguish confirmed information from current-beta details and items that still need checking. When a fact is incomplete or likely to change, it should be described carefully instead of being presented as final.</p> },
       { heading: "Independence", body: <p>This is a fan-made project. It is not operated by, affiliated with, endorsed by, or sponsored by Cold Symmetry, Playstack, or any official Mortal Shell entity.</p> },
       { heading: "Feedback", body: <p>Corrections and constructive feedback are welcome at {emailLink}. Messages that include a specific page and a clear explanation are the easiest to review.</p> },

@@ -5,10 +5,12 @@ import { notFound } from "next/navigation";
 import { ArrowRight, BarChart3, Database, Gauge, Layers3, SearchCheck, ShieldCheck, Swords } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SectionTitle } from "@/components/SectionTitle";
+import { StatusProfile } from "@/components/StatusProfile";
 import { WikiLocationCard, WikiMediaCard, WikiMediaGrid } from "@/components/WikiMediaCard";
 import { achievementPath, achievements } from "@/lib/data/achievements";
 import locationDataset from "@/data/reference/locations.json";
 import { siteConfig } from "@/config/site";
+import { matchingStatusEffects } from "@/lib/data/status-effects";
 import { skillArchive, tarstoneArchive } from "@/lib/data/wiki";
 import { getWeapon, weapons } from "@/lib/data/weapons";
 import { getRecordMetadata } from "@/seo/tdk";
@@ -24,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const weapon = getWeapon(slug);
   if (!weapon) return {};
-  return getRecordMetadata(weapon.seo, `/wiki/weapons/${weapon.slug}/`);
+  return getRecordMetadata(weapon.seo, `/weapons/${weapon.slug}/`);
 }
 
 export default async function WeaponDetailPage({ params }: PageProps) {
@@ -34,6 +36,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
   const related = weapons.filter((item) => item.slug !== weapon.slug).slice(0, 3);
   const compatibleTarstones = tarstoneArchive.filter((stone) => Array.isArray(stone.details.compatibleEquipment) && stone.details.compatibleEquipment.some((entry) => entry && typeof entry === "object" && "id" in entry && (entry as { id?: unknown }).id === weapon.id));
   const linkedAchievements = achievements.filter((entry) => entry.description.toLowerCase().includes(weapon.name.toLowerCase()) || entry.name.toLowerCase().includes(weapon.name.toLowerCase()) || entry.entity?.slug === weapon.slug || entry.entity?.name === weapon.name);
+  const relatedConditions = matchingStatusEffects(weapon.name, weapon.description, weapon.skills, weapon.upgradePool);
   const mapLocations = locationDataset.locations.filter((location) => location.category === "weapon" && `${location.title} ${location.location ?? ""}`.toLowerCase().includes(weapon.name.toLowerCase().replace("veteran's ", "").replace("the ", "")));
   const abilityTarstones = compatibleTarstones.filter((stone) => stone.category.toLowerCase().includes("ability"));
   const regularTarstones = compatibleTarstones.filter((stone) => !stone.category.toLowerCase().includes("ability"));
@@ -49,7 +52,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
     }
     return tiers;
   }, []);
-  const canonical = `${siteConfig.url}/wiki/weapons/${weapon.slug}/`;
+  const canonical = `${siteConfig.url}/weapons/${weapon.slug}/`;
   const schemas = [
     {
       "@context": "https://schema.org",
@@ -67,9 +70,8 @@ export default async function WeaponDetailPage({ params }: PageProps) {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-        { "@type": "ListItem", position: 2, name: "Wiki", item: `${siteConfig.url}/wiki/` },
-        { "@type": "ListItem", position: 3, name: "Weapons", item: `${siteConfig.url}/wiki/weapons/` },
-        { "@type": "ListItem", position: 4, name: weapon.name, item: canonical },
+        { "@type": "ListItem", position: 2, name: "Weapons", item: `${siteConfig.url}/weapons/` },
+        { "@type": "ListItem", position: 3, name: weapon.name, item: canonical },
       ],
     },
   ];
@@ -78,7 +80,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
     <>
       {schemas.map((schema, index) => <script key={index} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />)}
       <div className={styles.breadcrumbWrap}>
-        <Breadcrumbs items={[{ label: "Wiki", href: "/wiki/" }, { label: "Weapons", href: "/wiki/weapons/" }, { label: weapon.name }]} />
+        <Breadcrumbs items={[{ label: "Weapons", href: "/weapons/" }, { label: weapon.name }]} />
       </div>
 
       <div className={styles.layout}>
@@ -86,7 +88,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
           <section>
             <SectionTitle title="Arsenal index" />
             <p>{weapons.length} weapon forms</p>
-            {weapons.map((item, index) => <Link aria-current={item.slug === weapon.slug ? "page" : undefined} className={styles.relatedRow} href={`/wiki/weapons/${item.slug}/`} key={item.slug}><Image alt="" width={70} height={45} src={item.image} /><span><b>{item.name}</b><small>{String(index + 1).padStart(2, "0")} · {item.type}</small></span></Link>)}
+            {weapons.map((item, index) => <Link aria-current={item.slug === weapon.slug ? "page" : undefined} className={styles.relatedRow} href={`/weapons/${item.slug}/`} key={item.slug}><Image alt="" width={70} height={45} src={item.image} /><span><b>{item.name}</b><small>{String(index + 1).padStart(2, "0")} · {item.type}</small></span></Link>)}
           </section>
         </aside>
 
@@ -120,6 +122,11 @@ export default async function WeaponDetailPage({ params }: PageProps) {
               </dl>
             </div>
           </section>
+
+          {relatedConditions.length ? <section className={styles.dataPanel}>
+            <SectionTitle title="Status effects" />
+            <StatusProfile rows={[{ icon: ShieldCheck, label: "Combat conditions", values: relatedConditions.map((entry) => entry.slug) }]} />
+          </section> : null}
 
           {weapon.moveDamage.length ? <section className={styles.dataPanel}>
             <SectionTitle title="Move damage" />
@@ -228,13 +235,13 @@ export default async function WeaponDetailPage({ params }: PageProps) {
           </section>
           <section>
             <SectionTitle title="Quick links" />
-            <Link className={styles.quickLink} href="/wiki/weapons/"><Swords size={14} /> All weapons <ArrowRight size={13} /></Link>
+            <Link className={styles.quickLink} href="/weapons/"><Swords size={14} /> All weapons <ArrowRight size={13} /></Link>
             <Link className={styles.quickLink} href="/wiki/tarstones/"><Gauge size={14} /> Tarstones <ArrowRight size={13} /></Link>
             <Link className={styles.quickLink} href="/wiki/status-effects/"><BarChart3 size={14} /> Status effects <ArrowRight size={13} /></Link>
           </section>
           <section>
-            <SectionTitle title="Related weapons" href="/wiki/weapons/" />
-            {related.map((item) => <Link className={styles.relatedRow} href={`/wiki/weapons/${item.slug}/`} key={item.slug}><Image alt="" width={70} height={45} src={item.image} /><span><b>{item.name}</b><small>{item.type}</small></span></Link>)}
+            <SectionTitle title="Related weapons" href="/weapons/" />
+            {related.map((item) => <Link className={styles.relatedRow} href={`/weapons/${item.slug}/`} key={item.slug}><Image alt="" width={70} height={45} src={item.image} /><span><b>{item.name}</b><small>{item.type}</small></span></Link>)}
           </section>
         </aside>
       </div>

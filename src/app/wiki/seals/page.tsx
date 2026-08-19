@@ -17,6 +17,6 @@ export default function SealsPage() {
     filterLabel="Ability"
     emptyLabel="No Seals match these filters"
     parent={{ label: "Wiki", href: "/wiki/" }}
-    related={[{ label: "Shells", href: "/wiki/shells/" }, { label: "Skills", href: "/wiki/skills/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
+    related={[{ label: "Shells", href: "/shells/" }, { label: "Skills", href: "/wiki/skills/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
   />;
 }

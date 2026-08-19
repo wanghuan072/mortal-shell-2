@@ -17,6 +17,6 @@ export default function SkillsPage() {
     filterLabel="Skill type"
     emptyLabel="No skills match these filters"
     parent={{ label: "Wiki", href: "/wiki/" }}
-    related={[{ label: "Shells", href: "/wiki/shells/" }, { label: "Tarstones", href: "/wiki/tarstones/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
+    related={[{ label: "Shells", href: "/shells/" }, { label: "Tarstones", href: "/wiki/tarstones/" }, { label: "Status Effects", href: "/wiki/status-effects/" }]}
   />;
 }
