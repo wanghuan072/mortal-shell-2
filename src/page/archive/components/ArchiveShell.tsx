@@ -26,10 +26,11 @@ type Props = {
   fallbackImage?: string;
   fallbackImageAlt?: string;
   fallbackLabel?: string;
+  layout?: string;
   media?: Array<{ image: string; alt: string; title: string; text: string }>;
 };
 
-export function ArchiveShell({ title, heading = title, eyebrow, description, image, records, basePath, filterLabel, emptyLabel, parent, related = [], encounterQuickFilters = false, canonicalPath = basePath, recordPath = basePath, fallbackImage, fallbackImageAlt, fallbackLabel, media = [] }: Props) {
+export function ArchiveShell({ title, heading = title, eyebrow, description, image, records, basePath, filterLabel, emptyLabel, parent, related = [], encounterQuickFilters = false, canonicalPath = basePath, recordPath = basePath, fallbackImage, fallbackImageAlt, fallbackLabel, layout, media = [] }: Props) {
   const canonical = `${siteConfig.url}${canonicalPath}/`;
   const schema = {
     "@context": "https://schema.org",
@@ -47,7 +48,7 @@ export function ArchiveShell({ title, heading = title, eyebrow, description, ima
   return (
     <>
       <JsonLd data={schema} />
-      <div className={styles.page}>
+      <div className={styles.page} data-layout={layout}>
       <Breadcrumbs items={[...(parent ? [parent] : []), { label: title }]} />
       <section className={styles.hero}>
         <Image alt="" fill priority sizes="100vw" src={image} />

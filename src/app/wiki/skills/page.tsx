@@ -11,7 +11,7 @@ export default function SkillsPage() {
     heading="Mortal Shell II Skills - Effects, Costs, and Unlocks"
     eyebrow={`${skillArchive.length} skill records · 1.0 launch`}
     description="Every Shell skill, level by level. Browse by owner, then check effects and upgrade tiers."
-    image="/images/official/world.png"
+    image="/images/wiki/skills.webp"
     basePath="/wiki/skills"
     records={skillArchive}
     filterLabel="Skill type"

@@ -11,7 +11,7 @@ export default function SidearmsPage() {
     heading="Mortal Shell II Sidearms - Fire Modes and Upgrades"
     eyebrow={`${sidearmArchive.length} sidearms · 1.0 launch`}
     description="Ranged off-hand weapons. Check fire modes, upgrade scaling, and compatible Tarstones before you commit to a loadout."
-    image="/images/official/combat.png"
+    image="/images/wiki/sidearms.webp"
     basePath="/wiki/sidearms"
     records={sidearmArchive}
     filterLabel="Family"

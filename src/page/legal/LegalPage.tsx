@@ -49,10 +49,10 @@ const pages: Record<LegalPageKey, { title: string; description: string; intro: s
   "about-us": {
     title: "About Mortal Shell II Wiki",
     description: "What Mortal Shell II Wiki covers and how the pages are written.",
-    intro: "Use Mortal Shell II Wiki to check equipment, encounters, locations, and what changed in the beta.",
+    intro: "Mortal Shell II Wiki covers equipment, encounters, locations, and 1.0 launch records.",
     sections: [
-      { heading: "What this site is for", body: <p>Look up what a weapon does, how a Shell differs, what an enemy can do, and where a location sits on the map. The goal is to make your next run easier to plan, not to replace discovery or official announcements.</p> },
-      { heading: "How pages are written", body: <p>Pages aim to distinguish confirmed information from current-beta details and items that still need checking. When a fact is incomplete or likely to change, it should be described carefully instead of being presented as final.</p> },
+      { heading: "What this site is for", body: <p>Weapon pages, Shell differences, enemy records, and map locations. The site is a reference, not a replacement for official announcements.</p> },
+      { heading: "How pages are written", body: <p>Wiki and enemy numbers match the 1.0 launch version. Map markers may still be aligned after launch. Incomplete facts are marked instead of being presented as final.</p> },
       { heading: "Independence", body: <p>This is a fan-made project. It is not operated by, affiliated with, endorsed by, or sponsored by Cold Symmetry, Playstack, or any official Mortal Shell entity.</p> },
       { heading: "Feedback", body: <p>Corrections and constructive feedback are welcome at {emailLink}. Messages that include a specific page and a clear explanation are the easiest to review.</p> },
     ],

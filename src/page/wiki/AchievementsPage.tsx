@@ -11,7 +11,7 @@ export default function AchievementsPage() {
     heading="Mortal Shell II Achievements - Trophies and Unlock Routes"
     eyebrow={`${achievementRecords.length} achievements · 1.0 launch`}
     description="Every 1.0 launch trophy, including Shell claims, weapon unlocks, Boss encounters, and collection goals. Open a record for the linked Shell, weapon, sidearm, or encounter page."
-    image="/images/official/battle.png"
+    image="/images/wiki/achievements.webp"
     basePath="/wiki/achievements"
     records={achievementRecords}
     filterLabel="Trophy type"

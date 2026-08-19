@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       { source: "/wiki/shells/:path+", destination: "/shells/:path+", permanent: true },
       { source: "/wiki/weapons", destination: "/weapons", permanent: true },
       { source: "/wiki/weapons/:path+", destination: "/weapons/:path+", permanent: true },
+      { source: "/status-effects", destination: "/wiki/status-effects", permanent: true },
+      { source: "/status-effects/:path*", destination: "/wiki/status-effects/:path*", permanent: true },
     ];
   },
 };

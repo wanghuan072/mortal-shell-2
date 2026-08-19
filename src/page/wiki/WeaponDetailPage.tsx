@@ -101,7 +101,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
             <h1>{weapon.name}</h1>
               <div className={styles.gameDescription}>“{weapon.description}”</div>
             </div>
-            <div className={styles.heroStamp}><SearchCheck size={18} /><span>Current<br /><b>Beta build</b></span></div>
+            <div className={styles.heroStamp}><SearchCheck size={18} /><span>1.0<br /><b>Launch</b></span></div>
           </section>
 
           <div className={styles.mainColumn}>
@@ -113,7 +113,7 @@ export default async function WeaponDetailPage({ params }: PageProps) {
                 <span><Layers3 size={15} /><small>Scaling reference</small><b>{weapon.upgrades.length} entries</b></span>
                 <span><ShieldCheck size={15} /><small>Acquisition</small><b>{weapon.acquisitionVerified ? "Verified route" : "Unconfirmed"}</b></span>
               </div>
-              <p className={styles.sourceQuote}>{weapon.name} is a {weapon.family.toLowerCase()} with its own moves, <Link href="/wiki/skills/">skills</Link>, and <Link href="/wiki/tarstones/">Forge path</Link>.</p>
+              <p className={styles.sourceQuote}>{weapon.name} is a {weapon.family.toLowerCase()} with its own moves, <Link href="/wiki/skills/">skills</Link>, and a <Link href="/tools/tarforge/">Forge path</Link>.</p>
             </div>
             <div>
               <SectionTitle title="Attributes" />

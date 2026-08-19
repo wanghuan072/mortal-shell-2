@@ -85,7 +85,7 @@ export const pageTdk = {
   },
   tools: {
     title: "Mortal Shell II Tools - Planner and Calculator",
-    description: "Mortal Shell II tools: build planner, damage calculator, Tarforge costs, and Weakness Finder. 1.0 launch data.",
+    description: "Mortal Shell II tools: build planner, damage calculator, Tarforge costs, and Weakness Finder. 1.0 launch version.",
     keywords: [...coreKeywords, "Mortal Shell II tools", "Mortal Shell II build planner", "Mortal Shell II calculator"],
   },
   enemies: {
@@ -109,9 +109,9 @@ export const pageTdk = {
     keywords: [...coreKeywords, "Mortal Shell II builds", "Mortal Shell II combat guide", "Mortal Shell II exploration"],
   },
   updates: {
-    title: "Mortal Shell II Updates - Beta News and Wiki Changes",
-    description: "Mortal Shell II updates: beta news, release notes, and wiki changes for weapons, encounters, and the map.",
-    keywords: [...coreKeywords, "Mortal Shell II news", "Mortal Shell II beta", "Mortal Shell II updates"],
+    title: "Mortal Shell II Updates - News and Wiki Changes",
+    description: "Mortal Shell II updates: release news and wiki changes for weapons, encounters, and the map.",
+    keywords: [...coreKeywords, "Mortal Shell II news", "Mortal Shell II release", "Mortal Shell II updates"],
   },
   privacyPolicy: {
     title: "Mortal Shell II Wiki Privacy Policy and Site Information",

@@ -134,7 +134,6 @@ export function InteractiveMap({ locations, initialQuery = "" }: { locations: Pu
             selected={selected}
           />
         </div>
-        <p className={styles.mapNote}>Drag to pan, scroll or pinch to zoom, and double-click to zoom in. The optimized map loads by default; switch to 8K detail when you need a closer look. <a href="/assets/map/T_UI_Map_Full_NoFog.png" target="_blank">Open the 8K map</a>.</p>
       </section>
 
     </div>

@@ -70,8 +70,8 @@ const mergeLaunchRecords = (local: WikiRecord[], reference: LaunchReferenceRecor
       updatedAt: DATA_UPDATED_AT,
       seo: {
         title: `${source.name} - Mortal Shell II ${fallbackCategory}`,
-        description: `Mortal Shell II ${source.name}: 1.0 launch details.`,
-        keywords: ["Mortal Shell II", source.name, fallbackCategory, "1.0 launch"],
+        description: `Mortal Shell II ${source.name}: ${fallbackCategory.toLowerCase()} record. 1.0 launch version.`,
+        keywords: ["Mortal Shell II", source.name, `Mortal Shell II ${fallbackCategory}`, "1.0 launch"],
       },
     } satisfies WikiRecord;
   });
@@ -205,7 +205,16 @@ export const wikiCollections = {
         : details.levels,
     }),
   }),
-  seals: asRecords(seals).map((record) => ({ ...record, status: DATA_STATUS, updatedAt: record.updatedAt || DATA_UPDATED_AT })),
+  seals: asRecords(seals).map((record) => ({
+    ...record,
+    status: DATA_STATUS,
+    updatedAt: record.updatedAt || DATA_UPDATED_AT,
+    seo: {
+      title: `${record.name} - Mortal Shell II Seal`,
+      description: `Mortal Shell II ${record.name}: seal record. 1.0 launch version.`,
+      keywords: ["Mortal Shell II", record.name, "Mortal Shell II Seal", "1.0 launch"],
+    },
+  })),
   skills: mergeLaunchRecords(asRecords(skills), launchReference.skills as unknown as LaunchReferenceRecord[], "Skill", {
     category: (source) => typeof source.shell === "string" ? source.shell : "Skill",
     details: (source, details) => ({

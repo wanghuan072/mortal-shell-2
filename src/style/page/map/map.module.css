@@ -75,8 +75,6 @@
 .popupFoundButton { width: 100%; min-height: 36px; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 7px; border: 1px solid var(--gold-dim); color: var(--gold-bright); background: rgba(200, 163, 92, .08); cursor: pointer; }
 .popupFoundButton i { width: 12px; height: 12px; border: 1px solid var(--gold); border-radius: 50%; }
 .popupFoundButton i[data-found="true"] { border-color: var(--gold-bright); background: var(--gold); box-shadow: inset 0 0 0 3px #08131a; }
-.mapNote { margin: 0; padding: 11px 13px; border-top: 1px solid var(--line); color: var(--muted-dark); background: #03090d; font-size: 14px; line-height: 1.55; }
-.mapNote a { color: var(--gold); }
 .dataPolicy { margin: 14px 0 0; padding: 14px 16px; border-left: 2px solid var(--gold-dim); color: var(--muted); background: var(--panel); font-size: 14px; line-height: 1.65; }
 .dataPolicy a { color: var(--gold); }
 .seoContent { margin: 34px 0 0; padding: 30px; border: 1px solid var(--line-strong); background: linear-gradient(145deg, #0b171e, #050b0f); }

@@ -24,12 +24,12 @@ import styles from "@/style/page/home/home.module.css";
 export const metadata: Metadata = getPageMetadata("home", "/");
 
 const exploreCards = [
-  { title: "Wiki", href: "/wiki/", text: "Shells, weapons, items, Tarstones, skills, and achievements.", image: "/images/official/trailer.webp", icon: Database },
+  { title: "Wiki", href: "/wiki/", text: "Enemies, items, Tarstones, skills, Seals, and achievements.", image: "/images/official/trailer.webp", icon: Database },
   { title: "Weapons", href: "/weapons/", text: "Compare moves, skills, Forge costs, and upgrades.", image: "/images/official/world.png", icon: Swords },
   { title: "Map", href: "/map/", text: "Search 54 marked locations across the world map.", image: "/images/official/combat.png", icon: Map },
-  { title: "Shells", href: "/shells/", text: "Check abilities, passives, and known variants.", image: "/images/official/shell.png", icon: Shield },
-  { title: "Enemies", href: "/enemies/", text: "Browse 1.0 launch enemy HP, poise, and resistances.", image: "/images/official/feature.webp", icon: Skull },
-  { title: "Items", href: "/wiki/items/", text: "Look up materials, keys, consumables, and currencies.", image: "/images/official/battle.png", icon: Database },
+  { title: "Shells", href: "/shells/", text: "Abilities, passives, Skill Trees, and variants.", image: "/images/official/shell.png", icon: Shield },
+  { title: "Enemies", href: "/enemies/", text: "1.0 launch enemy HP, poise, and resistances.", image: "/images/official/feature.webp", icon: Skull },
+  { title: "Items", href: "/wiki/items/", text: "Materials, keys, consumables, and currencies.", image: "/images/official/battle.png", icon: Database },
 ];
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
             <h1>Mortal Shell <span>II</span> - Wiki, Guides, and Interactive Map</h1>
             <p className={styles.heroSubtitle}><i /> Wiki &amp; Guide <i /></p>
             <p className={styles.lead}>
-              Find clear help for <Link href="/weapons/">weapons</Link>, <Link href="/shells/">Shells</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/enemies/">enemies</Link>, <Link href="/bosses/">Bosses</Link>, and <Link href="/map/">map locations</Link>—whether you are choosing a build, planning a route, or checking a tough encounter.
+              <Link href="/weapons/">Weapons</Link>, <Link href="/shells/">Shells</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/enemies/">enemies</Link>, <Link href="/bosses/">Bosses</Link>, and <Link href="/map/">map locations</Link>. Builds, routes, and encounters from the 1.0 launch version.
             </p>
             <div className={styles.heroActions}>
               <Link className={styles.primaryButton} href="/wiki/">
@@ -162,10 +162,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.homeInfoGrid} aria-label="Mortal Shell II beta information and official video">
+        <section className={styles.homeInfoGrid} aria-label="Mortal Shell II launch information and official video">
           <article className={styles.homeInfoPanel} id="open-beta">
-            <SectionTitle title="Open Beta" />
-            <p className={styles.infoLead}>Start with the opening area of Mortal Shell II and see which progress and records belong to the current beta build. Select progress carries forward, but final-game progression may differ.</p>
+            <SectionTitle title="Advance Access" />
+            <p className={styles.infoLead}>Advance Access is live ahead of the August 20, 2026 launch. Wiki numbers already use the 1.0 launch records. Select progress from early access may carry forward.</p>
             <dl className={styles.homeFacts}>
               <div><dt>Beta release</dt><dd>{buildData.openBeta.releaseDate}</dd></div>
               <div><dt>Scope</dt><dd>{buildData.openBeta.scope}</dd></div>
@@ -174,7 +174,7 @@ export default function Home() {
               <div><dt>Prologue skip</dt><dd>{buildData.openBeta.prologueSkipAfter}</dd></div>
             </dl>
             <Link className={styles.textLink} href="/wiki/#methodology">How page status works <ArrowRight size={14} /></Link>
-            <a className={styles.textLink} href="https://store.steampowered.com/app/4711740/Mortal_Shell_II/" rel="noreferrer" target="_blank">Official Open Beta listing <ArrowRight size={14} /></a>
+            <a className={styles.textLink} href="https://store.steampowered.com/app/2584270/Mortal_Shell_II/" rel="noreferrer" target="_blank">Official Steam page <ArrowRight size={14} /></a>
           </article>
           <article className={`${styles.homeInfoPanel} ${styles.videoPanel}`} id="official-video">
             <SectionTitle title="Official video" />
@@ -199,7 +199,7 @@ export default function Home() {
 
         <section className={styles.trustBar}>
           <Skull size={20} />
-            <p><b>Built from 1.0 launch data.</b> Check <Link href="/weapons/">{archiveCounts.weapons} weapons</Link>, <Link href="/wiki/sidearms/">{archiveCounts.sidearms} sidearms</Link>, <Link href="/shells/">{archiveCounts.namedShells} playable Shells</Link>, <Link href="/wiki/artifacts/">{archiveCounts.artifacts} Artifacts</Link>, <Link href="/enemies/">{archiveCounts.enemyVariants} enemies</Link>, <Link href="/bosses/">{archiveCounts.bosses} Bosses</Link>, and <Link href="/map/">54 map locations</Link>.</p>
+            <p><b>Built from 1.0 launch data.</b> <Link href="/weapons/">{archiveCounts.weapons} weapons</Link>, <Link href="/wiki/sidearms/">{archiveCounts.sidearms} sidearms</Link>, <Link href="/shells/">{archiveCounts.namedShells} playable Shells</Link>, <Link href="/wiki/artifacts/">{archiveCounts.artifacts} Artifacts</Link>, <Link href="/enemies/">{archiveCounts.enemyVariants} enemies</Link>, <Link href="/bosses/">{archiveCounts.bosses} Bosses</Link>, and <Link href="/map/">54 map locations</Link>.</p>
         </section>
       </div>
     </>

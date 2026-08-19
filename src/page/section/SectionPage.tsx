@@ -18,16 +18,16 @@ const sections = {
     shortTitle: "Guides",
     tdkKey: "guides",
     eyebrow: "Combat and exploration help",
-    description: "Mortal Shell II guides: combat, first builds, map routes, and current-beta exploration.",
-    image: "/images/official/boss.png",
+    description: "Mortal Shell II guides: combat, first builds, map routes, and exploration.",
+    image: "/images/wiki/guides.webp",
   },
   updates: {
     title: "Mortal Shell II - News and Wiki Updates",
     shortTitle: "Updates",
     tdkKey: "updates",
     eyebrow: "News and page updates",
-    description: "Mortal Shell II updates: release news, beta notes, and wiki changes.",
-    image: "/images/official/shell.png",
+    description: "Mortal Shell II updates: release news and wiki changes.",
+    image: "/images/wiki/updates.webp",
   },
 } as const;
 
@@ -69,7 +69,7 @@ export default async function SectionPage({ params }: PageProps) {
       ) : (
         <>
           <section className={guideStyles.intro}>
-            <p>These guides turn the current data into practical, step-by-step help. Each article includes screenshots, route or combat advice, and a clear note when a detail still comes from the Open Beta.</p>
+            <p>These guides turn the current records into practical, step-by-step help. Each article includes screenshots, route or combat advice, and a note when a map detail still comes from the Open Beta markers.</p>
           </section>
           <section aria-labelledby="guide-list-title">
             <h2 className="sr-only" id="guide-list-title">Mortal Shell II guides</h2>
@@ -90,7 +90,7 @@ export default async function SectionPage({ params }: PageProps) {
               ))}
             </div>
           </section>
-          <div className={guideStyles.guideNote}><b>Editorial note:</b> Guide recommendations are reviewed against the current beta data. Balance values, routes, rewards, and encounter behavior can change before release.</div>
+          <div className={guideStyles.guideNote}><b>Editorial note:</b> Combat and equipment pages use 1.0 launch records. Map routes and marker names can still change after launch.</div>
         </>
       )}
     </div>

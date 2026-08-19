@@ -36,7 +36,7 @@ const formatLabel = (label: string) => label
 
 const officialSources = [
   { label: "Launch database reference", href: "https://mortalshelldb.com/" },
-  { label: "Official Open Beta listing", href: "https://store.steampowered.com/app/4711740/Mortal_Shell_II/" },
+  { label: "Official Steam page", href: "https://store.steampowered.com/app/2584270/Mortal_Shell_II/" },
   { label: "Official game page", href: "https://www.playstack.com/games/mortalshell2/" },
 ];
 

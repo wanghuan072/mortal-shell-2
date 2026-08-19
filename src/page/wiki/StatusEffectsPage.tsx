@@ -11,11 +11,12 @@ export default function StatusEffectsPage() {
     heading="Mortal Shell II Status Effects - Conditions and Stacking"
     eyebrow={`${statusEffectRecords.length} conditions · 1.0 launch`}
     description="The states a fight can leave you in, and the ones you can leave on an enemy. Each description uses the game's own wording from the 1.0 launch records."
-    image="/images/official/combat.png"
+    image="/images/wiki/status-effects.webp"
     basePath="/wiki/status-effects"
     records={statusEffectRecords}
     filterLabel="Condition type"
     emptyLabel="No status effects match these filters"
+    layout="condition"
     parent={{ label: "Wiki", href: "/wiki/" }}
     related={[{ label: "Tarstones", href: "/wiki/tarstones/" }, { label: "Skills", href: "/wiki/skills/" }, { label: "Seals", href: "/wiki/seals/" }]}
     fallbackLabel="Condition"

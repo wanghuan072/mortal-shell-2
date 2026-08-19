@@ -11,7 +11,7 @@ export default function EnemiesPage() {
     heading="Mortal Shell II Enemies - HP, Poise, and Resistances"
     eyebrow={`${enemyRecords.length} enemies · ${archiveCounts.minibosses} Minibosses · 1.0 launch`}
     description="Every enemy's HP, poise, and resistances from the 1.0 launch version. Filter by family or Miniboss, then open a record for attacks and rewards."
-    image="/images/official/feature.webp"
+    image="/images/wiki/enemies.webp"
     basePath="/enemies"
     records={enemyRecords}
     filterLabel="Enemy family"

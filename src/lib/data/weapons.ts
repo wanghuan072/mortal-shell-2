@@ -85,7 +85,21 @@ const launchIcon = (icon?: string) => icon ? `https://mortalshelldb.com${icon}` 
 
 export const weapons: Weapon[] = launchWeapons.map((source) => {
   const current = localWeaponBySlug.get(source.slug);
-  if (current) return { ...current, description: source.desc || current.description, image: current.image || launchIcon(source.icon), attributes: sourceAttributes(source), moveDamage: [], moveDamageNote: undefined, upgrades: sourceUpgrades(source), verification: "1.0 launch" };
+  if (current) return {
+    ...current,
+    description: source.desc || current.description,
+    image: current.image || launchIcon(source.icon),
+    attributes: sourceAttributes(source),
+    moveDamage: [],
+    moveDamageNote: undefined,
+    upgrades: sourceUpgrades(source),
+    verification: "1.0 launch",
+    seo: {
+      title: `${source.name} - Mortal Shell II Weapon`,
+      description: `Mortal Shell II ${source.name}: melee weapon, skills, and Forge upgrade scaling. 1.0 launch version.`,
+      keywords: ["Mortal Shell II", source.name, "Mortal Shell II weapon", "1.0 launch"],
+    },
+  };
   return {
     id: source.id,
     slug: source.slug,
@@ -103,7 +117,7 @@ export const weapons: Weapon[] = launchWeapons.map((source) => {
     acquisition: "",
     verification: "1.0 launch",
     updatedAt: "2026-08-19",
-    seo: { title: `${source.name} - Mortal Shell II Weapon`, description: `Mortal Shell II ${source.name}: 1.0 launch upgrade scaling.`, keywords: ["Mortal Shell II", source.name, "Mortal Shell II weapon"] },
+    seo: { title: `${source.name} - Mortal Shell II Weapon`, description: `Mortal Shell II ${source.name}: melee weapon, skills, and Forge upgrade scaling. 1.0 launch version.`, keywords: ["Mortal Shell II", source.name, "Mortal Shell II weapon", "1.0 launch"] },
   };
 });
 

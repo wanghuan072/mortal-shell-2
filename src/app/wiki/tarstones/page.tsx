@@ -11,7 +11,7 @@ export default function TarstonesPage() {
     heading="Mortal Shell II Tarstones - Effects and Compatible Gear"
     eyebrow={`${tarstoneArchive.length} Tarstones · 1.0 launch`}
     description="Resolve-fuelled combat gems. Compare melee, sidearm, and support Tarstones by effect, slot, and tempering level."
-    image="/images/official/shell.png"
+    image="/images/wiki/tarstones.webp"
     basePath="/wiki/tarstones"
     records={tarstoneArchive}
     filterLabel="Equipment slot"

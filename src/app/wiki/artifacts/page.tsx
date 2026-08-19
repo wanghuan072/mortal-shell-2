@@ -11,7 +11,7 @@ export default function ArtifactsPage() {
     heading="Mortal Shell II Artifacts - Effects and Upgrade Paths"
     eyebrow={`${artifactArchive.length} Artifacts · 1.0 launch`}
     description="Equippable trinket effects from the 1.0 launch version."
-    image="/images/official/feature.webp"
+    image="/images/wiki/artifacts.webp"
     basePath="/wiki/artifacts"
     records={artifactArchive}
     filterLabel="Artifact family"

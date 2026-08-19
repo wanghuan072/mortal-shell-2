@@ -37,7 +37,7 @@ export default async function WeaponsPage({ searchParams }: { searchParams: Prom
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <section className={styles.hero}>
-        <Image alt="A black-armored knight beneath a full moon" fill priority sizes="100vw" src="/images/official/mortal-shell-ii-hero-v2.png" />
+        <Image alt="A Shell wielding a scythe against a spindly enemy" fill priority sizes="100vw" src="/images/wiki/weapons.webp" />
         <span className={styles.heroShade} />
         <div className={styles.heroInner}>
           <Breadcrumbs items={[{ label: "Weapons" }]} />

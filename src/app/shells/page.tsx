@@ -11,7 +11,7 @@ export default function ShellsPage() {
     heading="Mortal Shell II Shells - Abilities, Passives, and Variants"
     eyebrow={`${shellArchive.filter((record) => record.details.playable === true).length} playable Shells · 1.0 launch`}
     description="Empty bodies to inhabit — each with a signature ability. Compare playable Shells, memories, and unplayable variants from the 1.0 launch data."
-    image="/images/official/trailer.webp"
+    image="/images/wiki/shells.webp"
     basePath="/shells"
     records={shellArchive}
     filterLabel="Availability"

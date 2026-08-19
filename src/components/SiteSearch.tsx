@@ -16,14 +16,14 @@ const fixedResults = [
   { label: "Seals", href: "/wiki/seals/", type: "Wiki" },
   { label: "Skills", href: "/wiki/skills/", type: "Wiki" },
   { label: "Enemies", href: "/enemies/", type: "Encounters" },
-  { label: "Verified encounters", href: "/bosses/", type: "Encounters" },
+  { label: "Bosses", href: "/bosses/", type: "Encounters" },
   { label: "Status Effects", href: "/wiki/status-effects/", type: "Mechanics" },
   { label: "Achievements", href: "/wiki/achievements/", type: "Reference" },
   { label: "Build Planner", href: "/tools/planner/", type: "Tool" },
   { label: "Damage and Stagger Calculator", href: "/tools/calculator/", type: "Tool" },
   { label: "Tarforge Calculator", href: "/tools/tarforge/", type: "Tool" },
   { label: "Weakness Finder", href: "/tools/weakness-finder/", type: "Tool" },
-  { label: "Open Beta world map", href: "/map/", type: "Map" },
+  { label: "Interactive map", href: "/map/", type: "Map" },
 ];
 
 type SearchEntry = { label: string; href: string; type: string };

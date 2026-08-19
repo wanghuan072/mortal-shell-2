@@ -11,7 +11,7 @@ export default function BossesPage() {
     heading="Mortal Shell II Bosses - Stats and Weaknesses"
     eyebrow={`${archiveCounts.bosses} Bosses · 1.0 launch`}
     description="Boss stats and weaknesses from the 1.0 launch version. Compare health, poise, resistances, and attacks."
-    image="/images/encounters/cathedral-guardian-boss.webp"
+    image="/images/wiki/bosses.webp"
     basePath="/bosses"
     canonicalPath="/bosses"
     recordPath="/enemies"

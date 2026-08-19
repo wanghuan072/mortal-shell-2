@@ -38,11 +38,11 @@ export default function WikiPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <section className={styles.hero}>
-        <Image alt="A black-armored knight beneath a full moon" fill priority sizes="100vw" src="/images/official/mortal-shell-ii-hero-v2.png" />
+        <Image alt="A Shell overlooking ruined stone structures in the fog" fill priority sizes="100vw" src="/images/wiki/wiki.webp" />
         <span className={styles.heroShade} />
         <div className={styles.heroInner}>
           <Breadcrumbs items={[{ label: "Wiki" }]} />
-          <div className={styles.heroCopy}><p><Link href="/enemies/">Enemies</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/wiki/tarstones/">Tarstones</Link>, <Link href="/wiki/skills/">skills</Link>, and <Link href="/wiki/achievements/">achievements</Link></p><h1>Mortal Shell II Wiki - Enemies, Items, Skills, and More</h1><div>Find the page you need for an <Link href="/enemies/">enemy</Link>, <Link href="/wiki/items/">item</Link>, <Link href="/wiki/tarstones/">Tarstone</Link>, <Link href="/wiki/skills/">skill</Link>, <Link href="/wiki/seals/">Seal</Link>, <Link href="/wiki/status-effects/">status effect</Link>, or <Link href="/wiki/achievements/">achievement</Link>. Wiki numbers match the 1.0 launch version.</div></div>
+          <div className={styles.heroCopy}><p><Link href="/enemies/">Enemies</Link>, <Link href="/wiki/items/">items</Link>, <Link href="/wiki/tarstones/">Tarstones</Link>, <Link href="/wiki/skills/">skills</Link>, and <Link href="/wiki/achievements/">achievements</Link></p><h1>Mortal Shell II Wiki - Enemies, Items, Skills, and More</h1><div>Enemies, items, Tarstones, skills, Seals, status effects, and achievements. Wiki numbers match the 1.0 launch version.</div></div>
           <div className={styles.stats}>{stats.map((stat) => { const Icon = stat.icon; return <div key={stat.label}><Icon size={21} /><span><small>{stat.label}</small><strong>{stat.value}</strong><em>{stat.note}</em></span></div>; })}</div>
         </div>
       </section>

@@ -100,7 +100,7 @@ export const statusEffectRecords = statusEffects.map((entry) => ({
   updatedAt: "2026-08-19",
   seo: {
     title: `${entry.name} - Mortal Shell II Status Effect`,
-    description: `Mortal Shell II ${entry.name}: ${entry.description}${entry.stacks ? ` Max stacks ${entry.stacks}.` : ""}`,
+    description: `Mortal Shell II ${entry.name}: ${entry.description}${entry.stacks ? ` Max stacks ${entry.stacks}.` : ""} 1.0 launch version.`,
     keywords: ["Mortal Shell II", entry.name, "status effect", "condition", "1.0 launch", ...entry.aliases],
   },
 })) satisfies WikiRecord[];

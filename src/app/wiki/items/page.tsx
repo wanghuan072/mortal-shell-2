@@ -11,7 +11,7 @@ export default function ItemsPage() {
     heading="Mortal Shell II Items - Materials, Keys, and Consumables"
     eyebrow={`${itemArchive.length} items · 1.0 launch`}
     description="Consumables, charges, and pickups from the 1.0 launch version."
-    image="/images/official/battle.png"
+    image="/images/wiki/items.webp"
     basePath="/wiki/items"
     records={itemArchive}
     filterLabel="Item category"

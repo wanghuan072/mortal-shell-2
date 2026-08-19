@@ -11,7 +11,7 @@ export default function SealsPage() {
     heading="Mortal Shell II Seals - Guard, Harden, and Parry"
     eyebrow={`${sealArchive.length} Seals · 1.0 launch`}
     description="Parry and transformation seals. Learn what each Seal does and when you can activate it."
-    image="/images/official/boss.png"
+    image="/images/wiki/seals.webp"
     basePath="/wiki/seals"
     records={sealArchive}
     filterLabel="Ability"

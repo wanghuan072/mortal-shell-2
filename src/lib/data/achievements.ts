@@ -69,7 +69,7 @@ export const achievementRecords = achievements.map((entry) => ({
   updatedAt: "2026-08-19",
   seo: {
     title: `${entry.name} - Mortal Shell II Achievement`,
-    description: `Mortal Shell II ${entry.name}: ${entry.description}${entry.note ? ` ${entry.note}` : ""}`,
+    description: `Mortal Shell II ${entry.name}: ${entry.description}${entry.note ? ` ${entry.note}` : ""} 1.0 launch version.`,
     keywords: ["Mortal Shell II", entry.name, "achievement", "trophy", "1.0 launch", entry.category || "Achievement"],
   },
 })) satisfies WikiRecord[];
